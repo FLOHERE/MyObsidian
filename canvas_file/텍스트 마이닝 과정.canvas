@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"85a273145bdf8d0b","x":-460,"y":-140,"width":440,"height":280,"color":"1","type":"group","label":"전처리"},
+		{"id":"172ce19789bcb562","type":"text","text":"패턴","x":60,"y":-130,"width":140,"height":58,"color":"5"},
+		{"id":"ac9cfa59dcf5e421","type":"text","text":"정제된 데이터","x":-160,"y":-130,"width":140,"height":58,"color":"5"},
+		{"id":"b922d2ffb5aa2e3c","type":"text","text":" 구조화된 데이터","x":-400,"y":-130,"width":140,"height":58,"color":"5"},
+		{"id":"42399b7e99f59e7a","x":-640,"y":-130,"width":140,"height":58,"color":"5","type":"text","text":"텍스트(웹,SNS)"},
+		{"id":"b930d0defc709424","type":"text","text":"지식","x":320,"y":-130,"width":140,"height":58,"color":"5"},
+		{"id":"8c5922f4aedcf129","x":-600,"y":50,"width":250,"height":60,"type":"text","text":"자연어 처리 형태소 분석"},
+		{"id":"01dce9b6ec53f080","x":140,"y":-11,"width":250,"height":60,"type":"text","text":"해석 및 평가"},
+		{"id":"f445b2c4b5d52c1d","x":-100,"y":150,"width":230,"height":50,"type":"text","text":"텍스트 마이닝"},
+		{"id":"2d945056c7fc18ce","x":-350,"y":-11,"width":250,"height":60,"type":"text","text":"정제 변환"}
+	],
+	"edges":[
+		{"id":"2daec7f236690061","fromNode":"42399b7e99f59e7a","fromSide":"right","toNode":"b922d2ffb5aa2e3c","toSide":"left"},
+		{"id":"f6617ff661597e23","fromNode":"b922d2ffb5aa2e3c","fromSide":"right","toNode":"ac9cfa59dcf5e421","toSide":"left"},
+		{"id":"a024f3050eea215f","fromNode":"ac9cfa59dcf5e421","fromSide":"right","toNode":"172ce19789bcb562","toSide":"left"},
+		{"id":"38322eaf192ff97f","fromNode":"172ce19789bcb562","fromSide":"right","toNode":"b930d0defc709424","toSide":"left"},
+		{"id":"969c9223bb1a3ecc","fromNode":"8c5922f4aedcf129","fromSide":"top","toNode":"b922d2ffb5aa2e3c","toSide":"left"},
+		{"id":"7de609f302fa79c8","fromNode":"2d945056c7fc18ce","fromSide":"top","toNode":"ac9cfa59dcf5e421","toSide":"left"},
+		{"id":"29a137f767c52ed6","fromNode":"f445b2c4b5d52c1d","fromSide":"top","toNode":"172ce19789bcb562","toSide":"left"},
+		{"id":"ed7293a26f5b6835","fromNode":"01dce9b6ec53f080","fromSide":"top","toNode":"b930d0defc709424","toSide":"left"}
+	]
+}

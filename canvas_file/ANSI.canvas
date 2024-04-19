@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"c0cca3f81db5b967","x":-506,"y":-285,"width":250,"height":60,"color":"4","type":"text","text":"외부 스키마 1"},
+		{"id":"90f2e9c0122da092","x":-180,"y":-289,"width":250,"height":60,"color":"4","type":"text","text":"외부 스키마 2"},
+		{"id":"b572804165ea2e2d","x":137,"y":-287,"width":250,"height":60,"color":"4","type":"text","text":"외부 스키아3"},
+		{"id":"5b1bf14421114ea8","x":-180,"y":260,"width":250,"height":59,"color":"6","type":"text","text":"데이터베이스\n(물리적인 데이터 구조)"},
+		{"id":"26e5380d87bb22f5","x":-180,"y":60,"width":250,"height":60,"color":"4","type":"text","text":"내부 스키마"},
+		{"id":"27154c5e62d6951c","x":-180,"y":-140,"width":250,"height":60,"color":"4","type":"text","text":"개념 스키마"},
+		{"id":"b75851b1158e920e","x":-820,"y":-285,"width":250,"height":60,"type":"text","text":"사용자가 보는 데이터"},
+		{"id":"02997d9bc4f9f91a","x":-511,"y":58,"width":250,"height":60,"type":"text","text":"DBMS가 보는 데이터"},
+		{"id":"1ebadef6eb290dcf","x":-631,"y":-140,"width":250,"height":60,"type":"text","text":"전체 데이터"},
+		{"id":"f5f76607b527ecaf","x":400,"y":-212,"width":250,"height":60,"type":"text","text":"외부/개념 매핑"},
+		{"id":"6c313301c686ddaa","x":400,"y":-60,"width":250,"height":60,"type":"text","text":"개념/내부 매핑"}
+	],
+	"edges":[
+		{"id":"1595c7d75a6afe50","fromNode":"c0cca3f81db5b967","fromSide":"bottom","toNode":"27154c5e62d6951c","toSide":"left"},
+		{"id":"c832d8e4747d9530","fromNode":"b572804165ea2e2d","fromSide":"bottom","toNode":"27154c5e62d6951c","toSide":"right"},
+		{"id":"cc8da3802613278d","fromNode":"90f2e9c0122da092","fromSide":"bottom","toNode":"27154c5e62d6951c","toSide":"top"},
+		{"id":"1a25c1154671c330","fromNode":"27154c5e62d6951c","fromSide":"bottom","toNode":"26e5380d87bb22f5","toSide":"top"},
+		{"id":"a4b9088adb6c72b6","fromNode":"26e5380d87bb22f5","fromSide":"top","toNode":"27154c5e62d6951c","toSide":"bottom"},
+		{"id":"f008f3f9d50b9125","fromNode":"27154c5e62d6951c","fromSide":"left","toNode":"c0cca3f81db5b967","toSide":"bottom"},
+		{"id":"1459a1ae57fdd0a1","fromNode":"27154c5e62d6951c","fromSide":"top","toNode":"90f2e9c0122da092","toSide":"bottom"},
+		{"id":"cd9a997372ed1bdd","fromNode":"26e5380d87bb22f5","fromSide":"bottom","toNode":"5b1bf14421114ea8","toSide":"top"},
+		{"id":"1b5272e3e4e597b6","fromNode":"5b1bf14421114ea8","fromSide":"top","toNode":"26e5380d87bb22f5","toSide":"bottom"},
+		{"id":"0fbee26bf7908c6a","fromNode":"6c313301c686ddaa","fromSide":"left","toNode":"26e5380d87bb22f5","toSide":"top"},
+		{"id":"d6e9de76bad6ca83","fromNode":"f5f76607b527ecaf","fromSide":"left","toNode":"27154c5e62d6951c","toSide":"top"}
+	]
+}

@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "f3c5702508d96a0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3025c4f0e2133b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5668fa2ac091db8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/3주차.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c98aef93316cb9a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c4cd3e90141846e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "055edbc789047915",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "54725528eac8d04f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "081b15c1d77672ae",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6561ba02229af4b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "98cfe39bf2b5a21e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b536049563074f4f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/3주차.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "20b1baade68d23ae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4726f61d70099304",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/3주차.md"
+              }
+            }
+          },
+          {
+            "id": "e3a1551b0401f571",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/3주차.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "5668fa2ac091db8d",
+  "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/문제 뭐나올까?.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/러닝 메이트.md",
+    "함수(function).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/7주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/러닝메이트.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/3주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/5주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/러닝메이트.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/4주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/5주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/7주차 정리.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/6주차 정리.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/5주차 정리.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/1주차 정리.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/06 제이쿼리 문서객체 선택자와 조작법.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/05 함수.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/함수.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/7. 코드를 함수로 모아봅시다..md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/재귀 함수.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/6주차.md",
+    "Attached_file/이름 없는 노트북-2.jpg",
+    "Attached_file/이름 없는 노트북-3.jpg",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/2.관계 데이터 모델.md",
+    "Attached_file/Pasted image 20240418134047.png",
+    "Attached_file/Pasted image 20240418134005.png",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/4주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
+    "Attached_file/Pasted image 20240417191204.png",
+    "Attached_file/Pasted image 20240417190135.png",
+    "canvas_file/아두이노 스케치의 처리 흐름도.canvas",
+    "Attached_file/Pasted image 20240417125749.png",
+    "Attached_file/Pasted image 20240417125456.png",
+    "Attached_file/Pasted image 20240417125204.png",
+    "Attached_file/Pasted image 20240417124842.png",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/1주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/내가 놓친거.md",
+    "canvas_file/ANSI.canvas",
+    "Excalidraw",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/CODE GYM",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/PortFolio",
+    "MyStudy",
+    "MyStudy/📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school",
+    "MyStudy/📝PROJECT - 목표와 정확한 데드라인이 있는 영역",
+    "Users/admin/Library/Mobile Documents/iCloud~md~obsidian/Documents/Mystudy/MyStudy/📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school",
+    "Users/admin/Library/Mobile Documents/iCloud~md~obsidian/Documents/Mystudy/MyStudy/📝PROJECT - 목표와 정확한 데드라인이 있는 영역",
+    "canvas_file/통신 오류 검출.canvas",
+    "canvas_file/텍스트 마이닝 과정.canvas",
+    "canvas_file/군집분석.canvas",
+    "canvas_file/폭포수 모델.canvas",
+    "canvas_file/오피니언 마이닝 분석 과정.canvas",
+    "canvas_file/프로세스의 종류.canvas",
+    "canvas_file/소셜네트워크 분석 과정.canvas",
+    "canvas_file/네트워크 주소와 호스트 주소.canvas"
+  ]
+}

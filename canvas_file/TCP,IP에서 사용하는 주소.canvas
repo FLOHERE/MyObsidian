@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"9134cb279c4ca99a","x":-118,"y":-157,"width":250,"height":60,"color":"1","type":"text","text":"주소"},
+		{"id":"fcec78f51206ef3c","x":-118,"y":32,"width":250,"height":60,"color":"2","type":"text","text":"인터넷 주소(IP)"},
+		{"id":"ee6237460c6c02ea","x":240,"y":32,"width":250,"height":60,"color":"2","type":"text","text":"포트 주소"},
+		{"id":"b1f1842349431e1d","x":-460,"y":32,"width":250,"height":60,"color":"2","type":"text","text":"물리 주소"}
+	],
+	"edges":[
+		{"id":"572c61868635ced4","fromNode":"9134cb279c4ca99a","fromSide":"bottom","toNode":"b1f1842349431e1d","toSide":"top"},
+		{"id":"b417cab31744e5f2","fromNode":"9134cb279c4ca99a","fromSide":"bottom","toNode":"fcec78f51206ef3c","toSide":"top"},
+		{"id":"bfbbc904cd6227b2","fromNode":"9134cb279c4ca99a","fromSide":"bottom","toNode":"ee6237460c6c02ea","toSide":"top"}
+	]
+}

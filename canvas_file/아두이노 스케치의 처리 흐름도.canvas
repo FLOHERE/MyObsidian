@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"e52a0cfe1fb711c2","type":"text","text":"loop","x":-260,"y":0,"width":250,"height":60},
+		{"id":"4d882f49f0215dd0","type":"text","text":"시리얼 데이터 \n검사 및 처리","x":-260,"y":130,"width":250,"height":60},
+		{"id":"551c10413a724882","type":"text","text":"setup","x":-260,"y":-100,"width":250,"height":60},
+		{"id":"a9b11d7a4e4e653a","type":"text","text":"USB 장치 연결\n","x":-260,"y":-220,"width":250,"height":60},
+		{"id":"07e8329f25f33d96","type":"text","text":"시작","x":-260,"y":-340,"width":250,"height":60},
+		{"id":"4b4c2b37a3e17344","type":"text","text":"리셋?","x":-260,"y":260,"width":250,"height":60},
+		{"id":"786e2b20966f7088","type":"text","text":"예\n","x":60,"y":10,"width":80,"height":50},
+		{"id":"56a2dc7a72c634fa","type":"text","text":"이니요","x":-420,"y":130,"width":100,"height":50}
+	],
+	"edges":[
+		{"id":"116e8775ae141c12","fromNode":"4b4c2b37a3e17344","fromSide":"right","toNode":"a9b11d7a4e4e653a","toSide":"right"},
+		{"id":"4bdc9615e7dc240e","fromNode":"4b4c2b37a3e17344","fromSide":"left","toNode":"e52a0cfe1fb711c2","toSide":"left"},
+		{"id":"042be2dfd743828e","fromNode":"07e8329f25f33d96","fromSide":"bottom","toNode":"a9b11d7a4e4e653a","toSide":"top"},
+		{"id":"191a3d292942ce7b","fromNode":"a9b11d7a4e4e653a","fromSide":"bottom","toNode":"551c10413a724882","toSide":"top"},
+		{"id":"78caf122e38232d3","fromNode":"551c10413a724882","fromSide":"bottom","toNode":"e52a0cfe1fb711c2","toSide":"top"},
+		{"id":"c3d86c363eaa582b","fromNode":"e52a0cfe1fb711c2","fromSide":"bottom","toNode":"4d882f49f0215dd0","toSide":"top"},
+		{"id":"df29b3f5dd247be3","fromNode":"4d882f49f0215dd0","fromSide":"bottom","toNode":"4b4c2b37a3e17344","toSide":"top"}
+	]
+}

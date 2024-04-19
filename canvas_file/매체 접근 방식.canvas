@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"4baaf8360809344c","type":"text","text":"경쟁 방식","x":-460,"y":-139,"width":250,"height":60,"color":"2"},
+		{"id":"48765f6606dc6d53","type":"text","text":"CSMA/CD","x":-460,"y":20,"width":250,"height":60,"color":"2"},
+		{"id":"13fa6d996393b5b5","type":"text","text":"토큰 버스 방식","x":8,"y":20,"width":250,"height":60,"color":"2"},
+		{"id":"560cbf5ca1c316aa","type":"text","text":"토큰링 방식","x":320,"y":20,"width":250,"height":60,"color":"2"},
+		{"id":"81194822c88bd5ca","type":"text","text":"매체 접근 방식 제어","x":-140,"y":-280,"width":250,"height":60,"color":"1"},
+		{"id":"989994c93b874562","type":"text","text":"토큰 제어 방식","x":160,"y":-139,"width":250,"height":60,"color":"2"}
+	],
+	"edges":[
+		{"id":"c2ad1db1605947b5","fromNode":"81194822c88bd5ca","fromSide":"bottom","toNode":"4baaf8360809344c","toSide":"top"},
+		{"id":"70a854aaff3f9bf1","fromNode":"81194822c88bd5ca","fromSide":"bottom","toNode":"989994c93b874562","toSide":"top"},
+		{"id":"e079360c9521e111","fromNode":"4baaf8360809344c","fromSide":"bottom","toNode":"48765f6606dc6d53","toSide":"top"},
+		{"id":"ee790fdf3f036aef","fromNode":"989994c93b874562","fromSide":"bottom","toNode":"13fa6d996393b5b5","toSide":"top"},
+		{"id":"726559270fe2952e","fromNode":"989994c93b874562","fromSide":"bottom","toNode":"560cbf5ca1c316aa","toSide":"top"}
+	]
+}

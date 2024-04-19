@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"9a8f3a5dffdefc1d","type":"text","text":"응용 계층","x":-420,"y":-280,"width":250,"height":180,"color":"#ffd1d1"},
+		{"id":"63f7c258a019a977","type":"text","text":"네트워크 접속 계층","x":-420,"y":140,"width":250,"height":120,"color":"#ff0000"},
+		{"id":"167346b97a70911c","type":"text","text":"전송 계층","x":-420,"y":-58,"width":250,"height":60,"color":"#ff8080"},
+		{"id":"48f2e6c6ced0c7e4","type":"text","text":"네트워크 계층","x":-420,"y":36,"width":250,"height":60,"color":"#ff4d4d"},
+		{"id":"950331eb360a23f4","type":"text","text":"- FTP\n- TELNET\n- SMTP\n- DNS\n- DHCP","x":-40,"y":-280,"width":250,"height":180,"color":"#ffd1d1"},
+		{"id":"cf9fc824f9232803","type":"text","text":"TCP / UDP -> 포트주소","x":-40,"y":-58,"width":250,"height":60,"color":"#ff8080"},
+		{"id":"f14421e2ad78b783","type":"text","text":"IP / ARP / ICMP -> IP주소","x":-40,"y":36,"width":250,"height":60,"color":"#ff4d4d"},
+		{"id":"e5eea5964b2e2e96","type":"text","text":"MODEM, NIC","x":-40,"y":220,"width":280,"height":60,"color":"#ff0000"},
+		{"id":"2c28ad6b9293857d","type":"text","text":"- PPP, SLIP, IEEE, 802 \n- SLIP, 이더넷, 802.11x\n- MAC/LLC -> 물리 주소","x":-40,"y":120,"width":280,"height":100,"color":"#ff0000"}
+	],
+	"edges":[]
+}

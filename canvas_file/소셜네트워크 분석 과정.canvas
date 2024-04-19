@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"e841cf93fab4029a","type":"group","x":-385,"y":-237,"width":511,"height":314,"label":"전처리"},
+		{"id":"b2c33a016cb80382","type":"text","text":"구조화된 데이터","x":-265,"y":-217,"width":151,"height":107,"color":"5"},
+		{"id":"d1a67437802720a4","type":"text","text":"정제된 데이터","x":-45,"y":-217,"width":151,"height":107,"color":"5"},
+		{"id":"c9e786b90a644a2b","type":"text","text":"소셜 네트워크 그래프","x":175,"y":-217,"width":151,"height":107,"color":"5"},
+		{"id":"afb1ae1716f6e825","type":"text","text":"프로파일 추출","x":-365,"y":-50,"width":151,"height":107},
+		{"id":"f238ce36d90f605d","type":"text","text":"정제 변환","x":-145,"y":-50,"width":151,"height":107},
+		{"id":"251001dd0a753a1b","type":"text","text":"네트워크 분석","x":75,"y":-50,"width":151,"height":107},
+		{"id":"06d8539ef6e82edd","type":"text","text":"해석 및 평가","x":295,"y":-50,"width":151,"height":107},
+		{"id":"cf563fc9ca653092","type":"text","text":"SNS, 고객 자료","x":-545,"y":-217,"width":151,"height":107,"color":"5"},
+		{"id":"2389fb7b620a16ab","type":"text","text":"지식","x":395,"y":-217,"width":151,"height":107,"color":"5"}
+	],
+	"edges":[
+		{"id":"61152421416a606a","fromNode":"b2c33a016cb80382","fromSide":"right","toNode":"d1a67437802720a4","toSide":"left"},
+		{"id":"0cd91c033edbfe86","fromNode":"cf563fc9ca653092","fromSide":"right","toNode":"b2c33a016cb80382","toSide":"left"},
+		{"id":"09a3c35d315c6409","fromNode":"afb1ae1716f6e825","fromSide":"top","toNode":"b2c33a016cb80382","toSide":"left"},
+		{"id":"ad8c970d572262cd","fromNode":"d1a67437802720a4","fromSide":"right","toNode":"c9e786b90a644a2b","toSide":"left"},
+		{"id":"448a1f66d3895da6","fromNode":"f238ce36d90f605d","fromSide":"top","toNode":"d1a67437802720a4","toSide":"left"},
+		{"id":"539f296a3670e76d","fromNode":"c9e786b90a644a2b","fromSide":"right","toNode":"2389fb7b620a16ab","toSide":"left"},
+		{"id":"4d7a59d741ea2578","fromNode":"251001dd0a753a1b","fromSide":"top","toNode":"c9e786b90a644a2b","toSide":"left"},
+		{"id":"577ed160088a7f1c","fromNode":"06d8539ef6e82edd","fromSide":"top","toNode":"2389fb7b620a16ab","toSide":"left"}
+	]
+}

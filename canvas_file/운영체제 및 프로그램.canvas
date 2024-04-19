@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"68e1aa4715f58183","x":-140,"y":-340,"width":290,"height":344,"type":"group","label":"상위 계층(사용자와 접속)"},
+		{"id":"0b515a118355ce4c","x":-140,"y":60,"width":290,"height":268,"type":"group","label":"하위 계층(망과 접속)"},
+		{"id":"e79f41bbeb95f281","type":"text","text":"물리 계층","x":-120,"y":248,"width":250,"height":60,"color":"5"},
+		{"id":"831f9bc199bd51f6","type":"text","text":"데이터 링크 계층","x":-120,"y":168,"width":250,"height":60,"color":"#4d91ff"},
+		{"id":"fc175ab2673f89d8","type":"text","text":"네트워크 계층","x":-120,"y":80,"width":250,"height":67,"color":"#667fff"},
+		{"id":"232ab2e0ecfc6e88","type":"text","text":"전송 계층","x":-120,"y":-76,"width":250,"height":60,"color":"#b8bcff"},
+		{"id":"0c983977713da2f3","type":"text","text":"세션계층","x":-120,"y":-160,"width":250,"height":60,"color":"#94a9ff"},
+		{"id":"1b867f58c21bb01d","type":"text","text":"표현계층","x":-120,"y":-238,"width":250,"height":60,"color":"#b8d3ff"},
+		{"id":"85d25bd65f7bc3a6","type":"text","text":"응용 계층","x":-120,"y":-320,"width":250,"height":60,"color":"#dfe1f1"},
+		{"id":"7b949a956ae2597c","x":300,"y":31,"width":164,"height":167,"color":"2","type":"text","text":"이 세가지 계층 만 사용하여 데이터 전달."}
+	],
+	"edges":[
+		{"id":"1a9a587127a9a517","fromNode":"0b515a118355ce4c","fromSide":"right","toNode":"7b949a956ae2597c","toSide":"left"}
+	]
+}

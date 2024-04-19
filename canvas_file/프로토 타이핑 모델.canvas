@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"6b5e851bff3dceb7","type":"text","text":"요구분석","x":-459,"y":-291,"width":139,"height":60,"color":"5"},
+		{"id":"9bbd49693c416d0e","type":"text","text":"프로토 타입개발/개선","x":-320,"y":-180,"width":180,"height":80,"color":"5"},
+		{"id":"8a0ce403a5ef9484","type":"text","text":"프로토타입 평가","x":-160,"y":-60,"width":139,"height":60,"color":"5"},
+		{"id":"5619544a4e4e06e6","type":"text","text":"구현","x":1,"y":50,"width":139,"height":60,"color":"5"},
+		{"id":"01dc4b9835544f02","type":"text","text":"인수/설치","x":140,"y":160,"width":139,"height":60,"color":"5"}
+	],
+	"edges":[
+		{"id":"ab205ed6fac91884","fromNode":"6b5e851bff3dceb7","fromSide":"right","toNode":"9bbd49693c416d0e","toSide":"top"},
+		{"id":"f09293d9dec3ed10","fromNode":"9bbd49693c416d0e","fromSide":"right","toNode":"8a0ce403a5ef9484","toSide":"top"},
+		{"id":"9a237e7f4c420c06","fromNode":"8a0ce403a5ef9484","fromSide":"right","toNode":"5619544a4e4e06e6","toSide":"top"},
+		{"id":"83f4682b19183e57","fromNode":"5619544a4e4e06e6","fromSide":"right","toNode":"01dc4b9835544f02","toSide":"top"},
+		{"id":"9606a76d7c62b2f9","fromNode":"8a0ce403a5ef9484","fromSide":"bottom","toNode":"9bbd49693c416d0e","toSide":"bottom"},
+		{"id":"465382ac92192302","fromNode":"9bbd49693c416d0e","fromSide":"bottom","toNode":"6b5e851bff3dceb7","toSide":"bottom"},
+		{"id":"46b5bb16169e97de","fromNode":"8a0ce403a5ef9484","fromSide":"bottom","toNode":"6b5e851bff3dceb7","toSide":"bottom"},
+		{"id":"688c5ee73894adae","fromNode":"9bbd49693c416d0e","fromSide":"bottom","toNode":"6b5e851bff3dceb7","toSide":"bottom"}
+	]
+}

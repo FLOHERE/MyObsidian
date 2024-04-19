@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"2384845827d17036","x":-340,"y":-107,"width":511,"height":314,"type":"group","label":"전처리"},
+		{"id":"39aac85e1e0da97d","type":"text","text":"구조화된 데이터","x":-220,"y":-87,"width":151,"height":107,"color":"5"},
+		{"id":"7d26133d129c5b07","type":"text","text":"정제된 데이터","x":0,"y":-87,"width":151,"height":107,"color":"5"},
+		{"id":"8fcdfd3698be14d9","type":"text","text":"의견, 감성","x":220,"y":-87,"width":151,"height":107,"color":"5"},
+		{"id":"526d35e38c2d5854","type":"text","text":"지식","x":440,"y":-87,"width":151,"height":107,"color":"5"},
+		{"id":"b4700f66f3790461","type":"text","text":"자연어 처리 형태소 분석","x":-320,"y":80,"width":151,"height":107},
+		{"id":"c8053aa77d8d70e2","type":"text","text":"정제 변환","x":-100,"y":80,"width":151,"height":107},
+		{"id":"6ff6e38163aa150e","type":"text","text":"오피니언 마이닝","x":120,"y":80,"width":151,"height":107},
+		{"id":"c93550e8d0001664","type":"text","text":"감성 사전","x":120,"y":260,"width":151,"height":107,"color":"5"},
+		{"id":"7910627b1c128926","type":"text","text":"해석 및 평가","x":340,"y":80,"width":151,"height":107},
+		{"id":"b7c1d869aa817d3a","x":-500,"y":-87,"width":151,"height":107,"color":"5","type":"text","text":"텍스트\n(웹 , sns, 블로그 등)"}
+	],
+	"edges":[
+		{"id":"b3ff31ff9aeeccb3","fromNode":"b7c1d869aa817d3a","fromSide":"right","toNode":"39aac85e1e0da97d","toSide":"left"},
+		{"id":"ff8842bb912020de","fromNode":"39aac85e1e0da97d","fromSide":"right","toNode":"7d26133d129c5b07","toSide":"left"},
+		{"id":"8ea224ff652e844f","fromNode":"7d26133d129c5b07","fromSide":"right","toNode":"8fcdfd3698be14d9","toSide":"left"},
+		{"id":"c80f4e9d46c74915","fromNode":"8fcdfd3698be14d9","fromSide":"right","toNode":"526d35e38c2d5854","toSide":"left"},
+		{"id":"bbb8417aacd9229e","fromNode":"b4700f66f3790461","fromSide":"top","toNode":"39aac85e1e0da97d","toSide":"left"},
+		{"id":"7ea5809622da3c22","fromNode":"c8053aa77d8d70e2","fromSide":"top","toNode":"7d26133d129c5b07","toSide":"left"},
+		{"id":"5633d865b703091b","fromNode":"6ff6e38163aa150e","fromSide":"top","toNode":"8fcdfd3698be14d9","toSide":"left"},
+		{"id":"e53121c81ea539f1","fromNode":"7910627b1c128926","fromSide":"top","toNode":"526d35e38c2d5854","toSide":"left"},
+		{"id":"62087e1c26f62d1a","fromNode":"c93550e8d0001664","fromSide":"top","toNode":"6ff6e38163aa150e","toSide":"bottom"}
+	]
+}

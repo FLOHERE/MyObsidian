@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"b02576a0dd68c1ea","x":-581,"y":-97,"width":250,"height":60,"color":"1","type":"text","text":"전송 방향"},
+		{"id":"af9ba2fa7947c000","x":36,"y":-89,"width":250,"height":60,"color":"3","type":"text","text":"전이중 통신"},
+		{"id":"11acf222da408cc2","x":35,"y":174,"width":250,"height":60,"color":"3","type":"text","text":"반 이중 통신"},
+		{"id":"20c3107f3a3d3838","x":-331,"y":-280,"width":250,"height":53,"color":"2","type":"text","text":"단방향 통신"},
+		{"id":"4f09dc370b42353d","x":-331,"y":60,"width":250,"height":60,"color":"2","type":"text","text":"양방향 통신"}
+	],
+	"edges":[
+		{"id":"423c0259b4659248","fromNode":"b02576a0dd68c1ea","fromSide":"bottom","toNode":"4f09dc370b42353d","toSide":"left"},
+		{"id":"a5ee8d5bc6c17f24","fromNode":"b02576a0dd68c1ea","fromSide":"top","toNode":"20c3107f3a3d3838","toSide":"left"},
+		{"id":"c5d9ce1981679fed","fromNode":"4f09dc370b42353d","fromSide":"right","toNode":"af9ba2fa7947c000","toSide":"left"},
+		{"id":"ddb92ab76d28a95d","fromNode":"4f09dc370b42353d","fromSide":"right","toNode":"11acf222da408cc2","toSide":"left"}
+	]
+}

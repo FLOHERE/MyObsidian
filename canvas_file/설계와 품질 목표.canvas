@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"d839e9ac91f51d1a","type":"text","text":"합의","x":19,"y":-34,"width":250,"height":60,"color":"4"},
+		{"id":"c950c5df4e935127","type":"text","text":"이해 당사자","x":-501,"y":-192,"width":250,"height":60,"color":"5"},
+		{"id":"3c9a2be18611ccd3","type":"text","text":"품질","x":144,"y":-192,"width":250,"height":60,"color":"4"},
+		{"id":"92f105ea67f566c2","type":"text","text":"요구","x":-160,"y":-192,"width":250,"height":60,"color":"4"},
+		{"id":"15823c5a637f818a","type":"text","text":"아키텍쳐","x":-410,"y":-34,"width":250,"height":60,"color":"3"},
+		{"id":"084a2c889101b892","type":"text","text":"개발","x":19,"y":155,"width":250,"height":50,"color":"4"},
+		{"id":"f46a8af271edd007","type":"text","text":"구현","x":-410,"y":155,"width":250,"height":60,"color":"3"},
+		{"id":"a9125cafbcaaf990","type":"text","text":"상세설계","x":-410,"y":60,"width":250,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"61717ccb1f67dbc3","fromNode":"c950c5df4e935127","fromSide":"right","toNode":"92f105ea67f566c2","toSide":"left"},
+		{"id":"d92fe22572cdf324","fromNode":"92f105ea67f566c2","fromSide":"left","toNode":"c950c5df4e935127","toSide":"right"},
+		{"id":"bb4035eeac623672","fromNode":"92f105ea67f566c2","fromSide":"bottom","toNode":"d839e9ac91f51d1a","toSide":"top"},
+		{"id":"55742635042f40cb","fromNode":"3c9a2be18611ccd3","fromSide":"bottom","toNode":"d839e9ac91f51d1a","toSide":"top"},
+		{"id":"ffb47f64585a3cc1","fromNode":"d839e9ac91f51d1a","fromSide":"bottom","toNode":"084a2c889101b892","toSide":"top"},
+		{"id":"3c99e2739614df57","fromNode":"15823c5a637f818a","fromSide":"bottom","toNode":"a9125cafbcaaf990","toSide":"top"},
+		{"id":"8cae168a7c906223","fromNode":"a9125cafbcaaf990","fromSide":"bottom","toNode":"f46a8af271edd007","toSide":"top"}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"9e56b851310595cb","x":-441,"y":-44,"width":250,"height":60,"color":"4","type":"text","text":"계층적 군집 분석"},
+		{"id":"eee051186615e918","x":-191,"y":-220,"width":250,"height":60,"color":"5","type":"text","text":"군집 분석"},
+		{"id":"435be85492b95d75","x":59,"y":-44,"width":250,"height":60,"color":"4","type":"text","text":"K - 평균 군집 분석"}
+	],
+	"edges":[
+		{"id":"1f9201c025e28f43","fromNode":"eee051186615e918","fromSide":"bottom","toNode":"9e56b851310595cb","toSide":"top"},
+		{"id":"e87b09190918f5fa","fromNode":"eee051186615e918","fromSide":"bottom","toNode":"435be85492b95d75","toSide":"top"}
+	]
+}

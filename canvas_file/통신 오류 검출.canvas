@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"eba77a3f0640fd0a","x":-532,"y":-29,"width":250,"height":60,"color":"2","type":"text","text":"단일 비트 오류"},
+		{"id":"5696058ee2e4b7c0","x":-220,"y":-200,"width":250,"height":60,"color":"1","type":"text","text":"오류"},
+		{"id":"3dae5c3587a54e10","x":-220,"y":-29,"width":250,"height":60,"color":"2","type":"text","text":"다중 비트 오류"},
+		{"id":"41b7b6b8aa993cb6","x":120,"y":-29,"width":250,"height":60,"color":"2","type":"text","text":"집단 오류"}
+	],
+	"edges":[
+		{"id":"26594045cf5e6ad7","fromNode":"5696058ee2e4b7c0","fromSide":"bottom","toNode":"eba77a3f0640fd0a","toSide":"top"},
+		{"id":"4226a1f192cea77d","fromNode":"5696058ee2e4b7c0","fromSide":"bottom","toNode":"3dae5c3587a54e10","toSide":"top"},
+		{"id":"28151d0af1d306fd","fromNode":"5696058ee2e4b7c0","fromSide":"bottom","toNode":"41b7b6b8aa993cb6","toSide":"top"}
+	]
+}

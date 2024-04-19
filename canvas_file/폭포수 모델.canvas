@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"78b9f21b67199db6","x":-579,"y":-263,"width":139,"height":60,"color":"5","type":"text","text":"계획"},
+		{"id":"beb369da94b8b707","type":"text","text":"요구분석","x":-440,"y":-160,"width":139,"height":60,"color":"5"},
+		{"id":"f67d8b6cc449c704","type":"text","text":"설계","x":-301,"y":-60,"width":139,"height":60,"color":"5"},
+		{"id":"ad3079b481532860","type":"text","text":"구현","x":-140,"y":50,"width":139,"height":60,"color":"5"},
+		{"id":"0bd9516431b86945","type":"text","text":"테스트","x":-1,"y":160,"width":139,"height":60,"color":"5"},
+		{"id":"5cf2dec7a3b912b3","type":"text","text":"운영, 유지보수","x":160,"y":260,"width":180,"height":60,"color":"5"}
+	],
+	"edges":[
+		{"id":"8b8b58cfd3d1a49f","fromNode":"78b9f21b67199db6","fromSide":"right","toNode":"beb369da94b8b707","toSide":"top"},
+		{"id":"b8e0347a16d4ce5a","fromNode":"beb369da94b8b707","fromSide":"right","toNode":"f67d8b6cc449c704","toSide":"top"},
+		{"id":"2519ef882a50a2c4","fromNode":"f67d8b6cc449c704","fromSide":"right","toNode":"ad3079b481532860","toSide":"top"},
+		{"id":"e3ccc11a85e8a0e1","fromNode":"ad3079b481532860","fromSide":"right","toNode":"0bd9516431b86945","toSide":"top"},
+		{"id":"ba4fdc6d5dce0bcf","fromNode":"0bd9516431b86945","fromSide":"right","toNode":"5cf2dec7a3b912b3","toSide":"top"}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"4558a589e615339f","x":20,"y":-35,"width":250,"height":60,"color":"5","type":"text","text":"호스트 주소(Host ID)"},
+		{"id":"41ceced0f3c5af30","x":-240,"y":-35,"width":260,"height":60,"color":"#ccd5ff","type":"text","text":"네트워크 주소(Net ID)"},
+		{"id":"8cf5c03007362095","x":-490,"y":-35,"width":250,"height":60,"color":"#e5edff","type":"text","text":"클래스 타입"}
+	],
+	"edges":[]
+}

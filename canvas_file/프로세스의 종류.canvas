@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"3ea748181a55cc1c","x":-138,"y":-348,"width":250,"height":60,"color":"1","type":"text","text":"소프트웨어 프로세스"},
+		{"id":"fcf8882cfc5ec596","x":-200,"y":1,"width":250,"height":60,"color":"3","type":"text","text":"소프트웨어 형상 관리 프로세스"},
+		{"id":"74cccf88a0469c79","x":-472,"y":1,"width":250,"height":60,"color":"3","type":"text","text":"프로젝트 관리 프로세스"},
+		{"id":"4347687e2afa4deb","x":-765,"y":1,"width":250,"height":60,"color":"3","type":"text","text":"개발 프로세스"},
+		{"id":"c27dc7ef753b6400","x":200,"y":-151,"width":250,"height":60,"color":"2","type":"text","text":"프로세스 관리 프로세스"},
+		{"id":"77d5f04f5549ce53","x":-492,"y":-151,"width":292,"height":60,"color":"2","type":"text","text":"프로덕트 엔지니어링 프로세스"},
+		{"id":"37814c3acfe1cf66","x":-765,"y":120,"width":210,"height":199,"type":"text","text":"- 개발 작업\n- 품질 보증 작업\n- 프로그래머, 디자이너, 테스터 등 수행"},
+		{"id":"7000291d9fa19463","x":-460,"y":120,"width":226,"height":102,"type":"text","text":"비용, 품질, 계획, 제어작업\n프로젝트 관리자(PM)"},
+		{"id":"dd8de02b5ba1a9db","x":-164,"y":120,"width":214,"height":120,"type":"text","text":"원시 코드의 변경 관리\n품질 보증 팀(형상 관리 담당자)"},
+		{"id":"4c3f5703cb27f22a","x":227,"y":-18,"width":196,"height":99,"type":"text","text":"포르세스 전체의 변경 관리"}
+	],
+	"edges":[
+		{"id":"409cb492a7d65c24","fromNode":"3ea748181a55cc1c","fromSide":"bottom","toNode":"77d5f04f5549ce53","toSide":"top"},
+		{"id":"16f16bce649f1744","fromNode":"3ea748181a55cc1c","fromSide":"bottom","toNode":"c27dc7ef753b6400","toSide":"top"},
+		{"id":"5395eea49b508800","fromNode":"77d5f04f5549ce53","fromSide":"bottom","toNode":"4347687e2afa4deb","toSide":"top"},
+		{"id":"ebc45c211b3846ba","fromNode":"77d5f04f5549ce53","fromSide":"bottom","toNode":"74cccf88a0469c79","toSide":"top"},
+		{"id":"989e54ac77ed06c8","fromNode":"77d5f04f5549ce53","fromSide":"bottom","toNode":"fcf8882cfc5ec596","toSide":"top"},
+		{"id":"933e40e9e06f0561","fromNode":"4347687e2afa4deb","fromSide":"bottom","toNode":"37814c3acfe1cf66","toSide":"top"},
+		{"id":"ce5a9ffddf8152f9","fromNode":"74cccf88a0469c79","fromSide":"bottom","toNode":"7000291d9fa19463","toSide":"top"},
+		{"id":"4bed147a43920022","fromNode":"fcf8882cfc5ec596","fromSide":"bottom","toNode":"dd8de02b5ba1a9db","toSide":"top"},
+		{"id":"b1ca723c5bf44226","fromNode":"c27dc7ef753b6400","fromSide":"bottom","toNode":"4c3f5703cb27f22a","toSide":"top"}
+	]
+}
