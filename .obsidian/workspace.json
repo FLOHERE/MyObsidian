@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "intent",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -153,13 +153,13 @@
   },
   "active": "5668fa2ac091db8d",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/3. SQL 기초(1),(2).md",
     "Attached_file/Pasted image 20240421144429.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/문제 뭐나올까?.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/3. SQL 기초(1),(2).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/2.관계 데이터 모델.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/5주차.md",
     "Attached_file/Pasted image 20240421141334.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/7주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/3주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/2주차.md",
@@ -188,7 +188,6 @@
     "Attached_file/Pasted image 20240418134047.png",
     "Attached_file/Pasted image 20240418134005.png",
     "Attached_file/Pasted image 20240417191204.png",
-    "Attached_file/Pasted image 20240417190135.png",
     "canvas_file/아두이노 스케치의 처리 흐름도.canvas",
     "canvas_file/ANSI.canvas",
     "Excalidraw",
