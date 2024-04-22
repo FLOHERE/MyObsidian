@@ -84,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 272.5
   },
   "right": {
     "id": "6561ba02229af4b5",
@@ -160,7 +160,8 @@
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "markdown-importer:마크다운 형식 가져오기 열기": false
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "39ab63d417951de7",
