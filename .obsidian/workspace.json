@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/6장. 전송계층(TCP).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Tcp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/6장. 전송계층(TCP).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md"
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/6장. 전송계층(TCP).md"
               }
             }
           },
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/6장. 전송계층(TCP).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,10 +153,14 @@
   },
   "active": "ba2e1340af6dc67c",
   "lastOpenFiles": [
+    "OSI참조모델_TCP,IP모델.canvas",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/6장. 전송계층(TCP).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2023/Ch06_설계 원리.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/1장. 네트워크의 이해.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
     "Attached_file/Pasted image 20240531174327.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/7주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/2주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/1주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/3. SQL 기초(1),(2).md",
@@ -177,9 +182,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/내가 놓친거.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/교과서.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/안드로이드 2주차 1.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/5주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/4주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
     "Attached_file/Pasted image 20240424075647.png",
     "Attached_file/Pasted image 20240424010045.png",
     "canvas_file/ANSI.canvas",
@@ -188,7 +190,6 @@
     "Attached_file/Pasted image 20240422092712.png",
     "Attached_file/Pasted image 20240422081905.png",
     "Attached_file/Pasted image 20240421144429.png",
-    "Attached_file/Pasted image 20240421141334.png",
     "canvas_file/아두이노 스케치의 처리 흐름도.canvas",
     "Excalidraw",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic",
@@ -206,7 +207,6 @@
     "canvas_file/폭포수 모델.canvas",
     "canvas_file/오피니언 마이닝 분석 과정.canvas",
     "canvas_file/프로세스의 종류.canvas",
-    "canvas_file/소셜네트워크 분석 과정.canvas",
-    "canvas_file/네트워크 주소와 호스트 주소.canvas"
+    "canvas_file/소셜네트워크 분석 과정.canvas"
   ]
 }
