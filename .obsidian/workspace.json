@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/6장. 전송계층(TCP).md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Tcp",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/6장. 전송계층(TCP).md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/6장. 전송계층(TCP).md"
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md"
               }
             }
           },
@@ -120,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/6장. 전송계층(TCP).md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,8 +152,8 @@
   },
   "active": "ba2e1340af6dc67c",
   "lastOpenFiles": [
-    "OSI참조모델_TCP,IP모델.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/6장. 전송계층(TCP).md",
+    "OSI참조모델_TCP,IP모델.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2023/Ch06_설계 원리.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/1장. 네트워크의 이해.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
