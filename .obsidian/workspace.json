@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ce59d56af8795a05",
+        "id": "f37fcb8a44977a75",
         "type": "tabs",
         "children": [
           {
-            "id": "ba2e1340af6dc67c",
+            "id": "1a923765fd06dd2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/9주차.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/9주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md"
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/9주차.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/9주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,13 +151,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ba2e1340af6dc67c",
+  "active": "1a923765fd06dd2f",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/9주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/압전효과.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/4주차.md",
+    "압전 효과.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/6장. 전송계층(TCP).md",
     "OSI참조모델_TCP,IP모델.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2023/Ch06_설계 원리.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/1장. 네트워크의 이해.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
     "Attached_file/Pasted image 20240531174327.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/7주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
@@ -178,9 +182,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/3주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/안드로이드 2주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/안드로이드 2주차.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/러닝메이트.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/내가 놓친거.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/교과서.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/안드로이드 2주차 1.png",
     "Attached_file/Pasted image 20240424075647.png",
     "Attached_file/Pasted image 20240424010045.png",
