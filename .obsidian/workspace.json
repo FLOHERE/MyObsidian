@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1a923765fd06dd2f",
+            "id": "47a926fa21f10db0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -151,11 +151,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1a923765fd06dd2f",
+  "active": "47a926fa21f10db0",
   "lastOpenFiles": [
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/3. SQL 기초(1),(2).md",
+    "canvas_file/Trigger.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/5. 데이터 베이스 프로그래밍.md",
     "OSI참조모델_TCP,IP모델.canvas",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/3. SQL 기초(1),(2).md",
     "canvas_file/TCP,IP에서 사용하는 주소.canvas",
     "canvas_file/송신측,수신측 OSI 참조 모델에서 전송.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/문제 모음.md",
@@ -206,7 +207,6 @@
     "canvas_file/통신 오류 검출.canvas",
     "canvas_file/텍스트 마이닝 과정.canvas",
     "canvas_file/군집분석.canvas",
-    "canvas_file/폭포수 모델.canvas",
-    "canvas_file/오피니언 마이닝 분석 과정.canvas"
+    "canvas_file/폭포수 모델.canvas"
   ]
 }

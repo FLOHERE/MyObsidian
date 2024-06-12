@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"1c5e8a30611957dd","x":-313,"y":-124,"width":313,"height":84,"color":"4","type":"text","text":"DATA 변경문\n(INSERT, DELETE, UPDATE)"},
+		{"id":"76c1daacb74b507f","x":60,"y":0,"width":250,"height":60,"color":"4","type":"text","text":"AFTER 트리거"},
+		{"id":"48f68a455eb8e617","x":60,"y":-220,"width":250,"height":60,"color":"4","type":"text","text":"BEFORE 트리거"}
+	],
+	"edges":[
+		{"id":"2c83c9e978f61536","fromNode":"1c5e8a30611957dd","fromSide":"right","toNode":"48f68a455eb8e617","toSide":"left"},
+		{"id":"5eb4e0c89defa30c","fromNode":"1c5e8a30611957dd","fromSide":"right","toNode":"76c1daacb74b507f","toSide":"left"}
+	]
+}
