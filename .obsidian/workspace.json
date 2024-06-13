@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5
+    "width": 272.5,
+    "collapsed": true
   },
   "right": {
     "id": "6561ba02229af4b5",
@@ -152,6 +153,7 @@
   },
   "active": "47a926fa21f10db0",
   "lastOpenFiles": [
+    "Attached_file/Pasted image 20240613210129.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/12주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/11주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/5. 데이터 베이스 프로그래밍.md",
@@ -182,7 +184,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/9주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/4주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/5주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/6주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/안드로이드 2주차.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/안드로이드 2주차 1.png",
     "Attached_file/Pasted image 20240424075647.png",
