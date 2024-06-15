@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/6. 데이터 모델링.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/2.관계 데이터 모델.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/6. 데이터 모델링.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/2.관계 데이터 모델.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/6. 데이터 모델링.md"
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/2.관계 데이터 모델.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/6. 데이터 모델링.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/2.관계 데이터 모델.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,9 +153,13 @@
   },
   "active": "47a926fa21f10db0",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/2.관계 데이터 모델.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/6. 데이터 모델링.md",
+    "Attached_file/Pasted image 20240615163743.png",
+    "Attached_file/Pasted image 20240615163146.png",
     "Attached_file/Pasted image 20240615153126.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/9주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/6. 데이터 모델링.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/러닝메이트.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/내가 놓친거.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/12주차.md",
@@ -185,15 +189,11 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/2주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/1주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/2.관계 데이터 모델.md",
     "README.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/안드로이드 2주차.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/안드로이드 2주차 1.png",
     "Attached_file/Pasted image 20240424075647.png",
-    "Attached_file/Pasted image 20240424010045.png",
     "canvas_file/ANSI.canvas",
-    "Attached_file/Pasted image 20240423120052.png",
-    "Attached_file/Pasted image 20240422210052.png",
     "canvas_file/아두이노 스케치의 처리 흐름도.canvas",
     "Excalidraw",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic",
