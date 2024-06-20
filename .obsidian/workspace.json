@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/12주차.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/9주차.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5
+    "width": 272.5,
+    "collapsed": true
   },
   "right": {
     "id": "6561ba02229af4b5",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/12주차.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/9주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/12주차.md"
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/9주차.md"
               }
             }
           },
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/12주차.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/9주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,17 +153,19 @@
   },
   "active": "47a926fa21f10db0",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/문제 뭐나올까.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/12주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/내가 놓친거.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/11주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/러닝메이트.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/9주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/3장. 객체형 부품.md",
     "Attached_file/Pasted image 20240619162519.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/러닝 메이트.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/문제 뭐나올까.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/안드로이드 2주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/5. 데이터 베이스 프로그래밍.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/6. 데이터 모델링.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/12주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/11주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/10주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/9주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/6주차.md",
@@ -180,8 +183,6 @@
     "Attached_file/Pasted image 20240615181130.png",
     "Attached_file/Pasted image 20240615180154.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/러닝메이트.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/내가 놓친거.md",
     "canvas_file/Trigger.canvas",
     "OSI참조모델_TCP,IP모델.canvas",
     "canvas_file/TCP,IP에서 사용하는 주소.canvas",
