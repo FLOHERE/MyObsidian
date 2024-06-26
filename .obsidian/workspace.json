@@ -13,14 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/MainActivity(전화 다이얼,앱 종료, 인터넷 연결).md",
-                "mode": "source",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/사진 돌리기.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
+          },
+          {
+            "id": "f1732a5b75b8e488",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/MainActivity(전화 다이얼,앱 종료, 인터넷 연결).md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/사진 돌리기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/MainActivity(전화 다이얼,앱 종료, 인터넷 연결).md"
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/사진 돌리기.md"
               }
             }
           },
@@ -119,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/MainActivity(전화 다이얼,앱 종료, 인터넷 연결).md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/사진 돌리기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,8 +161,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "47a926fa21f10db0",
+  "active": "f1732a5b75b8e488",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/문제 뭐나올까.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/사진 돌리기.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/MainActivity(전화 다이얼,앱 종료, 인터넷 연결).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/러닝메이트.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/나이계산기.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/10주차 정리.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/9주차 정리(빅데이터 분석 기술).md",
@@ -163,9 +178,7 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/4주차 정리.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/3주차 정리.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/2주차 정리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/MainActivity(전화 다이얼,앱 종료, 인터넷 연결).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/언어 체크.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/사진 돌리기.md",
     "Attached_file/Pasted image 20240626195121.png",
     "Attached_file/Pasted image 20240626195057.png",
     "Attached_file/사진 돌리기 2.md",
@@ -176,7 +189,6 @@
     "Attached_file/Pasted image 20240626193327.png",
     "Attached_file/Pasted image 20240626193320.png",
     "Attached_file/Pasted image 20240626193055.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/문제 뭐나올까.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집",
     "Attached_file/Pasted image 20240626172912.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/러닝 메이트.md",
@@ -189,7 +201,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/10주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/11주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/7. 정규화.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/6. 데이터 모델링.md",
     "canvas_file/Trigger.canvas",
     "OSI참조모델_TCP,IP모델.canvas",
     "canvas_file/TCP,IP에서 사용하는 주소.canvas",
