@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/5장. 네트워크 계층(IP).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/5장. 네트워크 계층(IP).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md"
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/5장. 네트워크 계층(IP).md"
               }
             }
           },
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/5장. 네트워크 계층(IP).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,6 +152,11 @@
   },
   "active": "47a926fa21f10db0",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/1장. 네트워크의 이해.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/6장. 전송계층(TCP).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/10주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/5장. 네트워크 계층(IP).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
     "README.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/3장. 객체형 부품.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/4. 데이터의 종류에는 어떤것들이 있나요.md",
@@ -174,13 +179,8 @@
     "canvas_file/군집분석.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/1주차 정리.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/8주차 정리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/6주차 정리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/5주차 정리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/4주차 정리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집/언어 체크.md",
     "Attached_file/Pasted image 20240626195121.png",
     "Attached_file/Pasted image 20240626195057.png",
-    "Attached_file/사진 돌리기 2.md",
     "Attached_file/Pasted image 20240626193855.png",
     "Attached_file/Pasted image 20240626193542.png",
     "Attached_file/Pasted image 20240626193510.png",
