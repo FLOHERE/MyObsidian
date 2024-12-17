@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "447257ad6e48560d",
+        "id": "d4cde275f67463fc",
         "type": "tabs",
         "children": [
           {
-            "id": "32b96892f05a3099",
+            "id": "5aa6db17a7467023",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/6. 스택, 큐, 트리.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/8. 배열 큐.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. 스택, 큐, 트리"
+              "title": "8. 배열 큐"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "지역변수 ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,10 +121,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/6. 스택, 큐, 트리.md"
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/8. 배열 큐.md"
               },
               "icon": "lucide-list",
-              "title": "6. 스택, 큐, 트리 개요"
+              "title": "8. 배열 큐 개요"
             }
           },
           {
@@ -165,43 +165,43 @@
       "markdown-importer:마크다운 형식 가져오기 열기": false
     }
   },
-  "active": "32b96892f05a3099",
+  "active": "5aa6db17a7467023",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/기말 최종 정리.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7. 배열스택.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/8. 배열 큐.md",
+    "Attached_file/Pasted image 20241217121804.png",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7-1. TeamProject_심성당.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/6. 스택, 큐, 트리.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
+    "Attached_file/Pasted image 20241217114408.png",
+    "Attached_file/Pasted image 20241217113855.png",
+    "Attached_file/Pasted image 20241217113022.png",
+    "Attached_file/Pasted image 20241217092318.png",
+    "Attached_file/Pasted image 20241217092118.png",
+    "Attached_file/Pasted image 20241217084454.png",
+    "Attached_file/Pasted image 20241217070526.png",
+    "Attached_file/Pasted image 20241217065903.png",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/05 함수.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/지역변수.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/전역변수.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/재귀 함수.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/5주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/Game/ERPSIM 경진대회 (2차).md",
     "Attached_file/IMG_6123.jpeg",
-    "Attached_file/Pasted image 20241216123219.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/Game/2024_12_2 Muesli Serial <2>.md",
-    "Attached_file/IMG_6120.jpeg",
-    "Attached_file/Pasted image 20241216121302.png",
-    "Attached_file/IMG_6119.jpeg",
-    "Attached_file/IMG_6116.jpeg",
-    "Attached_file/Pasted image 20241216115440.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT/경진대회.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT/ERPSIM 다른 조 발표 감상.md",
-    "Attached_file/Pasted image 20241216113923.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/Game/2024_12_09 Preset2_Manuf_Sustainablility<Last>.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/채팅 프로그램 만들기(기말 실습 시험).md",
     "창업과 기업가 정신 기말고사.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/창업과 기업가 정신/무제 파일.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT/0. 연습게임.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/6. 스택, 큐, 트리.md",
-    "Attached_file/Pasted image 20241216090136.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/러닝 메이트.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/5주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JSP/6장 JSP 스크립트.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/기말 최종 정리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7. 배열스택.md",
-    "Attached_file/Pasted image 20241215165657.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/람다.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/3장. 객체형 부품.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JSP/Data Type.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/1. 자료구조.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/5장. 응용 API 프로그래밍.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JSP/표현식 공간.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JSP/함수 선언부 공간.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JSP/스크립트릿 공간.md",
-    "함수 선언부 자바 공간.md",
     "canvas_file/무제 파일.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT",
