@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d4cde275f67463fc",
+        "id": "f4bcaf28f19be077",
         "type": "tabs",
         "children": [
           {
-            "id": "5aa6db17a7467023",
+            "id": "86337dd0f2918013",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -166,20 +166,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5aa6db17a7467023",
+  "active": "86337dd0f2918013",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/8. 배열 큐.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7. 배열스택.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7-1. TeamProject_심성당.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/03 제어문.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/01자바스크립트 시작하기.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB advanced/전공 멘토링.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB advanced/전공 멘토링 숙제.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/1. 자료구조.md",
     "README.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub/Runningmate 2024_11_25 깃헙 심화_협업.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/6. 스택, 큐, 트리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7-1. TeamProject_심성당.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7. 배열스택.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JSP/7장 서블릿, 필터, 리스너.md",
     "Attached_file/Pasted image 20241219002943.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JSP/6장 JSP 스크립트.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JSP/무제 파일 1.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2023/Ch06_설계 원리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/8. 배열 큐.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/기말 최종 정리.md",
     "Attached_file/Pasted image 20241217121804.png",
     "Attached_file/Pasted image 20241217114408.png",
@@ -199,11 +204,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/Game/2024_12_2 Muesli Serial <2>.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT/경진대회.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT/ERPSIM 다른 조 발표 감상.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/Game/2024_12_09 Preset2_Manuf_Sustainablility<Last>.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/채팅 프로그램 만들기(기말 실습 시험).md",
-    "창업과 기업가 정신 기말고사.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/창업과 기업가 정신/무제 파일.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT/0. 연습게임.md",
     "canvas_file/무제 파일.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT",
