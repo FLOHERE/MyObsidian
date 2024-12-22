@@ -16,6 +16,10 @@
 - 예쁜 아이콘 만들기 -> shield.io -> markdown 선택
 	- 이미지 삽입 : \!\[파일이름](뒤에 경로)
 
+## 3. 깃 만들기는 내 벨로그 보고 오쇼
+https://velog.io/@jjjj0323/%ED%98%91%EC%97%85OrganizationGit-%EC%83%9D%EC%84%B1
+
+
 # 1. gitbash 깃 저장소 만들기
 1. 작업을 원하는 폴더에서 우클릭
 2. gitbash로 열기
