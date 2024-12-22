@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "5. algorithm"
             }
           }
         ]
@@ -94,12 +94,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/4장. 기본 API 프로그래밍.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "4장. 기본 API 프로그래밍의 나가는 링크"
+              "title": "5. algorithm의 나가는 링크"
             }
           },
           {
@@ -121,10 +121,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JSP/7장 서블릿, 필터, 리스너.md"
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md"
               },
               "icon": "lucide-list",
-              "title": "7장 서블릿, 필터, 리스너 개요"
+              "title": "5. algorithm 개요"
             }
           },
           {
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/4장. 기본 API 프로그래밍.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,11 +143,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "4장. 기본 API 프로그래밍의 백링크"
+              "title": "5. algorithm의 백링크"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -163,12 +163,12 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "markdown-importer:마크다운 형식 가져오기 열기": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "5aa6db17a7467023",
   "lastOpenFiles": [
+    "README.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub/Runningmate 2024_11_25 깃헙 심화_협업.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/6. 스택, 큐, 트리.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
@@ -204,7 +204,6 @@
     "창업과 기업가 정신 기말고사.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/창업과 기업가 정신/무제 파일.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT/0. 연습게임.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/러닝 메이트.md",
     "canvas_file/무제 파일.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT",
