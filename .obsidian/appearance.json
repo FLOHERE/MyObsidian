@@ -5,5 +5,6 @@
   "theme": "obsidian",
   "monospaceFontFamily": "Hiragino Maru Gothic ProN",
   "translucency": false,
-  "interfaceFontFamily": "Hiragino Maru Gothic ProN"
+  "interfaceFontFamily": "Hiragino Maru Gothic ProN",
+  "baseFontSize": 16
 }
