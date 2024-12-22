@@ -162,11 +162,15 @@
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "markdown-importer:마크다운 형식 가져오기 열기": false
+      "markdown-importer:마크다운 형식 가져오기 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "5aa6db17a7467023",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub/Runningmate 2024_11_25 깃헙 심화_협업.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7-1. TeamProject_심성당.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7. 배열스택.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JSP/7장 서블릿, 필터, 리스너.md",
@@ -178,7 +182,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/8. 배열 큐.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/기말 최종 정리.md",
     "Attached_file/Pasted image 20241217121804.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
     "Attached_file/Pasted image 20241217114408.png",
     "Attached_file/Pasted image 20241217113855.png",
     "Attached_file/Pasted image 20241217113022.png",
