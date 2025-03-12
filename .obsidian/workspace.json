@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1061cc8cd2bbda36",
+        "id": "57e47e664b481756",
         "type": "tabs",
         "children": [
           {
-            "id": "7456f2b622c3c479",
+            "id": "6c4e1d365ea6c5a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub/Runningmate 2024_11_25 깃헙 심화_협업.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1..md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Runningmate 2024_11_25 깃헙 심화_협업"
+              "title": "1."
             }
           }
         ]
@@ -176,11 +176,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7456f2b622c3c479",
+  "active": "6c4e1d365ea6c5a4",
   "lastOpenFiles": [
+    "canvas_file/운영체제 및 프로그램.canvas",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1..md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025",
+    "canvas_file/송신측,수신측 OSI 참조 모델에서 전송.canvas",
+    "canvas_file/소셜네트워크 분석 과정.canvas",
+    "canvas_file/브라우저 객체 모델.canvas",
+    "canvas_file/매체 접근 방식.canvas",
+    "canvas_file/네트워크 주소와 호스트 주소.canvas",
+    "canvas_file/군집분석.canvas",
+    "canvas_file/계층과 주소의 관계.canvas",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/1주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/6. 데이터 모델링.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/3. SQL 기초(1),(2).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/2.관계 데이터 모델.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub/Runningmate 2024_11_25 깃헙 심화_협업.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub/Git ignore.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/6. 데이터 모델링.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/3장. 객체형 부품.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/1주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/CODE GYM/2024년 자바 스터디 모임.md",
@@ -196,14 +210,8 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JSP/6장 JSP 스크립트.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/7. 정규화.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/문제 뭐나올까?.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/2.관계 데이터 모델.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/03 제어문.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/8. 배열 큐.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7. 배열스택.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7-1. TeamProject_심성당.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB advanced/전공 멘토링.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB advanced/전공 멘토링 숙제.md",
     "Attached_file/Pasted image 20241219002943.png",
     "Attached_file/Pasted image 20241217121804.png",
     "Attached_file/Pasted image 20241217114408.png",
@@ -218,21 +226,13 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/Game",
-    "canvas_file/송신측,수신측 OSI 참조 모델에서 전송.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB advanced",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/알고리즘",
-    "canvas_file/군집분석.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집",
     "canvas_file/Trigger.canvas",
     "OSI참조모델_TCP,IP모델.canvas",
-    "canvas_file/TCP,IP에서 사용하는 주소.canvas",
-    "canvas_file/ANSI.canvas",
-    "canvas_file/아두이노 스케치의 처리 흐름도.canvas",
     "Excalidraw",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/CODE GYM",
-    "canvas_file/통신 오류 검출.canvas",
-    "canvas_file/텍스트 마이닝 과정.canvas"
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic"
   ]
 }
