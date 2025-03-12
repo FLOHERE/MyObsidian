@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "94e58b768ffb8b87",
+        "id": "90e3589693782036",
         "type": "tabs",
         "children": [
           {
-            "id": "fdfe26862b24583d",
+            "id": "b33e4a76b176ed80",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/객체.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "객체"
             }
           }
         ]
@@ -54,7 +68,7 @@
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "byCreatedTimeReverse"
               },
               "icon": "lucide-search",
               "title": "검색"
@@ -162,8 +176,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "055edbc789047915",
+  "active": "b33e4a76b176ed80",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/0. OT.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/객체.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/1..md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/04 객체.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/5주차 정리.md",
@@ -196,10 +215,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/1. 자료구조.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/9주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JSP/6장 JSP 스크립트.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/7. 정규화.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/문제 뭐나올까?.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/03 제어문.md",
     "Attached_file/Pasted image 20241219002943.png",
     "Attached_file/Pasted image 20241217121804.png",
     "Attached_file/Pasted image 20241217114408.png",
@@ -217,8 +232,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB advanced",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/알고리즘",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집",
-    "canvas_file/Trigger.canvas",
-    "Excalidraw"
+    "canvas_file/Trigger.canvas"
   ]
 }
