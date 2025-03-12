@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "57e47e664b481756",
+        "id": "94e58b768ffb8b87",
         "type": "tabs",
         "children": [
           {
-            "id": "6c4e1d365ea6c5a4",
+            "id": "fdfe26862b24583d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1.어디에나 존재하는 SW.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1.어디에나 존재하는 SW"
+              "title": "새 탭"
             }
           }
         ]
@@ -176,10 +162,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c4e1d365ea6c5a4",
+  "active": "055edbc789047915",
   "lastOpenFiles": [
-    "canvas_file/운영체제 및 프로그램.canvas",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/5주차 정리.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1.어디에나 존재하는 SW.md",
+    "canvas_file/운영체제 및 프로그램.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025",
     "canvas_file/송신측,수신측 OSI 참조 모델에서 전송.canvas",
     "canvas_file/소셜네트워크 분석 과정.canvas",
@@ -211,7 +200,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/7. 정규화.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/문제 뭐나올까?.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/03 제어문.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/8. 배열 큐.md",
     "Attached_file/Pasted image 20241219002943.png",
     "Attached_file/Pasted image 20241217121804.png",
     "Attached_file/Pasted image 20241217114408.png",
@@ -231,8 +219,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/알고리즘",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/1학기 기말 문제 모음집",
     "canvas_file/Trigger.canvas",
-    "OSI참조모델_TCP,IP모델.canvas",
-    "Excalidraw",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic"
+    "Excalidraw"
   ]
 }
