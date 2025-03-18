@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/버스(케이블).md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/4장. 기본 API 프로그래밍.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "버스(케이블)"
+              "title": "4장. 기본 API 프로그래밍"
             }
           }
         ]
@@ -178,14 +178,24 @@
   },
   "active": "f42a732be6c5d0b2",
   "lastOpenFiles": [
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/1장. 네트워크의 이해.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/05 함수.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/5주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/6주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/4주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/3주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/CallBack 함수.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/0. OT.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/객체.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/9. 리스트와 딕셔너리.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/05 함수.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/재귀 함수.md",
+    "canvas_file/계층과 주소의 관계.canvas",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/2장.네트워크의 구성.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/버스(케이블).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/1장. 네트워크의 이해.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/익명함수(Lambda).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/3장. 네트워크 통신.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/버스(케이블).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/01자바스크립트 시작하기.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/재귀 함수.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/03 제어문.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
     "Attached_file/Pasted image 20250317215510.png",
@@ -197,13 +207,9 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA 문법",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/3장. 객체형 부품.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/1주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/객체.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/0. OT.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/04 객체.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/5주차 정리.md",
     "canvas_file/운영체제 및 프로그램.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025",
     "canvas_file/송신측,수신측 OSI 참조 모델에서 전송.canvas",
@@ -212,12 +218,6 @@
     "canvas_file/매체 접근 방식.canvas",
     "canvas_file/네트워크 주소와 호스트 주소.canvas",
     "canvas_file/군집분석.canvas",
-    "canvas_file/계층과 주소의 관계.canvas",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/1주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/6. 데이터 모델링.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/3. SQL 기초(1),(2).md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/2.관계 데이터 모델.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
     "Attached_file/Pasted image 20241219002943.png",
     "Attached_file/Pasted image 20241217121804.png",
     "Attached_file/Pasted image 20241217114408.png",
