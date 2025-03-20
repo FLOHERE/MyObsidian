@@ -11,10 +11,24 @@
             "id": "42d44e405c9159e8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/버스(케이블).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "버스(케이블)"
             }
           }
         ]
@@ -162,8 +176,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "055edbc789047915",
+  "active": "42d44e405c9159e8",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/객체.md",
     "canvas_file/매체 접근 방식.canvas",
     "canvas_file/네트워크 주소와 호스트 주소.canvas",
     "canvas_file/군집분석.canvas",
@@ -172,7 +187,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/7장. 응용계층.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/전역변수.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/지역변수.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/객체.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/버스(케이블).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/5주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2023/Ch02_프로세스와 방법론.md",
