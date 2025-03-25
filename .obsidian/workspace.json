@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/캡슐화.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/7. 코드를 함수로 모아봅시다..md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "캡슐화"
+              "title": "7. 코드를 함수로 모아봅시다."
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "함수",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,13 +131,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/캡슐화.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/7. 코드를 함수로 모아봅시다..md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "캡슐화 의 개요"
+              "title": "7. 코드를 함수로 모아봅시다. 의 개요"
             }
           },
           {
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/캡슐화.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/7. 코드를 함수로 모아봅시다..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "캡슐화 의 백링크"
+              "title": "7. 코드를 함수로 모아봅시다. 의 백링크"
             }
           }
         ],
@@ -181,10 +181,14 @@
   },
   "active": "42d44e405c9159e8",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/함수.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/05 함수.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/다형성.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/상속.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/캡슐화.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/메소드 오버로딩, 오버라이딩(Overloading, Overriding).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/다형성(Polymorphism).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/상속(Inheritance).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/캡슐화(Encapsulation).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/객체.md",
     "Attached_file/Pasted image 20250325223219.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/7. 정규화.md",
@@ -210,10 +214,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/문자열.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/비교 연산자.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/5장. 응용 API 프로그래밍.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/05 함수.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/재귀 함수.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/1주차 정리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/1주차.md",
     "Attached_file/Pasted image 20250317215510.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA 문법",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced",
