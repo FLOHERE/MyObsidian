@@ -126,6 +126,10 @@
 ```scala
 sum(first(6,8)), first(rest(6,8))
 
-//list(6,8) -> first() -> 6
-//list(6,8) -> rest() -> first() -> sum() = 14
+//list(6,8) -> first() : 6 -> sum()으로 이동
+//list(6,8) -> rest() : 8 -> first() : 8 -> sum()에서 모임 = 14
 ```
+
+### 5. 논리형 패러다임
+- 일련의 사실과 규칙 기반 -> 쿼리에 응답
+- 
