@@ -242,3 +242,91 @@ sum(first(6,8)), first(rest(6,8))
 
 - [[객체]], [[클래스]]
 
+- C++에서 상속이란?
+	- 객체가 자식 클래스의 멤버와 부모 클래스에 선언된 모양 그대로 멤버들을 가지고 탄생
+
+![[Pasted image 20250326160902.png]]
+
+- 소프트웨어 생산성 향상
+	- 소프트웨어의 생명 주기 단축 문제 해결 필요
+	- 개발 시간이 많음 -> 줄여야 함
+	- 작성된 코드의 재사용 필요
+	- C++ 클래스 상속 및 객체 재사용으로 해결
+- 실세계에 대한 쉬운 모델링
+	- 과거의 소프트웨어 : 수학 계산이나 통계 처리에 편리한 절차 지향 언어 적합
+	- 현대 소프트웨어
+		- 물체 혹은 객체의 상호작용에 대한 묘사 필요
+		- 실세계는 객체로 구현된 세계
+		- 객체를 중심으로 하는 객체 지향 언어 적합
+
+### 제네릭 함수와 제네릭 클래스
+- 제네릭 함수(generic function) : 동일한 프로그램 코드에 다양한 데이터 타입 적용 -> 일반화
+	- 어떤 데이터 타입의 데이터가 들어와도 처리 가능 -> 마허라 같은놈
+- 제네릭 클래스(generic class) : 동일한 프로그램 코드에 다양한 데이터 타입 적용 -> 일반화
+	- 객체 생성시 타입 지정.
+	- 코드 재사용성 높음, 타입 미리 지정해서 안전, 형변환 필요 X
+- 예시)
+```java
+// T라는 타입 매개변수를 받는 제네릭 클래스
+class Box<T> {
+    private T value;
+
+    public void setValue(T value) {
+        this.value = value;
+    }
+
+    public T getValue() {
+        return value;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Integer 타입을 저장하는 Box
+        Box<Integer> intBox = new Box<>();
+        intBox.setValue(10);
+        System.out.println(intBox.getValue()); // 10
+
+        // String 타입을 저장하는 Box
+        Box<String> strBox = new Box<>();
+        strBox.setValue("Hello");
+        System.out.println(strBox.getValue()); // Hello
+    }
+}
+```
+
+- template 키워드로 선언
+	- 템플릿 함수 or 템플릿 클래스라고도 부름
+- java, C# 등 다른 언어에도 동일한 기능 O.
+
+### 제네릭 프로그래밍(generic programming)
+- 제네릭 함수 + 제네릭 클래스 = 프로그램 작성 -> 새로운 프로그래밍 패러다임
+- 중요!
+
+- C++언어는 C언어와 호환성 추구
+	- 장점 : 기존에 개발된 C 프로그램 코드 활용
+	- 단점 : 캡슐화 원칙 붕괴
+		- C++에서 전역 변수와 전역 함수 사용
+		- 부작용 발생 염려
+
+![[Pasted image 20250326162602.png]]
+
+- 편집
+	- C++ 소스 프로그램은 텍스트 파일
+		- 아무 텍스트 편집기로 편집 가능
+	- 표준 확장자 : .cpp
+	- Visual studio 써라
+- 컴파일
+	- 소스 프로그램 -> 목적 파일(기계어)로 변환
+		- .cpp 파일 -> obj 파일로 변환(중간 객체 파일)
+		- 왜 굳이 바꿈? : 파일 관리 편함 + 생성된 객체 파일간 혼동 피함
+		- 자바에서는 .java -> .class 로 변환됨
+
+### 링킹
+- 목적 파일끼리 합침 => 실행파일 만드는 과정
+	- 목적 파일은 바로 실행 X
+- 목적 파일과 C++ 표준 라이브러리 함수 연결, 실행 파일을 만드는 과정
+- ex_) hello.obj + cout 객체 + << 연산자 함수 = hello.exe 생성
+
+- 프로그램 실행과 디버깅
+	- 실행 파일은 
