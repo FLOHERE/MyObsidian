@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "멤버",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "42d44e405c9159e8",
+  "active": "055edbc789047915",
   "lastOpenFiles": [
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/3장. 객체형 부품.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
@@ -234,4 +233,9 @@
     "canvas_file/무제 파일.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT",
-    "📝PROJECT 
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/Game",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB advanced",
+    "canvas_file/Trigger.canvas"
+  ]
+}
