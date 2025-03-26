@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "17182c4df08fe69a",
+        "id": "fd498264e27f3d9f",
         "type": "tabs",
         "children": [
           {
-            "id": "a0711cbd4d46fc62",
+            "id": "77e0df0b1a6d32e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -63,12 +63,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "링",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "검색"
@@ -131,13 +131,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/5장. 응용 API 프로그래밍.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "5장. 응용 API 프로그래밍 의 개요"
+              "title": "Chapter 01 컴퓨터 프로그래밍 언어 의 개요"
             }
           },
           {
@@ -179,20 +179,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a0711cbd4d46fc62",
+  "active": "055edbc789047915",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/캡슐화(Encapsulation).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/클래스.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
+    "Attached_file/Pasted image 20250326162602.png",
+    "Attached_file/Pasted image 20250326162121.png",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/다형성(Polymorphism).md",
+    "Attached_file/Pasted image 20250326160902.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/5장. 응용 API 프로그래밍.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/3장. 객체형 부품.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/객체.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/클래스.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/캡슐화(Encapsulation).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/함수.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/7. 코드를 함수로 모아봅시다..md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/05 함수.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/메소드 오버로딩, 오버라이딩(Overloading, Overriding).md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/다형성(Polymorphism).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/상속(Inheritance).md",
     "Attached_file/Pasted image 20250325223219.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/7. 정규화.md",
@@ -213,7 +216,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2023/Ch02_프로세스와 방법론.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/3주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JSP/6장 JSP 스크립트.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/람다.md",
     "Attached_file/Pasted image 20250317215510.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA 문법",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced",
@@ -227,9 +229,6 @@
     "Attached_file/Pasted image 20241219002943.png",
     "Attached_file/Pasted image 20241217121804.png",
     "Attached_file/Pasted image 20241217114408.png",
-    "Attached_file/Pasted image 20241217113855.png",
-    "Attached_file/Pasted image 20241217113022.png",
-    "Attached_file/Pasted image 20241217092318.png",
     "canvas_file/무제 파일.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT",
