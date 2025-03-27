@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/다형성(Polymorphism).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Chapter 01 컴퓨터 프로그래밍 언어"
+              "title": "다형성(Polymorphism)"
             }
           }
         ]
@@ -179,11 +179,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "055edbc789047915",
+  "active": "77e0df0b1a6d32e5",
   "lastOpenFiles": [
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/캡슐화(Encapsulation).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/클래스.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/캡슐화(Encapsulation).md",
     "Attached_file/Pasted image 20250326162602.png",
     "Attached_file/Pasted image 20250326162121.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/다형성(Polymorphism).md",
