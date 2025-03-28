@@ -27,14 +27,16 @@
 # 주어진 숫자들 중 최댓값 찾기
 def find_max(arr):
 	max_value = arr[0] # numbers의 0번 인덱스 값 45
-	for num in arr: # 리스트 안에 데이터 개수만큼 반복(다섯번 반복)
+	for num in arr: # 리스트 안에 데이터 개수만큼 반복(다섯번 반복), 여기서arr은 원본 리스트 전체를 가리킴
 		if num > max_value: # max_value보다 num이 더 크면 
 			max_value = num # max_value를 num값으로 변경
-	return max_value # 리턴
+	return max_value # 리턴, max_value만 반복문 중에 값이 바뀜
 	
 numbers = [45, 60, 55, 20, 34] # 인자
 result = find_max(numbers)# 함수 호출
 print(result) # 출력값 : 60
 ```
 
+## 의사코드(슈도코드)와 가짜 코드
+- 의사 코드 : 프로그램 코드
 
