@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/1. 나의 첫 딥러닝.md",
-                "mode": "preview",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 01. 알고리즘의 첫걸음.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. 나의 첫 딥러닝"
+              "title": "Chapter 01. 알고리즘의 첫걸음"
             }
           }
         ]
@@ -181,8 +181,9 @@
   },
   "active": "77e0df0b1a6d32e5",
   "lastOpenFiles": [
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/0. OT.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/1. 나의 첫 딥러닝.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 01. 알고리즘의 첫걸음.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/0. OT.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/다형성(Polymorphism).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/클래스.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
@@ -216,7 +217,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/지역변수.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/5주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2023/Ch02_프로세스와 방법론.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/3주차.md",
     "Attached_file/Pasted image 20250317215510.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA 문법",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced",
