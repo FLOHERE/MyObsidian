@@ -26,9 +26,14 @@
 ```python
 # 주어진 숫자들 중 최댓값 찾기
 def find_max(arr):
-	max_value = arr[0]
-	if~~~
-return
-numbers = [45,60, 55, 20, 34] # 얘들 중 하나씩 비교 하면서 어떤수가 큰지 계속 탐색
-print(max_value) #출력값 : 60
+	max_value = arr[0] # numbers의 0번 인덱스 값 45
+	for num in arr: # 리스트 안에 데이터 개수만큼 반복(다섯번 반복)
+		if num > max_value: # max_value보다 num이 더 크면 
+			max_value = num # max_value를 num값으로 변경
+	return max_value # 리턴
+	
+numbers = [45, 60, 55, 20, 34] # 인자
+result = find_max(numbers)# 함수 호출
+print(result) # 출력값 : 60
 ```
+
