@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fd498264e27f3d9f",
+        "id": "1ff8eeb686eea45a",
         "type": "tabs",
         "children": [
           {
-            "id": "77e0df0b1a6d32e5",
+            "id": "1911c69fca44c5eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 01. 알고리즘의 첫걸음.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1.어디에나 존재하는 SW.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,55 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Chapter 01. 알고리즘의 첫걸음"
-            }
-          },
-          {
-            "id": "ebde26134fb449dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/6. 반복해 봅시다..md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "6. 반복해 봅시다."
-            }
-          },
-          {
-            "id": "c2c97d5e5f20e17a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/9. 리스트와 딕셔너리.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "9. 리스트와 딕셔너리"
+              "title": "1.어디에나 존재하는 SW"
             }
           }
         ]
@@ -227,10 +179,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77e0df0b1a6d32e5",
+  "active": "1911c69fca44c5eb",
   "lastOpenFiles": [
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/1. 나의 첫 딥러닝.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2023/Ch06_설계 원리.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2023/Ch03_프로젝트 계획과 관리.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2023/Ch02_프로세스와 방법론.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1.어디에나 존재하는 SW.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 01. 알고리즘의 첫걸음.md",
+    "Attached_file/IMG_7185.jpeg",
+    "Attached_file/IMG_7184.jpeg",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/1. 나의 첫 딥러닝.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/6. 반복해 봅시다..md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/5 조건을 따져봅시다..md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/9. 리스트와 딕셔너리.md",
@@ -258,14 +216,10 @@
     "Attached_file/Pasted image 20250325203001.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/1. 자료구조.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/4장. 기본 API 프로그래밍.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/버스(케이블).md",
     "canvas_file/매체 접근 방식.canvas",
     "canvas_file/네트워크 주소와 호스트 주소.canvas",
     "canvas_file/군집분석.canvas",
     "canvas_file/계층과 주소의 관계.canvas",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/6장. 전송계층(TCP).md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/7장. 응용계층.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/전역변수.md",
     "Attached_file/Pasted image 20250317215510.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA 문법",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced",
@@ -277,8 +231,6 @@
     "canvas_file/소셜네트워크 분석 과정.canvas",
     "canvas_file/브라우저 객체 모델.canvas",
     "Attached_file/Pasted image 20241219002943.png",
-    "Attached_file/Pasted image 20241217121804.png",
-    "Attached_file/Pasted image 20241217114408.png",
     "canvas_file/무제 파일.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT",
