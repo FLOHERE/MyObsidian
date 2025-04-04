@@ -1,20 +1,20 @@
 {
   "main": {
-    "id": "f3c5702508d96a0a",
+    "id": "635c146d8cea6ec5",
     "type": "split",
     "children": [
       {
-        "id": "1ff8eeb686eea45a",
+        "id": "4047351b9a6e1176",
         "type": "tabs",
         "children": [
           {
-            "id": "1911c69fca44c5eb",
+            "id": "8b23fb75dda73012",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/1. 나의 첫 딥러닝.md",
-                "mode": "source",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1.어디에나 존재하는 SW.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. 나의 첫 딥러닝"
+              "title": "1.어디에나 존재하는 SW"
             }
           }
         ]
@@ -37,15 +37,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c98aef93316cb9a9",
+    "id": "18e78549b2a6f049",
     "type": "split",
     "children": [
       {
-        "id": "6c4cd3e90141846e",
+        "id": "d9c4c93d7b0715b9",
         "type": "tabs",
         "children": [
           {
-            "id": "055edbc789047915",
+            "id": "7163266c94d77d4e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,96 +58,54 @@
             }
           },
           {
-            "id": "54725528eac8d04f",
+            "id": "b44d9dacc40d1806",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "링",
+                "query": "속성",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
               "title": "검색"
             }
           },
           {
-            "id": "081b15c1d77672ae",
+            "id": "5b49eb51ca868502",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "북마크"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 308.5
   },
   "right": {
-    "id": "6561ba02229af4b5",
+    "id": "2128afa0345ebc97",
     "type": "split",
     "children": [
       {
-        "id": "98cfe39bf2b5a21e",
+        "id": "4e5d631a1692e1d5",
         "type": "tabs",
         "children": [
           {
-            "id": "b536049563074f4f",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "5. algorithm의 나가는 링크"
-            }
-          },
-          {
-            "id": "20b1baade68d23ae",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "4726f61d70099304",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Chapter 01 컴퓨터 프로그래밍 언어 의 개요"
-            }
-          },
-          {
-            "id": "e3a1551b0401f571",
+            "id": "c62bc7496ddf6aed",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/5장. 응용 API 프로그래밍.md",
-                "collapseAll": false,
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1.어디에나 존재하는 SW.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -156,11 +114,55 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "5장. 응용 API 프로그래밍 의 백링크"
+              "title": "1.어디에나 존재하는 SW 의 백링크"
+            }
+          },
+          {
+            "id": "73c765a1a167607e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/2.딥러닝의 핵심 미리보기.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "2.딥러닝의 핵심 미리보기 의 나가는 링크"
+            }
+          },
+          {
+            "id": "dd66b566fcf8c49c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "7dc6305d5b0d6af6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1.어디에나 존재하는 SW.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "1.어디에나 존재하는 SW 의 개요"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -170,72 +172,30 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:빠른 전환기 열기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
-      "markdown-importer:마크다운 형식 불러오기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
+      "markdown-importer:마크다운 형식 불러오기 열기": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1911c69fca44c5eb",
+  "active": "8b23fb75dda73012",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/2.관계 데이터 모델.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1.어디에나 존재하는 SW.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2023/Ch06_설계 원리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2023/Ch03_프로젝트 계획과 관리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2023/Ch02_프로세스와 방법론.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 01. 알고리즘의 첫걸음.md",
-    "Attached_file/IMG_7185.jpeg",
-    "Attached_file/IMG_7184.jpeg",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/1. 나의 첫 딥러닝.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/6. 반복해 봅시다..md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/5 조건을 따져봅시다..md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/9. 리스트와 딕셔너리.md",
-    "canvas_file/순차구조, 선택구조, 반복구조.canvas",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/0. OT.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/다형성(Polymorphism).md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/클래스.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/캡슐화(Encapsulation).md",
-    "Attached_file/Pasted image 20250326162602.png",
-    "Attached_file/Pasted image 20250326162121.png",
-    "Attached_file/Pasted image 20250326160902.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/5장. 응용 API 프로그래밍.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/캡슐화.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/3장. 객체형 부품.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/객체.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/함수.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/7. 코드를 함수로 모아봅시다..md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JS/2023/05 함수.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/메소드 오버로딩, 오버라이딩(Overloading, Overriding).md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/상속(Inheritance).md",
-    "Attached_file/Pasted image 20250325223219.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/7. 정규화.md",
-    "Attached_file/Pasted image 20250325222443.png",
-    "Attached_file/Pasted image 20250325203001.png",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/모듈.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/2.딥러닝의 핵심 미리보기.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/레이어.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/1. 나의 첫 딥러닝.md",
+    "Attached_file/Pasted image 20250403123441.png",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/라이브러리.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/1. 자료구조.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/4장. 기본 API 프로그래밍.md",
-    "canvas_file/매체 접근 방식.canvas",
-    "canvas_file/네트워크 주소와 호스트 주소.canvas",
-    "canvas_file/군집분석.canvas",
-    "canvas_file/계층과 주소의 관계.canvas",
-    "Attached_file/Pasted image 20250317215510.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA 문법",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++",
-    "canvas_file/운영체제 및 프로그램.canvas",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025",
-    "canvas_file/송신측,수신측 OSI 참조 모델에서 전송.canvas",
-    "canvas_file/소셜네트워크 분석 과정.canvas",
-    "canvas_file/브라우저 객체 모델.canvas",
-    "Attached_file/Pasted image 20241219002943.png",
-    "canvas_file/무제 파일.canvas",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/REPORT",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/Game",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB advanced"
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/0.OT.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/0. OT.md"
   ]
 }
