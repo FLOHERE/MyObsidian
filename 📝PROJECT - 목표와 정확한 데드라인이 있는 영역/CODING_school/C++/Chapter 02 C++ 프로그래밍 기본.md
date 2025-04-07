@@ -116,3 +116,6 @@ int main(){
 	- 이름 공간 생성 및 사용 
 		- `이름 공간 :: 이름`
 		- `namespace kitae{이곳에 선언된 모든 이름은 kitae이름 공간에 생성된 이름} //kitae 라는 이름 공간 생성`
+
+![[Pasted image 20250407215213.png]]
+
