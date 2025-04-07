@@ -206,6 +206,7 @@ sum(first(6,8)), first(rest(6,8))
 		- Visual C++, Borland C++ 등 컴파일러 회사 고유의 비 표준 문구
 		- 특정 C++ 컴파일러에서 컴파일
 		- 호환성 결여
+
 ![[Pasted image 20250325223219.png]]
 
 - C 언어와의 호환성
