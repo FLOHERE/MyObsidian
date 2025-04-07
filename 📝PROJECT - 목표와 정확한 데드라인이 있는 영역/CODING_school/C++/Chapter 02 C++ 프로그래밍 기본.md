@@ -8,8 +8,8 @@
 - 기본적인 C++ 프로그램
 
 ```C++
-/*소스 : SimpleC++.cpp
-cout과 <<연산자를 이용하여 화면에 출력*/
+//소스 : SimpleC++.cpp
+//cout과 <<연산자를 이용하여 화면에 출력
 
 #include <iostream> // cout, << 연산자가 있음
 //C++ 프로그램은 main()함수에서 실행함
@@ -119,3 +119,51 @@ int main(){
 
 ![[Pasted image 20250407215213.png]]
 
+>[!note] Comment
+>파이썬에서는 import as ~~ 를 통해 namespace 역할 수행.
+>자바에서는 패키지와 클래스를 통해 이름을 구분한다.
+
+### std:: 개념
+- std
+	- C++ 표준에서 정의한 이름공간(namespace)중 하나
+		- `<iostream>` 헤더 파일에 선언된 모든 이름 : std 이름 공간에 있음
+		- ex_)cout, cin, endl...
+	- std 이름 공간에 선언된 이름을 접근하기 위해 std:: 접두어 사용
+		- `std::cout`, `std::cin`, `std::endl`
+	- std:: 생략 : `using` 지시어 사용(코드의 맨 윗줄에 선언)
+		- `using std::cout;` : cout에 대해서만 std:: 생략
+			- `cout << "Hello" << std::endl;` : std::cout에서 std::만 생략
+		- `using namespace std;` : std 이름 공간에 선언된 모든 이름에 std:: 생략
+			- `cout << "Hello" << endl;` : std 생략
+- `#include <iostream>`과 `std`
+	- `<iostream>` 이 통째로 `std` 이름 공간 내에 선언
+	- `<iostream>` 헤더 파일을 사용하려면 다음 코드 필요
+
+```C++
+#include <iostream>
+using namespace std;
+```
+
+- 첫번째 프로그램
+	- 대소문자 구분
+	- 프로그램의 행 번호 : 줄 번호는 코드가 아님
+	- 들여쓰기 : 가독성 굳
+
+```C++
+#include <iostream>
+
+int main(){
+	std::cout << "이 프로그램은 프로그램의 구조를 알아보기 위한";
+	std::cout << "간단한 C++ 프로그램 입니다." << std::endl;
+	std::cout << "이번 장과 이후의 내용을 통해";
+	std::cout << "C++ 프로그래밍 언어와 관련된 다양한 것을 살펴보겠습니다.";
+	return 0;
+}
+```
+
+1. 첫번째 프로그램
+	- 프로그램 분석
+		- 1행 전처리 지시자 : `#include` 지시자 뒤에는 세미콜른을 넣지 않는다.
+		- 3행 함수 헤더 : main 함수에서 시작
+		- 3행과 9행 중괄호 열고 닫기 : 중괄호 열고 닫는거 주의
+		- 
