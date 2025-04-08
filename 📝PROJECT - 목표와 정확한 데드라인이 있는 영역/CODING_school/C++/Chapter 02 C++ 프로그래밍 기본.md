@@ -463,3 +463,264 @@ int main(){
 - `const double PI = 3.14159;` 
 
 ## 03 토큰과 주석
+
+### 1. 토큰
+- 식별자
+	- C++ 프로그래밍 언어는 엔티티 이름을 실별자(identifier)라고 함
+	- 키워드, 미리 정의된 식별자, 사용자 정의 식별자로 구분
+- 키워드
+	- 키워드(keyword) 또는 예약어라고도 부름
+	- C++ 프로그래밍 언어에서 미리 예약된 식별자
+
+![[Pasted image 20250408213953.png]]
+
+![[Pasted image 20250408214050.png]]
+
+- 리터럴
+	- 리터럴은 자료형을 가진 상수 값을 의미
+- 심볼
+	- C++ 은 알파벳이 아닌 기호들을 연산자와 문장 부호로 사용
+
+![[Pasted image 20250408214200.png]]
+
+### 2. 주석
+- 한줄 주석
+	- 간단한 주석을 만들때 쓴다.
+	- // 부터 시작해서 줄 끝까지
+- 여러 줄 주석
+	- 여러 줄에 걸쳐있는 주석
+	- 시작 부분을 정의하는 `/*` 기호와 종료 부분을 정의하는 `*/` 기호 필요
+- 중첩 주석
+	- 중첩 주석 지원 X
+
+## 04 자료형
+### 1. 자료형
+1. 내장 자료형
+	1. 기본 자료형
+		- 정수(int)
+		- 문자(char)
+		- 불(bool)
+		- 부동 소수점
+		- Void
+	2. 복합 자료형
+2. 사용자 정의 자료형
+	1. 열거 형
+	2. 클래스
+
+### 2. 정수 자료형
+- signed 는 생략 가능 but unsigend는 생략 불가
+
+| 자료형       | 부호                                     | 범위                                                    |
+| --------- | -------------------------------------- | ----------------------------------------------------- |
+| short int | 부호 있음 : (signed)<br>부호 없음 : (unsigned) | -32,768 ~ +32,767<br>0 ~ 65,536                       |
+| int       | 부호 있음 :<br>부호 없음:                      | -2,147,483,648 ~ + 2,147,483,648<br>0 ~ 4,294,967,295 |
+| long int  | 부호 있음 :<br>부호 없음 :                     | -2,147,483,648 ~ + 2,147,483,647<br>0 ~ 4,294,967,295 |
+
+>[!note] signed와 unsigned를 왜쓸까?
+>메모리 절약 및 명확성을 위해 사용.
+
+```C++
+//동전과 지폐들의 금액 합계를 구하는 프로그램
+#include <iostream>
+using namespace std;
+
+int main(){
+    const unsigned int pennyValue = 1;
+    const unsigned int nickelValue = 5;
+    const unsigned int dimeValue = 10;
+    const unsigned int quarterValue = 25;
+    const unsigned int dollarValue = 100;
+    //변수 정의(각 코인의 수)
+    unsigned int pennies;
+    unsigned int nickels;
+    unsigned int dimes;
+    unsigned int quarters;
+    unsigned int dollars;
+    //전체 값을 나타내는 변수선언
+    unsigned long totalValue;
+    //코인 입력 받기
+    cout << "페니의 수 : ";
+    cin >> pennies;
+    cout << "니켈의 수 : ";
+    cin >> nickels;
+    cout << "다임의 수 : ";
+    cin >> dimes;
+    cout << "쿼터의 수 : ";
+    cin >> quarters;
+    cout << "달러의 수 : ";
+    cin >> dollars;
+    //전체 금액 계산
+    totalValue = pennies * pennyValue + nickels * nickelValue + dimes * dimeValue + quarters * quarterValue + dollars * dollarValue;
+    // 결과 출력
+    cout << "전체 값은 " << totalValue << "페니 입니다.";
+    return 0;
+}
+```
+
+- 정수 변수
+
+```C++
+// 3회 거래 후의 계좌 잔액
+#include <iostream>
+using namespace std;
+
+int main(){
+    int balance = 0;
+    int transaction;
+    //첫번째 거래 후 잔액 조정
+    cout << "첫번째 거래 금액 입력 : ";
+    cin >> transaction;
+    balance = balance + transaction;
+    // 두번째 거래 후 잔액 조정
+    cout << "두번째 거래 금액 입력 : ";
+    cin >> transaction;
+    balance = balance + transaction;
+    //세번째 거래 후 잔액 조정
+    cout << "세번째 거래 금액 입력 : ";
+    cin >> transaction;
+    balance = balance + transaction;
+    // 최종 잔액 출력
+    cout << "계좌의 최종 잔액은 " << balance << "달러 입니다.";
+    return 0;
+}
+```
+
+- 정수 변수
+
+```C++
+//3가지 정수 자료형의 크기를 확인하는 프로그램
+#include <iostream>
+using namespace std;
+
+int main(){
+    cout << "short int의 크기는 " << sizeof(short int) << "바이트 입니다." << endl;
+    cout << "int 의 크기는 " << sizeof(int) << "바이트 입니다." << endl;
+    cout << "long int의 크기는 " << sizeof(long int) << "바이트 입니다." << endl;
+    return 0;
+}
+```
+
+- 정수 리터럴
+	- long : 접미사 'l' or 'L'을 사용하여 타입 명시
+	- unsigned int // unsigned long : 접미사 'u' or "U" 사용
+
+```C++
+//변수를 초기화 할떄 리터럴을 사용하는 프로그램
+#include <iostream>
+using namespace std;
+
+int main(){
+    int x = -1245; //OK
+    unsigned int y = 1245; //OK
+    unsigned int z = -2367; //논리적 오류, 음수값이 양수 값으로 바뀜
+    unsigned int t = 14.56; //소수점 아래 부분 잘림
+    //초기화된 값 출력
+    cout << x << endl;
+    cout << y << endl;
+    cout << z << endl;
+    cout << t;
+    return 0;
+}
+```
+
+- 정수 리터럴
+
+```C++
+//리터럴 값을 단독으로 사용하는 프로그램
+#include <iostream>
+using namespace std;
+
+int main(){
+    int x;
+    unsigned long int y;
+    //할당
+    x = 1456;
+    y = -14567;
+    //출력
+    cout << x << endl; //OK
+    cout << y << endl; //잘못된 값(부호 없는 정수를 나타내는 변수, 음수 할당해서 발생하는 문제)
+    cout << 1234 << endl; //OK
+    cout << 143267L << endl; //OK
+    return 0;
+}
+```
+
+### 3. 문자 자료형
+- 이스케이프 문자
+	- `\n` : 줄바꿈
+	- `\t` : 탭
+	- `\b` : 백 스페이스
+	- `\r` : 캐리지 리턴(커서의 위치 앞으로 이동)
+	- `\f` : 폼 피드(다음 페이지로 넘기기)
+	- `\'` : 작은 따옴표
+	- `\"` : 큰 따옴표
+	- `\\` : 역 슬래시
+
+```C++
+//char 자료형의 변수를 선언 -> 초기화 하는 프로그램
+#include <iostream>
+using namespace std;
+
+int main(){
+    //char 자료형의 변수 선언과 초기화
+    char first  = 'A';
+    char second = 65;
+    char third = 'B';
+    char fourth = 66;
+    //값 출력
+    cout << "first의 값 : " << first << endl;
+    cout << "second의 값 : " << second << endl;
+    cout << "third의 값 : " << third << endl;
+    cout << "fourth의 값 : " << fourth;
+    return 0;
+}
+```
+
+```C++
+//이스케이프 문자를 사용하는 프로그램
+#include <iostream>
+using namespace std;
+
+int main(){
+    cout << "Hello\n";
+    cout << "Hi\t friends." << endl;
+    cout << "Buenos dias  \bamigos." << endl; //이전 글자 삭제(띄어쓰기 하나 삭제됨)
+    cout << "Hello\rBonjour mes amis." << endl; //줄의 앞부분으로 커서를 옮기고 다시 입력(따라서 앞의 내용 삭제)
+    cout << "This is a single quote \'." << endl; //
+    cout << "This is a double quote\"." << endl;
+    cout << "This is how to print a backslash \\.";
+    return 0; 
+}
+```
+
+### 4. 불타입
+- 불 변수 
+	- 참 or 거짓
+	- `bool` 키워드 사용
+- 불 리터럴
+	- 0 : false
+	- 0이 아닌 값 : true
+
+```C++
+// 불 변수와 값을 사용하는 프로그램
+#include <iostream>
+using namespace std;
+
+int main(){
+    bool x = 123; //boolean은 0이상이면 무조건 true임.
+    bool y = -8;
+    bool z = 0;
+    bool t = -0;
+    bool u = true;
+    bool v = false;
+    //값출력
+    cout << "x : " << x << endl;
+    cout << "y : " << y << endl;
+    cout << "z : " << z << endl;
+    cout << "t : " << t << endl;
+    cout << "u : " << u << endl;
+    cout << "v : " << v << endl;
+    return 0;
+}
+```
+
