@@ -348,3 +348,57 @@ char address[100]
 cin.getline(address, 100, '\n');
 //최대 99개의 문자를 읽어 address배열에 저장, 도중에 엔터키 입력시 입력 중단.
 ```
+
+- cin.getline()을 이용한 문자열 입력
+	- 빈칸이 있어도 Enter키가 입력될때까지 하나의 문자열로 인식
+
+```C++
+#include <iostream>
+using namespace std;
+
+int main(){
+	cout << "주소를 입력하세요 >>";
+	char address[100];
+	cin.getline(address, 100, '\n'); //키보드로 부터 주소 읽기
+	
+	cout << "주소는" << address << "입니다\n"; //주소 출력
+}
+```
+
+>결과:
+>주소를 입력하세요 >>컴퓨터시 프로그램구 C++동 스트링 1-1
+>주소는 컴퓨터시 프로그램구 C++동 스트링 1-1 입니다.
+
+- C++에서 문자열을 다루는 string 클래스(C-String과는 다름)
+	- C++ 표준 클래스
+	- 문자열의 크기에 따른 제약 없음
+		- string 클래스가 스스로 문자열 크기에 맞게 내부 버퍼 조절
+	- 문자열 복사, 비교, 수정등을 위한 다양한 함수와 연산자 제공
+	- 객체 지향적
+	- `<string>` 헤더 파일에 선언
+		- `#include <string>` <-- 이렇게 쓴다
+	- C-String 보다 쓰기 쉽다.
+
+```C++
+#include <iostream>
+#include <string> //string 클래스 사용을 위한 헤더 파일
+using namespace std;
+
+int main(){
+    string song("falling in love with you"); //문자열 song
+    string elvis("Elvis Presley"); //문자열 elvis
+    string singer; //문자열 singer
+	
+    cout << song + "를 부른 가수는"; // + 로 문자열 연결
+    cout << "(힌트 : 첫 글자는 )" << elvis[0] << ")?"; //[ ] 연산자 사용
+	
+    getline(cin, singer); //문자열 입력
+    if(singer == elvis) //문자열 비교
+        cout << "맞았습니다";
+    else
+        cout << "틀렸습니다." + elvis + "입니다." << endl; //+로 문자열 연결
+}
+```
+
+>결과:
+>
