@@ -343,3 +343,8 @@ int main(){
 			2. delimitChar 를 만나면 입력 중단. 끝에 '\0' 붙임
 				- delimitChar의 디폴트 값은 '\n'(한줄 띄우기)
 
+```C++
+char address[100]
+cin.getline(address, 100, '\n');
+//최대 99개의 문자를 읽어 address배열에 저장, 도중에 엔터키 입력시 입력 중단.
+```
