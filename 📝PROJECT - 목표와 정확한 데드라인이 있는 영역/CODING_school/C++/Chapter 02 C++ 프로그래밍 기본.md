@@ -203,3 +203,139 @@ int main(){
 			- 변수 선언은 아무곳이나 가능
 			- 장점 : 변수 사용 직전 선언으로 변수 이름에 대한 타이핑 오류 감소
 			- 단점 : 선언된 변수 일괄적으로 보기 힘듦 + 코드 사이에 있는 변수 찾기 어려움
+2. 값
+	- 변수에 저장된 내용
+
+```CPP
+#include <iostream>
+using namespace std;
+
+int main(){
+	//선언
+	int num1;
+	int num2;
+	int sum;
+	
+	//입력받기
+	cout << "first number input : ";
+	cin >> num1;
+	cout << "second number input : ";
+	cin >> num2;
+	
+	//출력
+	sum = num1 + num2;
+	cout << "sum : " << sum;
+	return 0;
+}
+```
+
+>결과:
+>first number input : 23
+>second number input : 35
+>sum : 58
+
+>[!warning] 주의!!!!!@@@
+> `<<` : 이 연산자는 **출력**을 해주는 친구
+> `>>` : 이 연산자는 **입력**을 해주는 친구
+
+- cin 객체와 cout 객체
+	- cin 객체 : 변수의이름을 알아야 함
+	- cout 객체 : 값을 알아야 함
+
+### cin과  >> 연산자를 이용한 키 입력
+- cin : 표준 입력 장치(키보드)를 연결하는 C++ 입력 스트림 객체
+- >> 연산자
+	- 스트림 추출 연산자(stream extraction operator)
+		- C++ 산술 시프트 연산자(>>)가 `<iostream>` 헤더 파일에 [[스트림]] 추출 연산자로 재정의됨
+		- 입력 스트림에서 값을 읽어 변수에 저장
+	- 연속된 >> 연산자를 사용하여 여러 값 입력 가능
+- Enter키 누르면 변수에 값 전달
+	- cin의 특징
+		- 입력 버퍼를 내장하고 있음
+		- 엔터키가 입력될때까지 입력된 키를 입력 버퍼에 저장
+	- >> 연산자
+		- 엔터키가 입력되면 cin의 입력 버퍼 -> 키 값 읽음 -> 변수에 전달
+
+![[Pasted image 20250408172757.png]]
+
+### C++ 문자열
+1. C-String 방식
+2. '\0' 으로 끝나는 문자 배열
+
+![[Pasted image 20250408173134.png]]
+
+- string 클래스 사용
+	- `<String>` 헤더 파일에 선언
+	- 다양한 멤버 함수 제공, 문자열 비교, 복사, 수정
+1.  C-String으로 문자열 다루기
+	- C 언어에서 사용한 함수 사용 가능
+		- ex_) `strcmp()` , `strlen()` , `strcpy()`...
+- 
+
+```c++
+#include <cstring> //이렇게 쓰는게 국룰(표준 방식)
+#include <string.h>
+
+int n = strlen("hello");
+```
+
+- cin을 이용한 문자열 입력
+	1. 빈 배열 만들기
+	2. 입력 받기
+	3. 리스트에 저장
+- 근데 리스트를 초과해서 입력 받으면 ? 
+	- 오류 생김
+	- 동적크기 리스트 사용 필요
+
+```C++
+char name[6]; //다섯개의 문자를 저장 할수있는 char배열
+cin >> name; //키보드로 부터 문자열을 읽어 name 배열에 저장
+```
+
+- 키보드에서 문자열 입력받고 출력
+	- 주의!!@@ 문자 입력중 빈칸을 만나면 문자열이 종료됨
+
+```C++
+#include <iostream>
+using namespace std;
+
+int main(){
+	cout << "이름을 입력하세요>>";
+	char name[11]; //한글은 5글자, 영문은 10자까지 저장 가능
+	cin >> name; //키보드로 부터 문자열 읽는다.
+	cout << "이름은" << name << " 입니다.\n"; //이름 출력
+}
+```
+
+- C-String 이용, 암호가 입력되면 프로그램을 종료하는 예
+
+```C++
+#include <iostream>
+#include <cstring> //strcmp() 함수 사용을 위한 헤더 파일
+using namespace std;
+
+int main(){
+	char password[11];
+	cout << "프로그램을 종료하려면 암호를 입력하세요" << endl;
+	while(true){
+		cout << "암호 >> ";
+		cin >> password;
+		if(strcmp(password, "C++")==0){
+			cout << "프로그램을 정상 종료합니다." << endl;
+			break;
+		}else
+		cout << "암호가 틀립니다~~" << endl;
+	}
+}
+```
+
+>결과:
+>프로그램을 종료하려면 암호를 입력하세요.
+>암호 >>JAVA
+>암호가 틀립니다~~
+>암호 >>C++
+>프로그램을 정상 종료합니다.
+
+- cin.getline()으로 공백이 낀 문자열 입력
+	- 공백이 낀 문자열 입력받는 방법
+		- 
