@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/나만의 명세서 만들기.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -29,6 +29,30 @@
               },
               "icon": "lucide-file",
               "title": "나만의 명세서 만들기"
+            }
+          },
+          {
+            "id": "c9e843239df0f56f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7-1. TeamProject_심성당.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "7-1. TeamProject_심성당"
             }
           }
         ]
@@ -152,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1.어디에나 존재하는 SW.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/나만의 명세서 만들기.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.어디에나 존재하는 SW 의 개요"
+              "title": "나만의 명세서 만들기 의 개요"
             }
           }
         ],
@@ -183,8 +207,9 @@
   },
   "active": "8b23fb75dda73012",
   "lastOpenFiles": [
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 02 C++ 프로그래밍 기본.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7-1. TeamProject_심성당.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/나만의 명세서 만들기.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 02 C++ 프로그래밍 기본.md",
     "Attached_file/Pasted image 20250408214200.png",
     "Attached_file/Pasted image 20250408214050.png",
     "Attached_file/Pasted image 20250408213953.png",
