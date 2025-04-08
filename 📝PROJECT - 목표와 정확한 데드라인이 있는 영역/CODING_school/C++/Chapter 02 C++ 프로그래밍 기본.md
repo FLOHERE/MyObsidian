@@ -724,3 +724,74 @@ int main(){
 }
 ```
 
+### 5. 부동 소수점 자료형
+- 소수점을 갖는 숫자를 말함. (floatingpoint)
+- float, double, long double
+	- `float <= double <= long double`
+- 부동 소수점 변수
+	- 부동 소수점 변수도 정수 변수를 선언할때와 같은 방법으로 정의
+	- 선언하면서 어떤 값으로 초기화 할수 있고 이후 다른 값으로 할당 가능
+- 부동 소수점 리터럴
+	- float : 'f' or 'F' 사용
+		- ex_) 12.3F , 1234,45F, -1436F
+	- double : 없음
+	- long double : 'l' or 'L' 사용
+
+```C++
+//원의 반지름을 기반으로 둘레와 면적을 구하는 프로그램
+#include <iostream>
+using namespace std;
+
+int main(){
+    const double PI = 3.14159;
+    double radius;
+    double perimeter;
+    double area;
+    cout << "원의 반지름 입력 : ";
+    cin >> radius;
+    perimeter = 2*PI*radius;
+    area  = PI * PI * radius;
+    cout << "반지름 : " << radius <<endl;
+    cout << "둘레 : " << perimeter << endl;
+    cout << "면적 : " << area;
+    return 0;
+}
+```
+
+### 6. void 자료형
+- 값이 없음을 나타내는 특별한 자료형
+- "함수가 어떠한 값도 결과로 내지 않는다" 를 명시
+
+### 7. 문자열 자료형
+- `#include <string>` : 문자열을 쓸수있는 헤더 파일 명시
+- `string name;` <-- 이런식으로 사용
+
+```C++
+//이름, 이니셜, 성을 입력받고 결합해서 출력하는 프로그램
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+    string first;
+    string initial;
+    string last;
+    string space = " ";
+    string dot = ".";
+    string fullName;
+    //값 입력 받기
+    cout << "이름 : ";
+    cin >> first;
+    cout << "이니셜 : ";
+    cin >> initial;
+    cout << "성 : ";
+    cin >> last;
+	
+    fullName = first + space + initial + dot + space + last;
+    cout << "전체 이름 : " << fullName;
+    return 0;
+}
+```
+
+
+
