@@ -338,4 +338,8 @@ int main(){
 
 - cin.getline()으로 공백이 낀 문자열 입력
 	- 공백이 낀 문자열 입력받는 방법
-		- 
+		- `cin.getline(char buf[], int size, char delimitChar)`
+			1.  buf에 최대 size-1개의 문자 입력. 끝에 '\0' 붙임
+			2. delimitChar 를 만나면 입력 중단. 끝에 '\0' 붙임
+				- delimitChar의 디폴트 값은 '\n'(한줄 띄우기)
+
