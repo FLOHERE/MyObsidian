@@ -799,163 +799,155 @@ int main(){
 # 연습문제 코드 모음집
 
 ```C++
-// short 자료형과 unsinged int 자료형의 최대값과 최소값을 찾는 프로그램을 만드세요.
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int main(){
-    short max_value = std::numeric_limits<short>::max(); //32767
-    const unsigned int max_value1 = std::numeric_limits<int>::max(); //2147483647
+int main()
+{
+    char star;
+    star = '*';
 
-    cout << max_value << endl;
-    cout << max_value1 << endl;
-
-}
-```
-
-
-```C++
-//long 자료형과 longlong 자료형의 최대값과 최소값을 찾는 프로그램을 만드세요
-#include <iostream>
-using namespace std;
-
-int main(){
-    long max_value1 = std::numeric_limits<long> :: max();//9223372036854775807
-    long min_value1 = std::numeric_limits<long> :: min();//-9223372036854775808
-
-    long long max_value2 = std::numeric_limits<long long> :: max(); //9223372036854775807
-    long long min_value2 = std::numeric_limits<long long> :: min(); //-9223372036854775808
-
-    cout << max_value1 << endl;
-    cout << min_value1 << endl;
-    cout << max_value2 << endl;
-    cout << min_value2 << endl;
+    for(int i = 0; i<3; i++)
+    {
+        for(int j = 0; j<i; j++)
+        {
+            std::cout << star;
+        }
+        std::cout << star << endl;
+    }
 }
 ```
 
 ```C++
-//float 자료형과 double 자료형의 최대값과 최소값을 찾는 프로그램을 만드세요.
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int main(){
-    float max_value1 = std::numeric_limits<float> :: max(); //3.40282e+38
-    float min_value1 = std::numeric_limits<float> :: min(); //1.17549e-38
-
-    double max_value2 = std::numeric_limits<double> :: max();//1.79769e+308
-    double min_value2 = std::numeric_limits<double> :: min();//2.22507e-308
-
-    cout << max_value1 << endl;
-    cout << min_value1 << endl;
-    cout << max_value2 << endl;
-    cout << min_value2 << endl;
+int main()
+{
+    //1,2,3 개의 별 출력
+    for(int i = 0; i < 3; i++)
+    {
+        for(int j = 0; j<i; j++)
+        {
+            std::cout << "*";
+        }
+        std::cout << "*" << endl;
+    }
+    //나머지 2,1 개의 별 출력
+    for(int i = 2; i>0; i--)
+    {
+        for(int j = i-1; j>0; j--){
+            std::cout << "*";
+        }
+        std::cout << "*" << endl;
+    }
 }
 ```
 
 ```C++
-//int 자료형의 정수를 입력 받아서, 두번째 자릿수를 추출한 뒤 출력하는 프로그램을 만드세요
 #include <iostream>
 using namespace std;
 
 int main(){
-    unsigned int number, secondDigit;
-    cin >> number;
-    cout << "\n";
-    secondDigit = (number / 10)%10;
-
-    cout << secondDigit;
+    std::cout << "H";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << " "; 
+    std::cout << "H"<< endl;
+    std::cout << "H";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << "H" << endl;
+    std::cout << "HHHHHHH" << endl;
+    std::cout << "H";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << "H" << endl;
+    std::cout << "H";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << " ";
+    std::cout << "H" << endl;
 }
 ```
 
 ```C++
-//int 자료형의 정수를 입력 받아서, 첫번째부터 세번째 자릿수를 각각 출력하는 프로그램을 만드세요
 #include <iostream>
 using namespace std;
 
 int main(){
-    int num;
-    cin >> num;
-
-    int result1 = num/100; //셋쩨 자리 수
-    int result2 = (num%100)/10; // 둘째자리 수
-    int result3 = (num%100)%10; //첫째자리 수
-
-    cout << result1 << endl;
-    cout << result2 << endl;
-    cout << result3 << endl;
-}
-```
-
-```C++
-//세자릿수 정수가 주어졌을떄, 해당 숫자를 역순으로 하는 정수를 구성하고 출력하는 프로그램을 만드세요(ex:372 -> 273 출력)
-#include <iostream>
-using namespace std;
-
-int main(){
-    int num;
-    cin >> num;
-
-    int num1 = (num/100);
-    int num2 = (num%100)/10;
-    int num3 = (num%100)%10;
-
-    cout << num3 << endl;
-    cout << num2 << endl;
-    cout << num1 << endl;
-}
-```
-
-```C++
-//시간을 입력으로 받을때, 이를 주, 일, 시간으로 변환하는 프로그램(0~6일, 0~23시)
-#include <iostream>
-using namespace std;
-
-int main(){
-    int time;
-    cin >> time;
-
-    int week = (time/24)/7;
-    int day = time/24;
-    int RealTime = time%24;
-
-    cout << "Week : " << week << endl;
-    cout << "day : " << day << endl;
-    cout << "Real time : " << RealTime << endl;
-}
-```
-
-```C++
-//시간을 시, 분, 초 단위로 입력받았을때, 이를 초 단위로 변환하는 프로그램을 만드세요
-#include <iostream>
-using namespace std;
-
-int main(){
-    int hour, min, sec;
+    //시간 입력
+    cout << "시간 입력";
+    int hour;
     cin >> hour;
+
+    //분 입력
+    cout << "분 입력";
+    int min;
     cin >> min;
+
+    //초 입력
+    cout << "초 입력";
+    int sec;
     cin >> sec;
 
+    //계산
     int result = (hour*60)*60 + (min*60) + sec;
-    cout << result << endl;
+    cout << result;
 }
 ```
 
 ```C++
-//초단위(long 자료형)를 입력받았을때, 이를 시, 분, 초 단위로 변환하는 프로그램을 만드세요
 #include <iostream>
 using namespace std;
 
 int main(){
-    long sec;
-    cin >> sec;
+    int num1, num2, num3, num4;
+    cout << "숫자 1 : ";
+    cin >> num1;
 
-    int hour = (sec/60)/60;
-    int min = (sec/60)%60;
-    int secResult = (sec%60)%60;
+    cout << "숫자 2 : ";
+    cin >> num2;
 
-    cout << hour << ":";
-    cout << min << ":";
-    cout << secResult;
+    cout << "숫자 3 : ";
+    cin >> num3;
+
+    cout << "숫자 4 : ";
+    cin >> num4;
+
+    int result = num1+num2+num3+num4;
+    cout << result;
 }
 ```
+
+```C++
+#include <iostream>
+using namespace std;
+
+int main(){
+    int num;
+    cin >> num;
+    cout << "넓이 : ";
+    int result = num*num;
+    cout << result << endl;
+
+    cout << "둘레 : ";
+    int result2 = num*4;
+    cout << result2;
+}
+```
+
+
+---
+
 
