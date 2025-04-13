@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/2.딥러닝의 핵심 미리보기.md",
-                "mode": "source",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.딥러닝의 핵심 미리보기"
+              "title": "Chapter 01 컴퓨터 프로그래밍 언어"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/2.딥러닝의 핵심 미리보기.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2.딥러닝의 핵심 미리보기 의 개요"
+              "title": "Chapter 01 컴퓨터 프로그래밍 언어 의 개요"
             }
           }
         ],
@@ -181,9 +181,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7163266c94d77d4e",
+  "active": "8cb7068f9deac5b2",
   "lastOpenFiles": [
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 02 C++ 프로그래밍 기본.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/다형성(Polymorphism).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/라이브러리.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/0. OT.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/BIGDATA/빅데이터개론 과제물.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/창업과 기업가 정신/2024_09_08 과제.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/BIGDATA/R 설치.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 01. 알고리즘의 첫걸음.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/2.딥러닝의 핵심 미리보기.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/1. 나의 첫 딥러닝.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1.어디에나 존재하는 SW.md",
@@ -203,8 +211,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/스트림.md",
     "Attached_file/Pasted image 20250407222804.png",
     "Attached_file/Pasted image 20250407215213.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 01. 알고리즘의 첫걸음.md",
     "README.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/2.관계 데이터 모델.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
@@ -212,10 +218,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_Basic/3장. 객체형 부품.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/모듈.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/레이어.md",
-    "Attached_file/Pasted image 20250403123441.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/라이브러리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/1. 자료구조.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/0.OT.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/0. OT.md"
+    "Attached_file/Pasted image 20250403123441.png"
   ]
 }
