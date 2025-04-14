@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/4주차.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/5주차.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4주차"
+              "title": "5주차"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "풀업",
+                "query": "애노드 캐소드",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
               "title": "북마크"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,8 +181,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8cb7068f9deac5b2",
+  "active": "7163266c94d77d4e",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/4주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/3주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/5주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 03 표현식과 문장.md",
@@ -218,7 +218,6 @@
     "README.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/2.관계 데이터 모델.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/캡슐화.md",
     "Attached_file/Pasted image 20250403123441.png"
   ]
 }
