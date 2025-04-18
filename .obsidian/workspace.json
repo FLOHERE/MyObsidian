@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TCP",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
               "title": "북마크"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,12 +183,15 @@
   },
   "active": "8cb7068f9deac5b2",
   "lastOpenFiles": [
-    "TCP/IP.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/4장. OSI 참조모델.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/TCP.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/1장. 운영체제 소개.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/4장. OSI 참조모델.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/IP.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/6장. 전송계층(TCP).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/5장. 네트워크 계층(IP).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/UDP.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/1장. 네트워크의 이해.md",
-    "TCP",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/TCP",
     "Attached_file/Pasted image 20250418211430.png",
     "Attached_file/Pasted image 20250418211403.png",
     "Attached_file/Pasted image 20250418110223.png",
@@ -214,9 +216,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/라이브러리.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/0. OT.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/BIGDATA/빅데이터개론 과제물.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/창업과 기업가 정신/2024_09_08 과제.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/BIGDATA/R 설치.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 01. 알고리즘의 첫걸음.md",
     "Attached_file/Pasted image 20250412235858.png",
     "Attached_file/Pasted image 20250412232847.png",
     "Attached_file/Pasted image 20250408214200.png",
