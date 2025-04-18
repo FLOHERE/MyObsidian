@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/1장. 운영체제 소개.md",
-                "mode": "preview",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/5장. 네트워크 계층(IP).md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1장. 운영체제 소개"
+              "title": "5장. 네트워크 계층(IP)"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "애노드 캐소드",
+                "query": "TCP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "북마크"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,6 +184,14 @@
   },
   "active": "8cb7068f9deac5b2",
   "lastOpenFiles": [
+    "TCP/IP.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/4장. OSI 참조모델.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/1장. 운영체제 소개.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/5장. 네트워크 계층(IP).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/1장. 네트워크의 이해.md",
+    "TCP",
+    "Attached_file/Pasted image 20250418211430.png",
+    "Attached_file/Pasted image 20250418211403.png",
     "Attached_file/Pasted image 20250418110223.png",
     "Attached_file/Pasted image 20250418105625.png",
     "Attached_file/Pasted image 20250418103908.png",
@@ -195,7 +204,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/8. 배열 큐.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/나만의 명세서 만들기.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/모듈.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/1장. 운영체제 소개.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 03 표현식과 문장.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/5주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/4주차.md",
@@ -209,15 +217,9 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/창업과 기업가 정신/2024_09_08 과제.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/BIGDATA/R 설치.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 01. 알고리즘의 첫걸음.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/2.딥러닝의 핵심 미리보기.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/1. 나의 첫 딥러닝.md",
     "Attached_file/Pasted image 20250412235858.png",
     "Attached_file/Pasted image 20250412232847.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/문제 뭐나올까?.md",
     "Attached_file/Pasted image 20250408214200.png",
-    "Attached_file/Pasted image 20250408214050.png",
-    "Attached_file/Pasted image 20250408213953.png",
-    "Attached_file/Pasted image 20250408173134.png",
-    "Attached_file/Pasted image 20250408172757.png"
+    "Attached_file/Pasted image 20250408214050.png"
   ]
 }
