@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"09b029f6e2b138d9","type":"text","text":"1. 프로세스 생성(new)","x":-480,"y":-161,"width":250,"height":60},
+		{"id":"ab09e47e1ec0f226","type":"text","text":"2. 실행 준비(Ready)","x":-160,"y":-161,"width":250,"height":60,"color":"1"},
+		{"id":"28997bdad9a0ae55","type":"text","text":"4. 강제 종료시(Terminated)","x":520,"y":-161,"width":250,"height":60},
+		{"id":"94d6d4d9bb582ca7","type":"text","text":"3. 프로세스 실행(Running)","x":180,"y":-161,"width":250,"height":60,"color":"1"},
+		{"id":"d26474ebba3f54a3","type":"text","text":"대기(Waiting)\n: block상태, HDD -> 메모리로 올림(운영체제에게 요청)","x":20,"y":180,"width":260,"height":80,"color":"3"},
+		{"id":"b7e30edb87e8a2d5","x":20,"y":-260,"width":250,"height":60,"color":"1","type":"text","text":"깨어있는 상태"}
+	],
+	"edges":[
+		{"id":"4530674d11446776","fromNode":"09b029f6e2b138d9","fromSide":"right","toNode":"ab09e47e1ec0f226","toSide":"left"},
+		{"id":"0b61620d7ebe497b","fromNode":"ab09e47e1ec0f226","fromSide":"right","toNode":"94d6d4d9bb582ca7","toSide":"left"},
+		{"id":"c7c90743e982b11d","fromNode":"94d6d4d9bb582ca7","fromSide":"right","toNode":"28997bdad9a0ae55","toSide":"left"},
+		{"id":"eba9bd3efb9dc7ac","fromNode":"94d6d4d9bb582ca7","fromSide":"bottom","toNode":"ab09e47e1ec0f226","toSide":"bottom","color":"1","label":"Time Expired(시간 만료)"},
+		{"id":"8a35210c1d451efa","fromNode":"94d6d4d9bb582ca7","fromSide":"bottom","toNode":"d26474ebba3f54a3","toSide":"right","color":"3","label":"I.O Request"},
+		{"id":"4897d1b60b0435fb","fromNode":"d26474ebba3f54a3","fromSide":"left","toNode":"ab09e47e1ec0f226","toSide":"bottom","color":"3","label":"I.O Complete"}
+	]
+}
