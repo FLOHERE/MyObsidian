@@ -4,8 +4,9 @@
 		{"id":"ab09e47e1ec0f226","type":"text","text":"2. 실행 준비(Ready)","x":-160,"y":-161,"width":250,"height":60,"color":"1"},
 		{"id":"28997bdad9a0ae55","type":"text","text":"4. 강제 종료시(Terminated)","x":520,"y":-161,"width":250,"height":60},
 		{"id":"94d6d4d9bb582ca7","type":"text","text":"3. 프로세스 실행(Running)","x":180,"y":-161,"width":250,"height":60,"color":"1"},
-		{"id":"d26474ebba3f54a3","type":"text","text":"대기(Waiting)\n: block상태, HDD -> 메모리로 올림(운영체제에게 요청)","x":20,"y":180,"width":260,"height":80,"color":"3"},
-		{"id":"b7e30edb87e8a2d5","x":20,"y":-260,"width":250,"height":60,"color":"1","type":"text","text":"깨어있는 상태"}
+		{"id":"d26474ebba3f54a3","type":"text","text":"대기(Waiting)\n: block상태, HDD -> 메모리로 올림(운영체제에게 요청)","x":20,"y":180,"width":260,"height":100,"color":"3"},
+		{"id":"b7e30edb87e8a2d5","type":"text","text":"깨어있는 상태","x":20,"y":-260,"width":250,"height":60,"color":"1"},
+		{"id":"3c001420ee7d2afc","x":-340,"y":80,"width":180,"height":100,"type":"text","text":"다 읽었다는 신호가 오면 다시 Ready로 돌아간다."}
 	],
 	"edges":[
 		{"id":"4530674d11446776","fromNode":"09b029f6e2b138d9","fromSide":"right","toNode":"ab09e47e1ec0f226","toSide":"left"},
