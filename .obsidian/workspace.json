@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/3장 프로세스 개념.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3장 프로세스 개념"
+              "title": "6주차"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "프로세서 vs 프로세스",
+                "query": "포인터",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,8 +183,13 @@
   },
   "active": "8cb7068f9deac5b2",
   "lastOpenFiles": [
-    "canvas_file/프로세스 상태.canvas",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/포인터.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/3장 프로세스 개념.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/1. 자료구조.md",
+    "Attached_file/Pasted image 20250419141734.png",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/1장. 운영체제 소개.md",
+    "canvas_file/프로세스 상태.canvas",
     "canvas_file/프로세스의 종류.canvas",
     "canvas_file/무제.md",
     "Attached_file/Pasted image 20250419124404.png",
@@ -198,8 +203,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/라이브러리.md",
     "Attached_file/Pasted image 20250419014107.png",
     "Attached_file/Pasted image 20250419013516.png",
-    "Attached_file/Pasted image 20250419013135.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/1장. 운영체제 소개.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/5장. 네트워크 계층(IP).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/TCP.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/4장. OSI 참조모델.md",
@@ -209,7 +212,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/1장. 네트워크의 이해.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/TCP",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/1. 자료구조.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/6. 스택, 큐, 트리.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7-1. TeamProject_심성당.md",
@@ -219,7 +221,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 03 표현식과 문장.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/5주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/4주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/3주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1.어디에나 존재하는 SW.md"
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/3주차.md"
   ]
 }
