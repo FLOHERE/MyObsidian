@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
-                "mode": "source",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/3장 프로세스 개념.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "6주차"
+              "title": "3장 프로세스 개념"
             }
           }
         ]
@@ -183,6 +183,11 @@
   },
   "active": "8cb7068f9deac5b2",
   "lastOpenFiles": [
+    "Attached_file/Pasted image 20250419144851.png",
+    "Attached_file/Pasted image 20250419144218.png",
+    "Attached_file/Pasted image 20250419144143.png",
+    "Attached_file/Pasted image 20250419144139.png",
+    "Attached_file/Pasted image 20250419143834.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/포인터.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/3장 프로세스 개념.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
@@ -198,11 +203,7 @@
     "Attached_file/Pasted image 20250419015434.png",
     "Attached_file/Pasted image 20250419014849.png",
     "Attached_file/Pasted image 20250419014831.png",
-    "Attached_file/Pasted image 20250419014811.png",
-    "Attached_file/Pasted image 20250419014526.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/라이브러리.md",
-    "Attached_file/Pasted image 20250419014107.png",
-    "Attached_file/Pasted image 20250419013516.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/5장. 네트워크 계층(IP).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/TCP.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/2023/4장. OSI 참조모델.md",
@@ -220,7 +221,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/모듈.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 03 표현식과 문장.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/5주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/4주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/3주차.md"
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/4주차.md"
   ]
 }
