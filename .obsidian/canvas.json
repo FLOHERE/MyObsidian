@@ -2,5 +2,7 @@
   "snapToObjects": true,
   "snapToGrid": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "canvas_file"
+  "newFileFolderPath": "canvas_file",
+  "cardLabelVisibility": "always",
+  "zoomBreakpoint": 0
 }
