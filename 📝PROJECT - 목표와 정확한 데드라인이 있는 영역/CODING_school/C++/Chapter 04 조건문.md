@@ -646,16 +646,16 @@ int main(){
     int Class, grade;
     cout << "학점 : ";
     cin >> grade;
-
+	
     cout << "듣고 있는 수업의 개수 : ";
     cin >> Class;
-
+	
     if(grade > 12){
         cout << grade * 10;
     }else{
         cout << grade * Class * 10;
     }
-
+	
 }
 ```
 
