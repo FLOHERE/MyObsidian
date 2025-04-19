@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/8장 프로세서 스케줄링.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/3. 딥러닝을 위한 기초 수학.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "8장 프로세서 스케줄링"
+              "title": "3. 딥러닝을 위한 기초 수학"
             }
           }
         ]
@@ -183,9 +183,13 @@
   },
   "active": "8cb7068f9deac5b2",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 03 표현식과 문장.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/3. 딥러닝을 위한 기초 수학.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 02 C++ 프로그래밍 기본.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/8장 프로세서 스케줄링.md",
     "Attached_file/Pasted image 20250419204602.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/4장 스레드 개념.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/8장 프로세서 스케줄링.md",
     "Attached_file/Pasted image 20250419200708.png",
     "Attached_file/Pasted image 20250419200534.png",
     "Attached_file/Pasted image 20250419200201.png",
@@ -195,7 +199,6 @@
     "Attached_file/Pasted image 20250419191128.png",
     "Attached_file/Pasted image 20250419184722.png",
     "Attached_file/Pasted image 20250419184243.png",
-    "Attached_file/Pasted image 20250419183934.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/3장 프로세스 개념.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/포인터.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
@@ -216,11 +219,8 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/TCP",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/6. 스택, 큐, 트리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7-1. TeamProject_심성당.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/8. 배열 큐.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/나만의 명세서 만들기.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/모듈.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 03 표현식과 문장.md"
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/나만의 명세서 만들기.md"
   ]
 }
