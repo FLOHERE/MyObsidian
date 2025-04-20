@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 04 조건문.md",
-                "mode": "preview",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 05 반복문.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Chapter 04 조건문"
+              "title": "Chapter 05 반복문"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 254.5,
+    "collapsed": true
   },
   "right": {
     "id": "2128afa0345ebc97",
@@ -183,8 +184,8 @@
   },
   "active": "8cb7068f9deac5b2",
   "lastOpenFiles": [
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 05 반복문.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 04 조건문.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 05 반복문.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 03 표현식과 문장.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 02 C++ 프로그래밍 기본.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/5장. 응용 API 프로그래밍.md",
