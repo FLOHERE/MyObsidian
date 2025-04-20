@@ -20,7 +20,7 @@ int main(){
 ```CPP
 //if 조건문 사용 -> 초과근무 시간이 있는 급여 계산
 #include <iostream>
-#include <iomanip> //얘는 뭐하는 라이브러리인교
+#include <iomanip> //fixed, setprecision등의 함수 불러옴, 환경에따라 생략가능
 using namespace std;
 
 int main(){
@@ -332,7 +332,7 @@ int main(){
 ```
 
 ```CPP
-//두 숫자를 입력받은 뒤에 두 숫자 중 더 큰 숫자 또는 같을 경우 첫번째 숫자를 조건부 표현실으로 찾아 출력하기
+//두 숫자를 입력받은 뒤에 두 숫자 중 더 큰 숫자 또는 같을 경우 첫번째 숫자를 조건부 표현식으로 찾아 출력하기
 #include <iostream>
 using namespace std;
 
@@ -385,7 +385,7 @@ int main(){
     }
 
     int temp = maxScore + minScore;
-    if(temp % 2 == 1){
+    if(temp % 2 == 1){ //반올림효과
         temp+=1;
     }
     score = temp/2;
@@ -638,24 +638,29 @@ int main(){
 ```
 
 ```CPP
-//대학교에서 학생의 총 수업료를 계산하고 출력하는 프로그램을 만드세요. 학생들은 최대 12학점에 대해 학점당 10달러의 수수료를 지불합니다. 12학점을 넘는 분량은 수수료가 없습니다. 등록비는 학생당 10달러라고 가정합니다.
 #include <iostream>
 using namespace std;
 
-int main(){
-    int Class, grade;
-    cout << "학점 : ";
-    cin >> grade;
-	
-    cout << "듣고 있는 수업의 개수 : ";
-    cin >> Class;
-	
-    if(grade > 12){
-        cout << grade * 10;
-    }else{
-        cout << grade * Class * 10;
+int main() {
+    int credits;
+    double tuition = 0;
+    const double registrationFee = 10.0;
+    const double creditFee = 10.0;
+
+    cout << "수강 학점 수를 입력하세요: ";
+    cin >> credits;
+
+    // 최대 12학점까지만 수수료 계산
+    if (credits <= 12) {
+        tuition = credits * creditFee;
+    } else {
+        tuition = 12 * creditFee; // 12학점까지만 요금 부과
     }
-	
+
+    tuition += registrationFee; // 등록비 추가
+
+    cout << "총 수업료는: $" << tuition << " 입니다." << endl;
+    return 0;
 }
 ```
 
