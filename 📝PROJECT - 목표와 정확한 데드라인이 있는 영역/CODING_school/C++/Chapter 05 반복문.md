@@ -597,11 +597,39 @@ int main(){
 ```
 
 ```CPP
+//1000보다 작은 숫자들을 키보드로 읽어들인 후 그 합과 평균을 구하는 프로그램을 만드세요.입력은 1000이라는 센티넬을 만날때 정지 합니다.
+#include <iostream>
+using namespace std;
 
+int main(){
+    int count = 0;
+    int num = 0;
+    int sum = 0;
+    
+    while(true){
+        cout << "1000 이하의 숫자 입력 : ";
+        cin >> num;
+
+        if(num < 1000){
+            sum += num;
+            count++;
+        }else{
+            break;
+        }
+    }
+    cout << "합 : " << sum << endl;
+    cout << "평균 : " <<(sum/count) << endl;
+}
 ```
 
 ```
-
+1000 이하의 숫자 입력 : 22
+1000 이하의 숫자 입력 : 456
+1000 이하의 숫자 입력 : 993
+1000 이하의 숫자 입력 : 340
+1000 이하의 숫자 입력 : 1000
+합 : 1811
+평균 : 452
 ```
 
 ```CPP
