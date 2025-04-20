@@ -409,7 +409,7 @@ int main(){
     cout << "x in hexadecimal : " << hex << x << endl;
 
     cout << "x in decimal : " << x << endl;
-    cout << "x in octal : " << showbase << oct << x << endl;
+    cout << "x in octal : " << showbase << oct << x << endl; //showbase : 8진수인지, 16진수인지 앞에 표시해줌(0,0x)
     cout << "x in hexadecimal : " << showbase << hex << x;
     return 0;
 }
@@ -419,7 +419,7 @@ x in octal : 2325
 x in hexadecimal : 4d5
 x in decimal : 4d5
 x in octal : 02325
-x in hexadecimal : 0x4d5Process
+x in hexadecimal : 0x4d5
 */
 ```
 
@@ -434,15 +434,15 @@ int main(){
     double y = 12376745.5623;
 
     cout << "x in fixed_point format : " << x << endl;
-    cout << "x in fixed_point format : " << showpoint << x << endl;
+    cout << "x in fixed_point format : " << showpoint << x << endl; //소수점이 없어도 두자리까지 보여준다.
 
-    cout << "y in scientific format : " << y << scientific;
+    cout << "y in scientific format : " << y << scientific;// 지수형식으로 보여줌
     return 0;
 }
 /* 결과 : 
 x in fixed_point format : 1237
 x in fixed_point format : 1237.00
-y in scientific format : 1.23767e+07
+y in scientific format : 1.23767e+07 => 123767 * 10^7
 */
 ```
 
@@ -456,10 +456,17 @@ int main(){
     double x = 1237234.1235;
 
     cout << fixed << setprecision(2) << showpos << setfill('*');
+    // fixed : 기본 소수점 6번째 자리까지 보여줌
+    // setprecision(n) : 소수점 이하 n자리까지 고정
+    // showpos : 양수에도 + 부호를 붙인다
+    // setfill('') : 빈칸을 ‘ ’ 으로 채운다
 
-    cout << setw(15) << left << x << endl;
+    cout << setw(15) << left << x << endl; // setw(n) : 출력 너비 폭을 n칸으로 지정
+    // left : 전체 데이터 왼쪽 정렬
     cout << setw(15) << internal << x << endl;
+    // internal: 부호는 맨 왼쪽 , 숫자 값은 오른쪽으로 바짝 붙는다.가운데에 공간생김.
     cout << setw(15) << right << x;
+    // right : 전체 데이터를 오른쪽 정렬
     return 0;
 }
 /* 결과 : 
@@ -562,7 +569,7 @@ int main(){
     intPart = static_cast <int> (number); // 정수 부분 = 강제 타입 변환, double -> int
     fractPart = number - intPart; // (.~~)실수 부분 = double(실수 전체) - int(정수부분)
 
-    cout << fixed << showpoint << setprecision(2);
+    cout << fixed << showpoint << setprecision(2); // showpoint : 소수점 뒷자리가 0아더라도 무조건 실수 형태로 보여주는것
     cout << "The original number : " << number << endl; // 입력한 실수
     cout << "the integral part : " << intPart << endl; // 정수부분
     cout << "the fractional part : " << fractPart; // 실수 부분
@@ -669,7 +676,7 @@ deviation of number 3:    +32.33
 ```
 
 ```CPP
-//총합 , 평균, 분산 구하기
+//세금 구하기
 #include <iostream>
 #include<iomanip>
 using namespace std;
@@ -711,11 +718,11 @@ Total : 275373.00
 */
 ```
 
-
 ---
+
 # 연습문제 코드 모음집
 
-```C++
+```CPP
 // short 자료형과 unsinged int 자료형의 최대값과 최소값을 찾는 프로그램을 만드세요.
 #include <iostream>
 using namespace std;
@@ -731,7 +738,8 @@ int main(){
 ```
 
 
-```C++
+
+```CPP
 //long 자료형과 longlong 자료형의 최대값과 최소값을 찾는 프로그램을 만드세요
 #include <iostream>
 using namespace std;
@@ -750,7 +758,7 @@ int main(){
 }
 ```
 
-```C++
+```CPP
 //float 자료형과 double 자료형의 최대값과 최소값을 찾는 프로그램을 만드세요.
 #include <iostream>
 using namespace std;
@@ -769,7 +777,7 @@ int main(){
 }
 ```
 
-```C++
+```CPP
 //int 자료형의 정수를 입력 받아서, 두번째 자릿수를 추출한 뒤 출력하는 프로그램을 만드세요
 #include <iostream>
 using namespace std;
@@ -784,7 +792,7 @@ int main(){
 }
 ```
 
-```C++
+```CPP
 //int 자료형의 정수를 입력 받아서, 첫번째부터 세번째 자릿수를 각각 출력하는 프로그램을 만드세요
 #include <iostream>
 using namespace std;
@@ -803,7 +811,7 @@ int main(){
 }
 ```
 
-```C++
+```CPP
 //세자릿수 정수가 주어졌을떄, 해당 숫자를 역순으로 하는 정수를 구성하고 출력하는 프로그램을 만드세요(ex:372 -> 273 출력)
 #include <iostream>
 using namespace std;
@@ -822,7 +830,7 @@ int main(){
 }
 ```
 
-```C++
+```CPP
 //시간을 입력으로 받을때, 이를 주, 일, 시간으로 변환하는 프로그램(0~6일, 0~23시)
 #include <iostream>
 using namespace std;
@@ -841,7 +849,7 @@ int main(){
 }
 ```
 
-```C++
+```CPP
 //시간을 시, 분, 초 단위로 입력받았을때, 이를 초 단위로 변환하는 프로그램을 만드세요
 #include <iostream>
 using namespace std;
@@ -857,7 +865,8 @@ int main(){
 }
 ```
 
-```C++
+
+```CPP
 //초단위(long 자료형)를 입력받았을때, 이를 시, 분, 초 단위로 변환하는 프로그램을 만드세요
 #include <iostream>
 using namespace std;
