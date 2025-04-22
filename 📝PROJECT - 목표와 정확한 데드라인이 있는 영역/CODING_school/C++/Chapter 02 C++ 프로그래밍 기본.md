@@ -798,7 +798,7 @@ int main(){
 
 # 연습문제 코드 모음집
 
-```C++
+```CPP
 #include<iostream>
 using namespace std;
 
@@ -818,7 +818,7 @@ int main()
 }
 ```
 
-```C++
+```CPP
 #include<iostream>
 using namespace std;
 
@@ -844,7 +844,7 @@ int main()
 }
 ```
 
-```C++
+```CPP
 #include <iostream>
 using namespace std;
 
@@ -881,7 +881,7 @@ int main(){
 }
 ```
 
-```C++
+```CPP
 #include <iostream>
 using namespace std;
 
@@ -907,7 +907,7 @@ int main(){
 }
 ```
 
-```C++
+```CPP
 #include <iostream>
 using namespace std;
 
@@ -930,7 +930,7 @@ int main(){
 }
 ```
 
-```C++
+```CPP
 #include <iostream>
 using namespace std;
 
