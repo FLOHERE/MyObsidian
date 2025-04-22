@@ -14,6 +14,7 @@ int main(){
 }
 ```
 
+
 ```CPP
 //while 반복문으로 특정 수만큼 반복하기
 #include <iostream>
@@ -161,13 +162,15 @@ int main(){
     infile.open("numbers.dat");
 
     flag = false;
-    while(infile >> num && !flag){
+    while(infile >> num && !flag){ 
+    // 1. flag가 false이므로 !flag == true → 반복 시작
+	// 3. flag가 true로 바뀌면 !flag == false → 반복 종료
         if(num>=150){
             cout << "찾는 숫자 = " << num;
-            flag = true;
+            flag = true; //2. 조건 만족 → 찾음 → flag를 true로 설정
         }
     }
-    if(flag){
+    if(!flag){ //반복이 끝난 후에도 flag가 false면 (즉, 조건 만족 못했으면)
         cout << "찾는 숫자가 파일에 존재하지 않습니다.";
     }
     infile.close();
@@ -207,11 +210,11 @@ int main(){
 
     for(int i = lower; i < higher; i++){
         if(i % divisor == 0){
-            cout << setw(4) << i;
+            cout << setw(4) << i; //공백 4칸
             col++;
-            if(col > 10){
+            if(col > 10){ // 10개 출력했으면 줄 바꿈
                 cout << endl;
-                col = 1;
+                col = 1;// 다시 처음부터 셈
             }
         }
     }
@@ -274,13 +277,20 @@ int main(){
     cin >> num;
 
     do{
-        leftDigit = num %10;
+        leftDigit = num %10; // 1%10이면 나머지가 1...
         num = num / 10;
     }while(num > 0);
 
     cout << "가장 왼쪽의 숫자 : " << leftDigit << endl;
     return 0;
 }
+
+/*  
+1. do {} 안의 코드를 먼저 실행
+2. while (조건)을 확인  
+- 조건이 true면 → do 다시 실행 (반복)
+- 조건이 false면 → 종료
+*/
 ```
 
 ```CPP
@@ -398,7 +408,7 @@ int main(){
     int num;
 
     do{
-        cout << "앙의 정수를 입력하세요 : ";
+        cout << "양의 정수를 입력하세요 : ";
         cin >> num;
     }while(num <= 0);
 
