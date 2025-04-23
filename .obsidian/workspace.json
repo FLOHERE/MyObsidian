@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "adaf41c5c3ca86b6",
+        "id": "800060f5096600de",
         "type": "tabs",
         "children": [
           {
-            "id": "4e3fb63a1319d8a4",
+            "id": "22eea5d2f3977f01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/6. 로지스틱 회귀 모델 ; 참 거짓 판단.md",
-                "mode": "preview",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 01. 알고리즘의 첫걸음.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "6. 로지스틱 회귀 모델 ; 참 거짓 판단"
+              "title": "Chapter 01. 알고리즘의 첫걸음"
             }
           }
         ]
@@ -181,21 +181,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4e3fb63a1319d8a4",
+  "active": "22eea5d2f3977f01",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/6. 로지스틱 회귀 모델 ; 참 거짓 판단.md",
     "Attached_file/Pasted image 20250423135648.png",
     "Attached_file/Pasted image 20250423135619.png",
     "Attached_file/Pasted image 20250423134555.png",
     "Attached_file/Pasted image 20250423134054.png",
     "Attached_file/Pasted image 20250423133731.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/5. 선형회귀 모델.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/6. 로지스틱 회귀 모델 ; 참 거짓 판단.md",
     "Attached_file/Pasted image 20250423133400.png",
     "Attached_file/Pasted image 20250423133346.png",
     "Attached_file/Pasted image 20250423133159.png",
     "Attached_file/Pasted image 20250423133132.png",
     "Attached_file/Pasted image 20250423132904.png",
-    "Attached_file/Pasted image 20250423132158.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/4. 가장 훌륭한 예측선.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/3. 딥러닝을 위한 기초 수학.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/나만의 명세서 만들기.md",
