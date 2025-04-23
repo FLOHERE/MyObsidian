@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/5. 선형회귀 모델.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/6. 로지스틱 회귀 모델 ; 참 거짓 판단.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. 선형회귀 모델"
+              "title": "6. 로지스틱 회귀 모델 ; 참 거짓 판단"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/5. 선형회귀 모델.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/6. 로지스틱 회귀 모델 ; 참 거짓 판단.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "5. 선형회귀 모델 의 개요"
+              "title": "6. 로지스틱 회귀 모델 ; 참 거짓 판단 의 개요"
             }
           }
         ],
@@ -183,24 +183,25 @@
   },
   "active": "4e3fb63a1319d8a4",
   "lastOpenFiles": [
-    "Attached_file/Pasted image 20250423124026.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/4. 가장 훌륭한 예측선.md",
+    "Attached_file/Pasted image 20250423135648.png",
+    "Attached_file/Pasted image 20250423135619.png",
+    "Attached_file/Pasted image 20250423134555.png",
+    "Attached_file/Pasted image 20250423134054.png",
+    "Attached_file/Pasted image 20250423133731.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/5. 선형회귀 모델.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/6. 로지스틱 회귀 모델 ; 참 거짓 판단.md",
+    "Attached_file/Pasted image 20250423133400.png",
+    "Attached_file/Pasted image 20250423133346.png",
+    "Attached_file/Pasted image 20250423133159.png",
+    "Attached_file/Pasted image 20250423133132.png",
+    "Attached_file/Pasted image 20250423132904.png",
+    "Attached_file/Pasted image 20250423132158.png",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/4. 가장 훌륭한 예측선.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/3. 딥러닝을 위한 기초 수학.md",
-    "Attached_file/Pasted image 20250423123324.png",
-    "Attached_file/Pasted image 20250423123310.png",
-    "Attached_file/Pasted image 20250423123245.png",
-    "Attached_file/Pasted image 20250423123029.png",
-    "Attached_file/Pasted image 20250423122528.png",
-    "Attached_file/Pasted image 20250423121706.png",
-    "Attached_file/Pasted image 20250423121635.png",
-    "Attached_file/Pasted image 20250423121426.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/나만의 명세서 만들기.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/교수님의 새로운 과제(시험 예제?).md",
-    "Attached_file/Pasted image 20250423051604.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/2. 프로세스와 방법론.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1.어디에나 존재하는 SW.md",
-    "Attached_file/Pasted image 20250423045645.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/3. 프로젝트 계획과 관리.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2023/Ch02_프로세스와 방법론.md",
     "canvas_file/프로토 타이핑 모델.canvas",
@@ -221,7 +222,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/포인터.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/1. 자료구조.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/1장. 운영체제 소개.md",
     "canvas_file/프로세스 상태.canvas",
     "canvas_file/프로세스의 종류.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/TCP"
