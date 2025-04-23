@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "4e3fb63a1319d8a4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
+          },
+          {
             "id": "95968d0b7312b2bd",
             "type": "leaf",
             "state": {
@@ -55,7 +67,8 @@
               "title": "나만의 명세서 만들기"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,7 +217,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e0ba6ba15c0bd885",
+  "active": "4e3fb63a1319d8a4",
   "lastOpenFiles": [
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/나만의 명세서 만들기.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/교수님의 새로운 과제(시험 예제?).md",
