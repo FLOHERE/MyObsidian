@@ -51,7 +51,3 @@ print(result) # 출력값 : 60
 ![[IMG_7184.jpeg]]
 
 ![[IMG_7185.jpeg]]
-
----
-
-# 연습문제
