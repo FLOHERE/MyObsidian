@@ -42,9 +42,32 @@
 - 코드
 
 ```java
-class BigNumFind
+package MiddleTest;
 
-public static void main(String[] args){
+public class BigNumFind{
 	
+	public static void main(String[] args){
+		int arry[] = {72,60,83,47,89,95,100};
+		int Big = 0;
+		
+		for(int i = Big; i < arry.length; i++){
+			if(Big < arry[i]){
+				Big = arry[i];
+			}else{
+			
+			}
+		}
+		System.out.println("가장 큰 수 : " + Big);
+	}
 }
 ```
+
+## 3번
+- 다음에 주어진 숫자들 중 가장 큰 수와 가장 작은 수를 동시에 찾으려면 최소 몇번의 숫자 비교가 필요한가?
+	- \[45,60,90,20]
+- 정답 : 4번이다.
+- 풀이 : 숫자가 모두 네개이므로, 60 기준 중간을 잘라서 앞 뒤로 비교하면 된다.
+	1. 45 < 60
+	2. 90 > 20
+	3. 45 > 20
+	4. 90 > 60
