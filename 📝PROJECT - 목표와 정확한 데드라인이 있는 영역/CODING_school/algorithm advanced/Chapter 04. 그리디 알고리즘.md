@@ -18,6 +18,37 @@
 	3. 빠진 만큼 재정의
 
 ```java
+package MiddleTest;
+
+import java.util.Scanner;
+
+//물건을 사고 거스름돈을 동전으로 받아야 한다면?
+//대부분의 경우 가장 적은 수의 동전을 원한다.
+//거스름돈이 730원이라면?
+//500원 동전 1개, 100원 동전 2개, 10원동전 3개인 총 6개를 거슬러 받는다.
+public class Coins {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+		
+        System.out.print("거스름돈을 입력하세요 : ");
+        int coins = sc.nextInt();
+        vending(coins);
+    }
+		
+    public static void vending(int coins){
+        int change[] = {500,100,50,10};
+        int count = 0;
+        for(int i=0;i<change.length;i++){
+            count = coins/change[i];
+            coins = coins%change[i];
+				
+            if(count != 0){
+                System.out.println("%d 원짜리 동전 %d개".formatted(change[i],count));
+            }
+        }
+		
+    }
+}
 
 ```
 ## 2. 다익스트라 알고리즘(최단거리 경로)
