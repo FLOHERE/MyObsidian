@@ -27,12 +27,34 @@
 ![[Pasted image 20250423233801.png]]
 
 ```java
- public static int gcd(int p, int q)
- {
-	if (q == 0) return p;
-	return gcd(q, p%q);
- }
+package MiddleTest;
+import java.util.Scanner;
+
+public class Euclidian {
+    public static void main(String[] args){
+        int num1, num2 = 0;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("숫자 1 입력 : ");
+        num1 = sc.nextInt();
+		
+        System.out.print("숫자 2 입력 : ");
+        num2 = sc.nextInt();
+		
+        System.out.println("\n >>> GCD("+ num1 +","+ num2 + ") = " + gcd(num1, num2));
+    }
+		
+    public static int gcd(int num1,int num2){
+        if(num2==0) return num1;
+        return gcd(num2,num1%num2);
+    }
+}
 ```
+
+>결과 :
+숫자 1 입력 : 106
+숫자 2 입력 : 16
+>
+  \>>> GCD(106,16) = 2
 
 ## 2.3 알고리즘의 표현 방법
 - 의사코드와 가짜 코드가 있다.(Chapter 01 참조)
@@ -44,8 +66,28 @@
 >5. 머릿속에 기억된 숫자가 최대 숫자이다.
 
 ```java
+package MiddleTest;
 
+// 가장 큰 숫자 찾기
+public class FindBiggestNum {
+    public static void main(String[] args) {
+        int arry[] = {45,20,35,60,55,10,90,85,75,25};
+        int result = 0;
+
+        for(int i = 0; i < arry.length; i++){
+            if(result < arry[i]){
+                result = arry[i];
+            }else if(result > arry[i]){
+                result = result;
+            }
+        }
+        System.out.println(result);
+    }
+}
 ```
+
+>결과 :
+>90
 
 ## 2.5 알고리즘의 효율성 표현
 - 알고리즘의 복잡도는 입력 크기(n)가 커질때, 알고리즘을 실행 시간이나 공간 사용량이 어떻게 변하는지 수학적으로 나타낸것을 말함.
