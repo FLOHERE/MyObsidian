@@ -66,8 +66,29 @@ public class BigNumFind{
 - 다음에 주어진 숫자들 중 가장 큰 수와 가장 작은 수를 동시에 찾으려면 최소 몇번의 숫자 비교가 필요한가?
 	- \[45,60,90,20]
 - 정답 : 4번이다.
+- 공식 : n이 짝수일 때 -> `3n/2 - 2` 
+	   n이 홀수 일때 -> `3(n - 1)/2`
 - 풀이 : 숫자가 모두 네개이므로, 60 기준 중간을 잘라서 앞 뒤로 비교하면 된다.
 	1. 45 < 60
 	2. 90 > 20
-	3. 45 > 20
-	4. 90 > 60
+	3. 45 > 20 -> 가장 작은 수 : 20
+	4. 90 > 60 -> 가장 큰수 : 90
+
+```java
+public class MinMaxSimple {
+    public static void main(String[] args) {
+        int[] arr = {45, 60, 90, 20};
+
+        int min = Math.min(arr[0], arr[1]);
+        int max = Math.max(arr[0], arr[1]);
+
+        min = Math.min(min, Math.min(arr[2], arr[3]));
+        max = Math.max(max, Math.max(arr[2], arr[3]));
+
+        System.out.println("최솟값: " + min);
+        System.out.println("최댓값: " + max);
+    }
+}
+```
+
+
