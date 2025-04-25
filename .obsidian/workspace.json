@@ -13,6 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/4장 스레드 개념.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "4장 스레드 개념"
+            }
+          },
+          {
+            "id": "bf90d6e1ea7dabb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/8장 프로세서 스케줄링.md",
                 "mode": "source",
                 "source": false,
@@ -63,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "리터럴",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -152,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/8장 프로세서 스케줄링.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/4장 스레드 개념.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "8장 프로세서 스케줄링 의 개요"
+              "title": "4장 스레드 개념 의 개요"
             }
           }
         ],
@@ -166,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,6 +206,13 @@
   },
   "active": "22eea5d2f3977f01",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/8장 프로세서 스케줄링.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/4장 스레드 개념.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/3장 프로세스 개념.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/2장 하드웨어와 소프트웨어 개념.md",
+    "Attached_file/Pasted image 20250426004428.png",
+    "Attached_file/Pasted image 20250426004156.png",
+    "Attached_file/Pasted image 20250426004142.png",
     "Attached_file/Pasted image 20250426002211.png",
     "Attached_file/Pasted image 20250426002106.png",
     "Attached_file/Pasted image 20250426001857.png",
@@ -190,10 +220,6 @@
     "Attached_file/Pasted image 20250426000625.png",
     "Attached_file/Pasted image 20250426000011.png",
     "Attached_file/Pasted image 20250425235500.png",
-    "Attached_file/Pasted image 20250425235404.png",
-    "Attached_file/Pasted image 20250425233120.png",
-    "Attached_file/Pasted image 20250425232918.png",
-    "Attached_file/Pasted image 20250425232840.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/연습 문제 모음집(mid).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 02. 알고리즘을 배우기 위한 준비.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 04. 그리디 알고리즘.md",
@@ -219,9 +245,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/5장. 응용 API 프로그래밍.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JSP/6장 JSP 스크립트.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/2.딥러닝의 핵심 미리보기.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/8장 프로세서 스케줄링.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/4장 스레드 개념.md",
     "canvas_file/프로세스 상태.canvas",
     "canvas_file/프로세스의 종류.canvas",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/TCP"
