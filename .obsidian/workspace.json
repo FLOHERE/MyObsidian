@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,6 +183,11 @@
   },
   "active": "22eea5d2f3977f01",
   "lastOpenFiles": [
+    "Attached_file/Pasted image 20250425233120.png",
+    "Attached_file/Pasted image 20250425232918.png",
+    "Attached_file/Pasted image 20250425232840.png",
+    "Attached_file/Pasted image 20250425232824.png",
+    "Attached_file/Pasted image 20250425232430.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/연습 문제 모음집(mid).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 02. 알고리즘을 배우기 위한 준비.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 04. 그리디 알고리즘.md",
@@ -193,11 +199,7 @@
     "Attached_file/Pasted image 20250423135648.png",
     "Attached_file/Pasted image 20250423135619.png",
     "Attached_file/Pasted image 20250423134555.png",
-    "Attached_file/Pasted image 20250423134054.png",
-    "Attached_file/Pasted image 20250423133731.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/5. 선형회귀 모델.md",
-    "Attached_file/Pasted image 20250423133400.png",
-    "Attached_file/Pasted image 20250423133346.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/4. 가장 훌륭한 예측선.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/3. 딥러닝을 위한 기초 수학.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/나만의 명세서 만들기.md",
