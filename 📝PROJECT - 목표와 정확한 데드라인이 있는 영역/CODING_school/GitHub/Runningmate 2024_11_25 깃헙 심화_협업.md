@@ -5,13 +5,32 @@
 - git repository(깃 저장소) : 내 파일들을 모아서 관리 할수 있는곳.
 	- git repository clone : 다른 사람의 repository를 복사하여 해당 프로젝트에 참여하고 싶을때 사용
 - git origin : 우리 로컬 repository와 연결된 원격 url(깃허브 홈페이지)
+
 - commit : save point , 파일의 최신 정보 저장
+- pull : 최종 수정된 파일을 내 로컬 저장소로 옮겨오는것.
+- push : 원격저장소로 올리는 역할
+	- commit은 내 컴퓨터에서만 저장 시킨것이라면 push는 다른 사람들도 저장된 내용을 볼 수 있도록 하는 기능이다.
+- fetch : 원격 저장소의 최신 정보를 확인만 하는 것.
+- merge : 하나의 branch를 현재 branch와 병합하기 위해 사용
+- status : 작업 디렉터리와 스테이지 영역을 확인
+
+- checkout : 특정 커밋, 브랜치로 이동 하는것
+	- head(태그) : 현재 작업하고있는 브랜치를 나타냄
 - branch : 하나의 프로젝트에서 가지가 뻗어 나가듯이 목적이나 유저에 나눠서 개별적인 프로젝트가 가능
 	- feature : 기능에 따라 나누는 branch
 	- dev : 데모버전, 최종 main(master)에 올리기 전 검증하는 branch
 	- user(개발자 이름) : 각 개발자의 이름으로 나눠서 각자 개발하는 branch
 
-## 2. 깃헙 꾸미기(나중에 해볼것.)
+>[!note] 스테이지
+> 뜻 : 공연
+> 스테이지에 올린다 : commit에 내가 수정한 내용을 적용시킨다.
+
+>[!note] fetch와 pull의 차이점
+>fetch는 원격 저장소에 변경 사항이 있는지만 확인하고, 변경된 데이터를 git에 실제로 가져오지 않는다.
+>하지만 pull은 원격 저장소에 최신 수정 사항을 내 로컬 저장소에 바로 반영하기 때문에 fetch로 먼저 확인한 후 pull 을 사용한다.
+
+
+​2. 깃헙 꾸미기(나중에 해볼것.)
 - jo_soyoung랑 같은 이름의 public repository 만들기 -> 마크다운으로 꾸미기
 - 예쁜 아이콘 만들기 -> shield.io -> markdown 선택
 	- 이미지 삽입 : \!\[파일이름](뒤에 경로)
@@ -126,23 +145,6 @@ $ git config --global user.email jjjj032321@gmail.com //내 이메일
 - Reviewers 설정 아이콘 클릭 후 선택
 
 ![[Pasted image 20241125190922.png]]
-
-## 3. pull push fetch merge...etc 소스트리 용어정리
-- pull : 최종 수정된 파일을 내 로컬 저장소로 옮겨오는것.
-- push : 원격저장소로 올리는 역할
-	- commit은 내 컴퓨터에서만 저장 시킨것이라면 push는 다른 사람들도 저장된 내용을 볼 수 있도록 하는 기능이다.
-- fetch : 원격 저장소의 최신 정보를 확인만 하는 것.
-- merge : 하나의 branch를 현재 branch와 병합하기 위해 사용
-- status : 작업 디렉터리와 스테이지 영역을 확인
-
->[!note] 스테이지
-> 뜻 : 공연
-> 스테이지에 올린다 : commit에 내가 수정한 내용을 적용시킨다.
-
->[!note] fetch와 pull의 차이점
->fetch는 원격 저장소에 변경 사항이 있는지만 확인하고, 변경된 데이터를 git에 실제로 가져오지 않는다.
->하지만 pull은 원격 저장소에 최신 수정 사항을 내 로컬 저장소에 바로 반영하기 때문에 fetch로 먼저 확인한 후 pull 을 사용한다.
-
 
 ### 간단 정리
 1. fetch 눌러서 깃헙에 있는 코드 가져오기
