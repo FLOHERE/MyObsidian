@@ -176,3 +176,53 @@ int main(){
 }
 ```
 
+- `<cstdlib>` : 랜덤 숫자 관련 함수 사용 `srand(time(0))`
+	- 범위 확대, 축소 : `temp = rand() % (b-a+1)`
+	- 범위 이동 : `result = temp + a`
+
+```cpp
+// 숫자 추측 게임
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+int main(){
+    int low = 5;
+    int high = 15;
+    int tryLimit = 5;
+    int guess;
+
+    srand(time(0));
+    int temp = rand();
+    int num = temp % (high-low +1) + low;
+
+    int counter = 1;
+    bool found = false;
+    while(counter <= tryLimit && !found){
+        do{
+            cout << "5~15 사이의 정수를 입력하세요 : ";
+            cin >> guess;
+        }while(guess < 5 || guess > 15);
+			
+        if(guess == num){
+            found = true;
+        }else if(guess > num){
+            cout << "더 작은 숫자 입니다. " << endl;
+        }else{
+            cout << "더 큰 숫자 입니다. " << endl;
+        }
+        counter++;
+    }
+    if(found){
+        cout << "축하합니다. 추측에 성공 했습니다.";
+        cout << "답 = " << num;
+    }
+    else{
+        cout << "아쉽게 추측에 실패 했습니다.";
+        cout << "답 = " << num;
+    }
+    return 0;
+}
+```
+
