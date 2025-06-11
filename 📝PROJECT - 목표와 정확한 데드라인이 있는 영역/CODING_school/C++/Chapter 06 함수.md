@@ -926,5 +926,39 @@ int  main(){
 5. 랜덤 숫자 생성기의 동작을 확인 해볼수 있게 10~99범위(두 자리 숫자)의 숫자 10개로 5개의 세트를 만들고, 각세트의 합을 구하는 프로그램을 만드세요. 실행을 여러번 해보면서 어떤 형태로 실행되는 지도 확인하세요
 
 ```cpp
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
 
+int main(){    
+    // 랜덤 시드를 한 번만 설정 (프로그램 시작 시)
+    srand(time(NULL));
+    
+    cout << "=== 랜덤 숫자 생성기 (10~99 범위) ===" << endl;
+    cout << "5개 세트, 각 세트당 10개 숫자" << endl << endl;
+    
+    for(int i = 0; i < 5; i++){
+        int sum = 0;  // 각 세트마다 합계 초기화
+        
+        cout << "세트 " << (i+1) << ": "; //세트는 1부터 시작하므로 +1
+        
+        for(int j = 0; j < 10; j++){
+            // 10~99 범위의 랜덤 숫자 생성
+            int randNum = (rand() % 90) + 10;
+            cout << randNum;
+            
+            if(j < 9) cout << ", ";  // 마지막 숫자가 아니면 쉼표 출력
+            
+            sum += randNum;  // 합계에 추가
+        }
+        
+        cout << " => 합계: " << sum << endl;
+    }
+    
+    cout << endl << "프로그램을 여러 번 실행해보면 매번 다른 결과가 나옵니다!" << endl;
+    
+    return 0;
+}
 ```
+
