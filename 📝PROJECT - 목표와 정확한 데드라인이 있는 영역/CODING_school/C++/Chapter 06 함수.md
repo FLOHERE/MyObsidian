@@ -177,7 +177,7 @@ int main(){
 ```
 
 - `<cstdlib>` : 랜덤 숫자 관련 함수 사용 `srand(time(0))`
-	- 범위 확대, 축소 : `temp = rand() % (b-a+1)`
+	- 범위 확대, 축소 : `int randomNum = (rand() % (max - min + 1)) + min;`
 	- 범위 이동 : `result = temp + a`
 
 ```cpp
