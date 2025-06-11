@@ -694,4 +694,82 @@ int main(){
 ```
 ### 2. 전역 스코프
 - 프로그램 전체에서 접근 가능
-- 
+- 셰도잉 : 지역 변수가 전역 변수 가림
+- 범위 해결 연산자 ('::') : 전역 엔티티에 명시적으로 접근
+
+```cpp
+//전역스코프의 셰도잉
+#include <iostream>
+using namespace std;
+
+int num = 5;
+int main(){
+    cout << num << endl;
+    int num = 25;
+    cout << num;
+    return 0;
+}
+/*
+5
+25
+*/
+```
+
+```cpp
+//범위 해결 연산자 사용하기
+#include <iostream>
+using namespace std;
+
+int num = 5;
+int main(){
+    int num = 25;
+    cout << "전역변수 num의 값 = " << :: num << endl;
+    cout << "지역 변수 num의 값 = " << num << endl;
+    return 0;
+}
+/*
+전역 변수 num의 값 = 5
+지역변수 num의 값 = 25
+*/
+```
+
+### 3. 함수 이름의 스코프
+- 선언 시점부터 프로그램 마지막 부분까지
+
+### 4. 함수 매개변수의 스코프
+- 함수 헤더부터 함수 블록 종료까지
+
+### 5. 수명
+
+#### 1. 자동 지역변수(atomatic local variable)
+- 대부분 함수 내부의 모든 지역 변수들
+	- 함수 호출 시 생성
+	- 함수 종료 시 소멸
+
+#### 2. 정적 지역 변수(static local variable)
+- static 변경자 앞에 붙여서 생성
+- 프로그램 종료시까지 유지
+- 한번만 초기화, 모든 함수가 같은 변수 공유
+
+```cpp
+//정적 지역변수 확인하기
+#include <iostream>
+using namespace std;
+
+void fun();
+int main(){
+    fun();
+    fun();
+    fun();
+    return 0;
+}
+
+void fun(){
+    static int count  = 0;
+    count ++;
+    cout << "count = " << count << endl;
+}
+```
+
+
+### 6. 초기화 비교
