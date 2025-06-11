@@ -615,3 +615,4 @@ double calcEarnings(double rate, double hours){
 - 함수 시그니처(function signature)
 	- 매개변수들의 자료형과 조합으로 함수 구분
 	- 리턴 자료형은 함수 시그니처에 포함 X
+-  
