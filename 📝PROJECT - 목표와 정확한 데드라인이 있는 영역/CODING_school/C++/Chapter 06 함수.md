@@ -490,6 +490,86 @@ void swap(int& fst, int& snd){
 - 참조로 전달과 유사한 장점
 - C언어의 문자열, 배열등 포인터 특성을 가진 자료에 사용
 
-```cpp
+## 자료 리턴
 
+### 1. 값으로 리턴
+- 가장 일반적인 매커니즘
+- 호출되는 함수에서 표현식 생성 후 리턴
+- 값이 필요한 위치에 함수 활용
+- ex) 리터럴 값 리턴
+
+```cpp
+//리터럴 값 리턴하기
+#include <iostream>
+using namespace std;
+
+bool isEven(int y);
+
+int main(){
+    cout << boolalpha << isEven(5) << endl;
+    cout << boolalpha << isEven(10);
+    return 0;
+}
+
+bool isEven(int y){
+    return((y%2)==0);
+}
 ```
+
+### 2. 참조로 리턴
+- 크기가 큰 객체 리턴 시 복사 비용 절감
+- 호출되는 함수에서 객체 생성 시 주의(함수 종료 후 객체 소멸)
+
+```cpp
+//점수를 기반으로 등급 계산
+#include <iostream>
+using namespace std;
+
+int getScore();
+char findGrade(int score);
+void printResult(int score, char grade);
+
+int main(){
+    int score;
+    char grade;
+
+    score = getScore();
+    grade = findGrade(score);
+    printResult(score, grade);
+    return 0;
+}
+
+int getScore(){
+    int score;
+    do{
+        cout << "점수를 입력하세요 (0~100) : ";
+        cin >> score;
+    }while(score < 0 || score > 100);
+    return score;
+}
+
+char findGrade(int score){
+    char grade;
+    if(score >= 90){
+        grade = 'A';
+    }
+    else if(score >= 80){
+        grade = 'B';
+    }else if(score >= 70){
+        grade = 'C';
+    }else if(score >= 60){
+        grade = 'D';
+    }else{
+        grade = 'F';
+    }
+    return grade;
+}
+
+void printResult(int score, char grade){
+    cout << endl << "시험결과 : " << endl;
+    cout << "점수 = " << score << "/100" << endl;
+    cout << "등급  = " << grade << endl;
+}
+```
+
+
