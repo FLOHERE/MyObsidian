@@ -227,7 +227,247 @@ int main(){
 ```
 
 - 함수의 네가지 사용 패턴
-	1. 
+
+```cpp
+// 첫번째 : 매개변수 없는 void 함수
+void 이름(){
+	...
+	return;
+}
+
+//두번째 : 매개변수 있는 void 함수
+void 이름(자료형 parameter, ...){
+	...
+	return;
+}
+
+//세번째 : 매개변수가 없지만 리턴값이 있는 함수
+자료형 이름(){
+	...
+	return value;
+}
+
+//네번째 : 매개변수와 리턴값이 있는 함수
+자료형 이름(자료형 parameter){
+	...
+	return value;
+}
+```
+
+```cpp
+//매개변수가 없는 void 함수
+#include <iostream>
+using namespace std;
+
+void greeting(){ // 매개변수가 없는 void 함수, 리턴은 없지만 화면에 메세지를 출력할수 있다.
+    cout << "*********************" << endl;
+    cout << "* 안녕하세요!          *" << endl;
+    cout << "*********************";
+    return;
+}
+int main(){
+    greeting();
+    return 0;
+}
+
+```
+
+```cpp
+//매개변수가 있는 void 함수
+#include <iostream>
+using namespace std;
+
+void pattern(int size){ //매개변수가 있는 void 함수
+    for(int i  = 0; i<size; i++){
+        for(int j = 0; j < size; j++){
+            cout << "*";
+        }
+        cout << endl;
+    }
+    return;
+}
+
+int main(){
+    int patternSize;
+
+    do{
+        cout << "패턴의 크기를 입력하세요 : ";
+        cin >> patternSize;
+    }while (patternSize <= 0);
+
+    pattern(patternSize); // patternSize 는 인수다.
+    return 0;
+    
+}
+```
+
+```cpp
+//매개변수가 없지만 리턴값이 있는 함수
+#include <iostream>
+using namespace std;
+
+int getData(){
+    int data;
+    do{
+        cout << "양의 정수를 입력하세요 : ";
+        cin >> data;
+    }while (data<=0);
+    return data;
+}
+
+int main(){
+    int number = getData();
+    cout << "가장 오른쪽의 숫자 = "<< number%10;
+    return 0;
+}
+```
+
+```cpp
+//매개변수와 리턴값이 있는 함수
+
+#include <iostream>
+using namespace std;
+
+int larger(int fst, int snd){
+    int max;
+    if(fst>snd){
+        max = fst;
+    }else{
+        max = snd;
+    }
+    return(max);
+}
+
+int main(){
+    int first, second;
+    cout << "첫번째 숫자를 입력하세요 : ";
+    cin >> first;
+    cout << "두번째 숫자를 입력하세요 : ";
+    cin >> second;
+    cout << "두 수 중에 큰것  = " << larger(first,second);
+    return 0;
+}
+```
+
+- 선언 : `type name(type, type,...);`
+- 호출 : `name(arg1, arg2, ...);`
+- 정의 : `type name(type1 p1, type2 p2){ }`
+
+```cpp
+//윤년인지 확인하기
+
+#include <iostream>
+using namespace std;
+
+int input();
+bool process (int year);
+void output(int year, bool result);
+
+int main(){
+    int year = input();
+    bool result = process(year);
+    output(year, result);
+    return 0;
+}
+
+int input(){
+    int year;
+    do{
+        cout << "1582년 이후의 연도를 입력하세요 : ";
+        cin >> year;
+    }while(year <= 1582);
+    return year;
+}
+
+bool process(int year){
+    bool criteria1 = (year % 4 ==0);
+    bool criteria2 = (year %100 !=0) || (year%400 == 0);
+    return(criteria1) && (criteria2);
+}
+
+void output(int year, bool result){
+    if(result){
+        cout << year << "년은 윤년 입니다.";
+    }else{
+        cout << year << "년은 윤년이 아닙니다.";
+    }
+    return;
+}
+```
+
+## 자료 전달
+### 1. 값으로 전달
+- 인수(argument)의 값이 복사되어서 매개변수(parameter)에 할당
+- 호출되는 함수에서 인수를 변경하지 않게 할떄 사용(읽기 전용)
+- 전달할 값의 크기가 작을때 적합
+
+```cpp
+//값으로 전달 확인하기
+#include <iostream>
+using namespace std;
+
+void fun(int y); //함수 선언
+
+int main(){
+    int x = 10;
+    fun(x);
+
+    cout << "main함수 내부의 x = " << x << endl;
+    return 0;
+}
+
+void fun(int y){
+    y++;
+    cout << "fun함수 내부의 y = " << y << endl;
+    return;
+}
+
+/*
+fun함수 내부의 y = 11
+main함수 내부의 x = 10
+*/
+```
+
+### 2. 참조로 전달
+- 매개변수가 인수의 별칭이 된다.
+- 호출되는 함수에서 매개변수 변경 시 원본 변경
+- 스왑 등 구현에 최적
+- 복사 불필요
+
+```cpp
+//참조로 전달 확인하기
+#include <iostream>
+using namespace std;
+
+void fun(int& y); // & 기호 : y가 참조라는것을 나타냄
+int main(){
+    int  x = 10;
+    fun(x);
+    cout << "main 함수 내부의 x = " << x << endl;
+    return 0;
+}
+
+void fun(int& y){
+    y++;
+    cout << "fun함수 내부의 y = " << y << endl;
+    return;
+}
+
+/*
+fun함수 내부의 y = 11
+main함수 내부의 x = 11 -> y의 값이 바뀌면 x의 값도 바뀐다.
+*/
+```
+
+```cpp
+
+```
+
+### 3. 포인터로 전달
+- 인수로 메모리 주소 전달
+- 매개변수를 사용 -> 인수의 메모리 위치에 접근
+- 참조로 전달과 유사한 장점
+- C언어의 문자열, 배열등 포인터 특성을 가진 자료에 사용
 
 ```cpp
 
