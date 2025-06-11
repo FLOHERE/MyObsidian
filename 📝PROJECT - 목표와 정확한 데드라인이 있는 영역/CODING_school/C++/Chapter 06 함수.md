@@ -615,4 +615,83 @@ double calcEarnings(double rate, double hours){
 - 함수 시그니처(function signature)
 	- 매개변수들의 자료형과 조합으로 함수 구분
 	- 리턴 자료형은 함수 시그니처에 포함 X
--  
+- ex_) `int max(int a, int b);` VS `double max(double a, double b);` => 오버로딩 가능
+- ex_) `int get()` VS `double get()` => 오버로딩 불가능
+- 매개면수만 다른 여러 max 함수 오버로딩 예시
+
+```cpp
+//함수 3개 오버로딩하기
+#include <iostream>
+using namespace std;
+
+int max(int num1, int num2);
+int max(int num1, int num2, int num3);
+int max(int num1, int num2, int num3, int num4);
+
+int main(){
+    cout << "maximum(5,7) = " << max(5,7) << endl;
+    cout << "maximum(7,9,8) = " << max(7,9,8) << endl;
+    cout << "maximum(14,4,12,11) = " << max(14,3,12,11);
+    return 0;
+}
+
+int max(int num1, int num2){
+    int larger;
+    if(num1 >= num2){
+        larger = num1;
+    }else{
+        larger = num2;
+    }
+    return larger;
+}
+
+int max(int num1, int num2, int num3){
+    return max(max(num1, num2), num3);
+}
+
+int max(int num1, int num2, int num3 , int num4){
+    return max(max(num1, num2, num3), num4);
+}
+```
+
+## 함수의 사용범위와 유지 기간
+- 스코프 : 엔티티(상수, 변수, 객체 , 함수 등)를 사용할수 있는 범위
+
+### 1. 지역 스코프
+- 선언된 위치부터 블록 끝까지 유효
+- 블록 내 동일 이름 엔티티 2개 불가(컴파일 오류)
+
+```cpp
+int calculate(int num){
+	int num = 0; // 오류 발생
+}
+```
+
+- 스코프 겹침(셰도잉) : 중첩 블록에서 외부 변수 가림
+	- 스코프 바깥에 있는 동일한 이름의 변수가 있어도 스코프 내에서는 정상 작동함.
+	- 바깥에 있는 변수값은 반영 X
+
+```cpp
+//지역 스코프의 셰도잉
+#include <iostream>
+using namespace std;
+
+int main(){
+    int sum = 5;
+    cout << sum << endl;
+    {
+        int sum = 3;
+        cout << sum << endl;
+    }
+    cout << sum << endl;
+    return 0;
+}
+/* 결과
+5
+3
+5
+*/
+```
+### 2. 전역 스코프
+- 프로그램 전체에서 접근 가능
+- 

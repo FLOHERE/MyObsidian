@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "49660896b7d72d80",
+        "id": "989712969148ee2b",
         "type": "tabs",
         "children": [
           {
-            "id": "fa8586a581c5ab2f",
+            "id": "cffbbfdd836482f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -181,8 +181,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa8586a581c5ab2f",
+  "active": "cffbbfdd836482f5",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 06 함수.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/7. 퍼셉트론과 인공지능의 시작.md",
     "Attached_file/Pasted image 20250611102009.png",
     "Attached_file/Pasted image 20250611101946.png",
@@ -191,7 +192,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/경사 하강법.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/4. 가장 훌륭한 예측선.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 06 함수.md",
     "Attached_file/NotebookLM Mind Map (1).png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/나만의 명세서 만들기.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7-1. TeamProject_심성당.md",
