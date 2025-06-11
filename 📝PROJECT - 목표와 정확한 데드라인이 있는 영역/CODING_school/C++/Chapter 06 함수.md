@@ -572,4 +572,46 @@ void printResult(int score, char grade){
 }
 ```
 
+### 3. 포인터로 리턴
+- 참조로 리턴과 효과와 메커니즘이 같지만 잘 사용 X
 
+## 기본 매개변수
+- 매개변수에 기본값 저장
+- 일부 매개변수만 적용 시 오른쪽에 위치하는 매개변수에만 적용 가능
+
+```cpp
+//ex
+double calcEarnings(double rate, double hours = 40.0);
+
+//함수 호출
+calcEarnings(payRate); //기본 매개변수 hours 는 명시된 대로 40.0으로 들어가서 계산됨
+calcEarnings(payRate, hourWorked); //hourWorked는 40.0이 아닌 따로 명시된 값으로 변경됨 
+```
+
+
+```cpp
+//기본 값 사용하기
+#include <iostream>
+using namespace std;
+
+double calcEarnings(double rate, double hours = 40);
+
+int main(){
+    cout << "직원1의 임금 : " << calcEarnings(22.0) << endl;
+    cout << "직원2의 임금 : " << calcEarnings(12.50, 18);
+    return 0;
+}
+
+double calcEarnings(double rate, double hours){
+    double pay;
+    pay = hours * rate;
+    return pay;
+}
+```
+
+## 함수 오버로딩
+- 이름이 같은 함수 2개 이상 정의 가능
+- 조건 : 매개변수(자료형, 개수, 순서)가 달라야 함
+- 함수 시그니처(function signature)
+	- 매개변수들의 자료형과 조합으로 함수 구분
+	- 리턴 자료형은 함수 시그니처에 포함 X
