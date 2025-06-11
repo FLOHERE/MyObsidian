@@ -769,7 +769,157 @@ void fun(){
     count ++;
     cout << "count = " << count << endl;
 }
+/*
+count = 1
+count = 2
+count  = 3
+*/
 ```
 
 
 ### 6. 초기화 비교
+- 자동 지역 변수 : 초기화 안하면 쓰레기 값
+- 전역 변수 , 정적 지역 변수 : 초기화 안 하면 기본값(0,0.0, false)
+
+```cpp
+//3가지 종류의 변수를 초기화 하지 않은 경우의 값
+#include <iostream>
+using namespace std;
+
+int global;
+int main(){
+    static int sLocal;
+    int aLocal;
+
+    cout << "전역변수 = " << global << endl;
+    cout << "정적 지역 변수 = " << sLocal << endl;
+    cout << "자동 지역 변수 = " << aLocal << endl;
+}
+/*
+전역변수 = 0
+지역 변수 = 0
+자동 지역 변수 =  2034912 //쓰레기값
+*/
+```
+
+
+
+---
+
+# 연습문제 
+1. 다음 함수들을 실행할수 있는 짧은 프로그램을 작성하세요
+	a. abs(25) 와 abs(-23)
+	b. floor(44.56)과 floor(-23.78)
+	c.ceil(25.33)과 ceil(-2.89)
+
+```cpp
+int main(){
+    cout << "abs(25) = " << abs(25) << endl;
+    cout << "abs(-23) = "  << abs(-23) << endl;
+    cout << "floor(44.56) = " << floor(44.56) << endl;
+    cout << "floor(-23.78) = " << floor(-23.78) << endl;
+    cout << "ceil(25.33) = " << ceil(25.33) << endl;
+    cout << "ceil(-2.89) = " << ceil(-2.89) << endl;
+}
+/* 결과 : 
+abs(25) = 25
+abs(-23) = 23
+floor(44.56) = 44
+floor(-23.78) = -24
+ceil(25.33) = 26
+ceil(-2.89) = -2
+*/
+```
+
+2. 다음 함수들을 실행할수 있는 짧은 프로그램을 작성하세요
+	a. pow(5.0, 3)과 pow(5,-3)
+	b. sqrt(44.56)
+	c. exp(-6.2)와 exp(44.26)
+	d. log(16.2)와 log10(14.24
+
+```cpp
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+    cout << "pow(5.0, 3) = " << pow(5.0, 3) << endl;
+    cout << "pow(5,-3) = " << pow(5,-3) << endl;
+    cout << "sqrt(44.56) = " << sqrt(44.56) << endl;
+    cout << "exp(-6.2) = " << exp(-6.2) << endl;
+    cout << "exp(44.26) = " << exp(44.26) << endl;
+    cout << "log(16.2) = " << log(16.2) << endl;
+}
+/* 결과
+pow(5.0, 3) = 125
+pow(5,-3) = 0.008
+sqrt(44.56) = 6.67533
+exp(-6.2) = 0.00202943
+exp(44.26) = 1.66676e+19
+log(16.2) = 2.78501
+*/
+```
+
+3. 다음 함수들을 실행할수 있는 짧은 프로그램을 작성하세요
+	a.sin(0)과 sin(PI)
+	b. cos(0)과 cos(PI)
+	c. tan(0)과 tan(1)
+	d.asin(0)과 asin(1)
+	e.acos(0)과 asin(1)
+	f.atan(0)과 atan(1)
+
+```cpp
+#include<iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+    const double PI = 3.141592653589793238462;
+    cout << "sin(0) = " << sin(0) << endl;
+    cout << "sin(PI) = " << sin(PI) << endl;
+    cout << "cos(0) = " << cos(0) << endl;
+    cout << "cos(PI) = " << cos(PI) << endl;
+    cout << "tan(0) = " << tan(0) << endl;
+    cout << "tan(1) = " << tan(1) << endl;
+    cout << "asin(0) = " << asin(0) << endl;
+    cout << "asin(1) = " << asin(1) << endl;
+    cout << "acos(0) = " << acos(0) << endl;
+    cout << "acos(1) = " << acos(1) << endl;
+    cout << "atan(0) = " << atan(0) << endl;
+    cout << "atan(1) = " << atan(1) << endl;
+}
+/* 결과
+sin(0) = 0
+sin(PI) = 1.22465e-16
+cos(0) = 1
+cos(PI) = -1
+tan(0) = 0
+tan(1) = 1.55741
+asin(0) = 0
+asin(1) = 1.5708
+acos(0) = 1.5708
+acos(1) = 0
+atan(0) = 0
+atan(1) = 0.785398
+*/
+```
+
+4. round 함수의 동작을 확인하는 프로그램
+	23.2 => 23
+	23.8 => 24
+	-23.2 => 23
+	-23.8 => -24
+로 만드세요
+
+```cpp
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int  main(){
+    cout << "23.2 => " << abs(23.2) << endl;
+    cout << "23.8 => " << ceil(23.8) << endl;
+    cout << "-23.2 => " << floor(abs(-23.2)) << endl;
+    cout << "-23.8 => " << floor(-23.8) << endl;
+}
+```
+
