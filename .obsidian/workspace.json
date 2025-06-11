@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/7. 퍼셉트론과 인공지능의 시작.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 06 함수.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "7. 퍼셉트론과 인공지능의 시작"
+              "title": "Chapter 06 함수"
             }
           }
         ]
@@ -183,10 +183,10 @@
   },
   "active": "fa8586a581c5ab2f",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/7. 퍼셉트론과 인공지능의 시작.md",
     "Attached_file/Pasted image 20250611102009.png",
     "Attached_file/Pasted image 20250611101946.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/6. 로지스틱 회귀 모델 ; 참 거짓 판단.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/7. 퍼셉트론과 인공지능의 시작.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/5. 선형회귀 모델.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/경사 하강법.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/4. 가장 훌륭한 예측선.md",
@@ -218,7 +218,6 @@
     "Attached_file/Pasted image 20250426002106.png",
     "Attached_file/Pasted image 20250426001857.png",
     "Attached_file/Pasted image 20250426001825.png",
-    "Attached_file/Pasted image 20250426000625.png",
     "canvas_file/프로토 타이핑 모델.canvas",
     "canvas_file/폭포수 모델.canvas",
     "canvas_file/소프트웨어 개발 과정.canvas",

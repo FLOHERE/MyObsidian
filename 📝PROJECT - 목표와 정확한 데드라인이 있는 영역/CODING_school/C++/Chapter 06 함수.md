@@ -460,7 +460,28 @@ main함수 내부의 x = 11 -> y의 값이 바뀌면 x의 값도 바뀐다.
 ```
 
 ```cpp
+//변수 스왑
+#include <iostream>
+using namespace std;
 
+void swap(int& first, int& second);
+
+int main(){
+    int first = 10;
+    int second = 20;
+    swap(first, second);
+	
+    cout << "mian함수의 first값 = " << first << endl;
+    cout << "main 함수의 second 값 = " << second;
+    return 0;
+}
+
+void swap(int& fst, int& snd){
+    int temp = fst;
+    fst = snd;
+    snd = temp;
+    return;
+}
 ```
 
 ### 3. 포인터로 전달
