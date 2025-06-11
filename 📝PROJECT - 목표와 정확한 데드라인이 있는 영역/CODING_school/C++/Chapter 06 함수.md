@@ -916,7 +916,7 @@ atan(1) = 0.785398
 using namespace std;
 
 int  main(){
-    cout << "23.2 => " << abs(23.2) << endl;
+    cout << "23.2 => " << floor(23.2) << endl;
     cout << "23.8 => " << ceil(23.8) << endl;
     cout << "-23.2 => " << floor(abs(-23.2)) << endl;
     cout << "-23.8 => " << floor(-23.8) << endl;
