@@ -65,8 +65,8 @@ for(int i = 0; i< n-1; i++){
 for( i = 1; i < n; i++){
 	insertElement = A[i]; //삽입할 요소 A[i]를 저장
 	j = i-1; //A[i]를 A[0...i-1]에 삽입할 위치 찾음
-	while(j >= 0 && A[ j ]){ 
-		j = j-1 // A[j]를 오른쪽으로 한자리 이동
+	while(j >= 0 && A[ j ] > insertElement){ 
+		j = j-1 // A[ j ]를 오른쪽으로 한자리 이동
 	}
 	A[ j+1] = insertElement // A[i]를 찾은 위치에 삽입
 }
