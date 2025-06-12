@@ -62,6 +62,20 @@ for(int i = 0; i< n-1; i++){
    => {1,2,3,4,5}
 
 ```java
-for()
+for( i = 1; i < n; i++){
+	insertElement = A[i]; //삽입할 요소 A[i]를 저장
+	j = i-1; //A[i]를 A[0...i-1]에 삽입할 위치 찾음
+	while(j >= 0 && A[ j ]){ 
+		j = j-1 // A[j]를 오른쪽으로 한자리 이동
+	}
+	A[ j+1] = insertElement // A[i]를 찾은 위치에 삽입
+}
 ```
+
+- `while(j >= 0 && A[j] > insertElement)`  : 삽입 정렬 알고리즘에서 매우 중요한 부분
+	- 현재 삽입 하려는 값(insertElement)이 적절한 위치에 들어갈수 있도록 그보다 큰 값은 오른쪽으로 한칸씩 이동
+	- (j >= 0)인덱스가 배열의 유효 범위 내에 있는지를 확인하는 조건
+	- `(A[j] > insertElement)` : 현재 비교중인 `A[j]` 값이 삽입하려는 값 `insertElement` 보다 크다면 이 값을 오른쪽으로 밀어야 함.
+
+![[Pasted image 20250613010839.png]]
 
