@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 06. 다익스트라 알고리즘.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/10. 딥러닝 모델 설계하기.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Chapter 06. 다익스트라 알고리즘"
+              "title": "10. 딥러닝 모델 설계하기"
             }
           }
         ]
@@ -183,11 +183,15 @@
   },
   "active": "d18fb178753530fd",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/7. 퍼셉트론과 인공지능의 시작.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/10. 딥러닝 모델 설계하기.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/8. 다층 퍼셉트론.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/9. 오차 역전파에서 딥러닝으로.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 06. 다익스트라 알고리즘.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 05. 정렬 알고리즘.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 04. 그리디 알고리즘.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 02. 알고리즘을 배우기 위한 준비.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/변환 명세서.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 06. 다익스트라 알고리즘.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chpater 07. 그리디알고리즘(탐욕기법 알고리즘).md",
     "Attached_file/Pasted image 20250613112156.png",
     "Attached_file/Pasted image 20250613010839.png",
@@ -195,16 +199,13 @@
     "Attached_file/Pasted image 20250612204742.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/1.파이썬을 소개 합니다..md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/6. 반복해 봅시다..md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/9. 오차 역전파에서 딥러닝으로.md",
     "Attached_file/Pasted image 20250612001406.png",
     "Attached_file/Pasted image 20250612001154.png",
     "Attached_file/Pasted image 20250612000826.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/8. 다층 퍼셉트론.md",
     "Attached_file/Pasted image 20250611204630.png",
     "Attached_file/Pasted image 20250611200539.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 06 함수.md",
     "Attached_file/Pasted image 20250611164504.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/7. 퍼셉트론과 인공지능의 시작.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/6. 로지스틱 회귀 모델 ; 참 거짓 판단.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/5. 선형회귀 모델.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/경사 하강법.md",
@@ -218,7 +219,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/JAVA/JAVA_advanced/5장. 응용 API 프로그래밍.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 02 C++ 프로그래밍 기본.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 05 반복문.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 04 조건문.md",
     "canvas_file/프로토 타이핑 모델.canvas",
     "canvas_file/폭포수 모델.canvas",
     "canvas_file/소프트웨어 개발 과정.canvas",
