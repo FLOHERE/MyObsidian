@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chpater 07. 그리디알고리즘(탐욕기법 알고리즘).md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 06. 다익스트라 알고리즘.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Chpater 07. 그리디알고리즘(탐욕기법 알고리즘)"
+              "title": "Chapter 06. 다익스트라 알고리즘"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "%d",
+                "query": "Chapter 3.",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,12 +183,14 @@
   },
   "active": "d18fb178753530fd",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 05. 정렬 알고리즘.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 04. 그리디 알고리즘.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 02. 알고리즘을 배우기 위한 준비.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/변환 명세서.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 06. 다익스트라 알고리즘.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chpater 07. 그리디알고리즘(탐욕기법 알고리즘).md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 05. 정렬 알고리즘.md",
     "Attached_file/Pasted image 20250613112156.png",
     "Attached_file/Pasted image 20250613010839.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/변환 명세서.md",
     "Attached_file/Pasted image 20250612204803.png",
     "Attached_file/Pasted image 20250612204742.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/1.파이썬을 소개 합니다..md",
@@ -210,7 +212,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DB/1. 데이터 베이스 시스템.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/나만의 명세서 만들기.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/7-1. TeamProject_심성당.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 04. 그리디 알고리즘.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/기말고사 대비 - 실시간 주차 정보 시스템.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/3. 프로젝트 계획과 관리.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/교수님의 새로운 과제(시험 예제?).md",
@@ -218,7 +219,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 02 C++ 프로그래밍 기본.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 05 반복문.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 04 조건문.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/상속(Inheritance).md",
     "canvas_file/프로토 타이핑 모델.canvas",
     "canvas_file/폭포수 모델.canvas",
     "canvas_file/소프트웨어 개발 과정.canvas",

@@ -50,4 +50,49 @@
 	4. Url = Url(목적지 정보가 다르게 나와 확인 가능 => 피싱사이트 정보 확인 가능)
 
 # 코드
+```java
+package Mentoring_05_22;
+import java.util.*;
 
+public class Car{
+	static class Edge{
+		String target;
+		double weight;
+		
+		Edge(String target, double weight){
+			this.target = target;
+			this.weight = weight;
+		}
+	}
+	public static Map<String, Double> simpleDijkstra(Map<String, List<Edge>> graph, String start){
+		Map<String , Double> distances = new HashMap<>();
+		
+		Map<String, Boolean> visited = new HashMap<>();
+		
+		for(String node : graph.keySet()){
+			distances.put(node, Double.POSITIVE_INFINITY);
+			visited.put(node, false);
+		}
+		
+		distances.put(start, 0.0);
+		
+		for(int i = 0; i<graph.size(); i++){
+			String currentNode = null;
+			double minDistance = Double.POSITIVE_INFINITY;
+			
+			for(String node : graph.keySet()){
+				if(!visited.get(node) && distances.get(node) < minDistance){
+					currentNode = node;
+				}
+			}
+			if(currnentNode == null) break;
+			
+			visited.put(currentNode, true);
+			
+			for(Edge edge : graph.get(currentNode)){
+				
+			}
+		}
+	}
+}
+```
