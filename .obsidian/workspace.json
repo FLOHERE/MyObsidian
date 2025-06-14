@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chpater 07. 그리디알고리즘(탐욕기법 알고리즘).md",
-                "mode": "source",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/7. 퍼셉트론과 인공지능의 시작.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Chpater 07. 그리디알고리즘(탐욕기법 알고리즘)"
+              "title": "7. 퍼셉트론과 인공지능의 시작"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chpater 07. 그리디알고리즘(탐욕기법 알고리즘).md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/7. 퍼셉트론과 인공지능의 시작.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Chpater 07. 그리디알고리즘(탐욕기법 알고리즘) 의 개요"
+              "title": "7. 퍼셉트론과 인공지능의 시작 의 개요"
             }
           }
         ],
@@ -183,8 +183,8 @@
   },
   "active": "d18fb178753530fd",
   "lastOpenFiles": [
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 06. 다익스트라 알고리즘.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chpater 07. 그리디알고리즘(탐욕기법 알고리즘).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 06. 다익스트라 알고리즘.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/기말고사 뭐나올까.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 05. 정렬 알고리즘.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/10. 딥러닝 모델 설계하기.md",
