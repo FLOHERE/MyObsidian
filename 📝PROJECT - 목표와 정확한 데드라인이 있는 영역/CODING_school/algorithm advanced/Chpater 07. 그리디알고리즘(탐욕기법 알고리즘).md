@@ -76,6 +76,56 @@
 >[!warning] 문제의 제약 조건을 만족하는(실현 가능한) 선택지들만 대상으로 삼는다.
 >-> 이중에서 가장 좋아보이는 현재 기준의 최적해 선택
 
-```java
+- 한국 화폐 : 상위 단위가 하위 단위의 배수
+	- 큰 값 우선 전략이 항상 최소 동전 수를 보장
+- 시간 복잡도 : 0(k)
+- 공간 복잡도 : 0(k)
+- coinValue : 동전 단위
+- numcoin : 동전 개수
+- 서비스 : 거스름돈 계산으로 분리
+- 사용 <-> 콘솔
+- 모델링
 
+```java
+package Mentoring;
+import java.util.Scanner;
+
+public class Coin{
+	public static void main(String[] args){
+		int coinValue = {500,100,50,10,5,1};
+		int i;
+		int[] numCoin;
+		int change;
+		int count = 0;
+		
+		numCoin = new int[6];
+		
+		Scanner scan = new Scanner(System.in);
+		for(i = 0; i < numCoin.length; i++){
+			numCoin[i] = 0;
+		}
+		System.out.println("거스름돈을 입력하세요(0~999) : ");
+		change = scan.nextInt();
+		System.out.println(change + "원의 거스름돈은 다음과 같습니다. ");
+		
+		i = 0;
+		
+		while(change > 0){
+			numCoin[i] = change / coinValue[i];
+			
+			count = count + numCoin[i];
+			
+			change = change%coinValue(i);
+			
+			if(numCoin[i] > 0){
+				System.out.println(coinValue[i] + " 원짜리 동전 : " + numCoin[i] + "개");
+			}
+			i++;
+		}
+		System.out.println("\n 거스름돈에 포함된 동전들의 수 : " + count);
+		scan.close();
+	}
+}
 ```
+
+

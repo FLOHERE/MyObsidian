@@ -50,73 +50,80 @@
 	4. Url = Url(목적지 정보가 다르게 나와 확인 가능 => 피싱사이트 정보 확인 가능)
 
 # 코드
+- 최단거리 탐색 알고리즘 (다익스트라)
+	- 네트워크의 최단거리 이동 코드 화
 
 ```java
 package Mentoring_05_22;
 import java.util.*;
 
-public class Car{ // 간선(Edge) 를 나타내는 클래스 : 목표 노드와 가중치 조합
-	static class Edge{
-		String target;
-		double weight;
+public class Network {
+    // 간선(Edge)를 나타내는 클래스: 목표 노드와 가중치 포함
+    static class Edge {
+        String target;
+        double weight;
 		
-		Edge(String target, double weight){
-			this.target = target;
-			this.weight = weight;
-		}
-	}
-	// 단순 다익스트라 알고리즘 구현
-	public static Map<String, Double> simpleDijkstra(Map<String, List<Edge>> graph, String start){
-		//각 노드까지의 최단 거리를 저장 할 맵
-		Map<String , Double> distances = new HashMap<>();
+        Edge(String target, double weight) {
+            this.target = target;
+            this.weight = weight;
+        }
+    }
+	
+    // 단순 다익스트라 알고리즘 구현
+    public static Map<String, Double> simpleDijkstra(Map<String, List<Edge>> graph, String start) {
+        // 각 노드까지의 최단 거리를 저장할 맵
+        Map<String, Double> distances = new HashMap<>();
+        // 노드 방문 여부를 저장할 맵
+        Map<String, Boolean> visited = new HashMap<>();
+        // 초기화: 모든 노드의 거리를 무한대로 설정하고, 방문 여부는 false
 		
-		//노드 방문 여부를 저장 할 맵
-		Map<String, Boolean> visited = new HashMap<>();
+        for (String node : graph.keySet()) {
+            distances.put(node, Double.POSITIVE_INFINITY);
+            visited.put(node, false);
+        }
+        // 시작 노드의 거리는 0으로 설정
+        distances.put(start, 0.0);
 		
-		//초기화 : 모든 노드의 거리를 무한대로 설정 -> 방문 여부는 false
-		for(String node : graph.keySet()){
-			distances.put(node, Double.POSITIVE_INFINITY);
-			visited.put(node, false);
-		}
+        // 그래프에 있는 노드 수만큼 반복
+        for (int i = 0; i < graph.size(); i++) {
+            String currentNode = null;
+            double minDistance = Double.POSITIVE_INFINITY;
+			
+			
+            // 방문하지 않은 노드 중 현재까지의 거리가 가장 짧은 노드 선택
+            for (String node : graph.keySet()) {
+                if (!visited.get(node) && distances.get(node) < minDistance) {
+                    minDistance = distances.get(node);
+                    currentNode = node;
+                }
+            }
+			
+            // 더 이상 방문할 노드가 없으면 반복 종료
+            if (currentNode == null) break;
+			
+            // 현재 노드를 방문 처리
+            visited.put(currentNode, true);
+			
+            // 인접 노드에 대해 거리 갱신 시도
+            for (Edge edge : graph.get(currentNode)) {
+                double newDist = distances.get(currentNode) + edge.weight;
+                if (newDist < distances.get(edge.target)) {
+                    distances.put(edge.target, newDist);
+                }
+				
+            }
+        }
 		
-		// 시작 노드의 거리는 0으로 설정
-		distances.put(start, 0.0);
+        // 최종 거리 맵 반환
+        return distances;
+    }
 		
-		//그래프에 있는 노드 수만큼 반복
-		for(int i = 0; i<graph.size(); i++){
-			String currentNode = null;
-			double minDistance = Double.POSITIVE_INFINITY;
-			
-			//방문 하지 않은 노드 중 현재까지의 거리가 가장 짧은 노드 선택
-			for(String node : graph.keySet()){
-				if(!visited.get(node) && distances.get(node) < minDistance){
-					currentNode = node;
-				}
-			}
-			
-			//더이상 방문할 노드가 없으면 반복 종료
-			if(currnentNode == null) break;
-			
-			//현재 노드를 방문 처리
-			visited.put(currentNode, true);
-			
-			//인접 노드에 대해 거리 갱신 시도
-			for(Edge edge : graph.get(currentNode)){
-				double newDist = distances.get(currentNode) + edge.weight;
-				if(newDist < distances.get(edge.target)){
-					distances.put(edge.targe, newDist);
-				}
-			}
-			
-		}
-		//최종 거리 맵 반환
-		return distances;
-	}
-	public static void main(String[] args){
-		//그래프 정의 : 각 노드에서 연결된 노드와 가중치(지연 시간 등)
-		Map<String, List<Edge>> graph = new HashMap<>();
-		graph.put("300.200.1.1", Arrays.asList(new Edge("182.30.1.333", 1)));
-		graph.put("182.30.1.333", Arrays.asList(new Edge("218.154.215.1", 11.3)));
+    public static void main(String[] args) {
+		
+        // 그래프 정의: 각 노드에서 연결된 노드와 가중치(지연 시간 등)
+        Map<String, List<Edge>> graph = new HashMap<>();
+        graph.put("300.200.1.1", Arrays.asList(new Edge("182.30.1.333", 1)));
+        graph.put("182.30.1.333", Arrays.asList(new Edge("218.154.215.1", 11.3)));
         graph.put("218.154.215.1", Arrays.asList(new Edge("112.174.50.142", 10.7)));
         graph.put("112.174.50.142", Arrays.asList(new Edge("112.174.16.62", 10)));
         graph.put("112.174.16.62", Arrays.asList(new Edge("218.55.246.31", 12.7)));
@@ -131,8 +138,10 @@ public class Car{ // 간선(Edge) 를 나타내는 클래스 : 목표 노드와 
 		
         // 결과 출력
         System.out.printf("%s → %s 최단 거리: %.2f ms%n", start, end, distances.get(end));
-	}
+		
+    }
 }
-//결과 : 300.200.1.1 → 218.55.246.31 최단 거리: 45.70 ms
 ```
+
+
 
