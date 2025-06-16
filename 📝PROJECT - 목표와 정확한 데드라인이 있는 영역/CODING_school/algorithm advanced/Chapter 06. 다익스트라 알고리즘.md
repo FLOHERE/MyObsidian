@@ -157,7 +157,7 @@ public class Network {
 
 - Map : key-value 로 이루어진 값
 	- Map은 interface 이다
-	- `Map<key 자료형, value 자료형> map = new HashMap<>();`
+	- `Map<key 자료형, value 자료형> map이름 = new HashMap<>();`
 - HashMap<>(); : Map을 실체화 해주는 클래스(객체를 만드는 구조)
 	- Map을 쓰기 위한 준비단계
 - 예시
