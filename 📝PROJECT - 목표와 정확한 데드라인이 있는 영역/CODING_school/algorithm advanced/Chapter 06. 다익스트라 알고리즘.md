@@ -55,7 +55,7 @@
 
 ```java
 package Mentoring_05_22;
-import java.util.*;
+import java.util.*; // java의 util 패캐지 안에 모든 클래스를 가져온다.
 
 public class Network {
     // 간선(Edge)를 나타내는 클래스: 목표 노드와 가중치 포함
