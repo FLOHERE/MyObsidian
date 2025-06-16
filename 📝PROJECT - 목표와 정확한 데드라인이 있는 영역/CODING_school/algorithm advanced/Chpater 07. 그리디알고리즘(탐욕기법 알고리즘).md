@@ -88,21 +88,22 @@
 
 ```java
 package Mentoring;
-import java.util.Scanner;
+import java.util.Scanner; //사용자에게 입력받기 위한 라이브러리
 
 public class Coin{
 	public static void main(String[] args){
-		int coinValue = {500,100,50,10,5,1};
-		int i;
-		int[] numCoin;
-		int change;
-		int count = 0;
+	//coinValue 타입(int) : 동전 액면가를 내림차순으로 보존(탐욕기법 전제)
+		int coinValue = {500,100,50,10,5,1}; 
+		int i; // 동전 배열의 인덱스
+		int[] numCoin; //거스름돈에 포함될 각 동전 배열
+		int change; //입력받은 거스름돈
+		int count = 0; //총 동전의 수
 		
-		numCoin = new int[6];
+		numCoin = new int[6]; //데이터 정의 및 초기화
 		
-		Scanner scan = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in); //사용자에게 거스름돈 얼마인지 받을 준비
 		for(i = 0; i < numCoin.length; i++){
-			numCoin[i] = 0;
+			numCoin[i] = 0; //numCoin 배열의 i 번째 배열 선택
 		}
 		System.out.println("거스름돈을 입력하세요(0~999) : ");
 		change = scan.nextInt();
