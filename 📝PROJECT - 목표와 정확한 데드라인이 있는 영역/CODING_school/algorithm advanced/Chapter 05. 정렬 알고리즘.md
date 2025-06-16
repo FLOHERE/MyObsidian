@@ -45,7 +45,34 @@ for(int i = 0; i< n-1; i++){
 
 - 전체 코드
 ```java
-
+package Mentoring;
+public class arrSwap{
+	public static void Swap(int[] arr){
+		int n = arr.length;
+		for(int i = 0; i<n-1; i++){
+			int minIndex = i;
+			
+			for(int j = i+1; j < n; j++){
+				if(arr[j] < arr[minIndex]){
+					minIndex = j;
+				}
+			}
+			if(minIndex != i){
+				int temp = arr[i];
+				arr[i] = arr[minIndex];
+				arr[minIndex] = temp;
+			}
+		}
+	}
+	
+	public static void main(String[] args){
+		int[] arr = {9,7,8,2,5}
+		Swap(arr);
+		for(int n : arr){
+			System.out.println(n);
+		}
+	}
+}
 ```
 
 ## 3. 삽입 정렬
