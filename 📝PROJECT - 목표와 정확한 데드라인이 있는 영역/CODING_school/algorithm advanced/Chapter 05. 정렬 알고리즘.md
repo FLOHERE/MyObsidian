@@ -45,7 +45,7 @@ for(int i = 0; i< n-1; i++){
 
 - 전체 코드
 ```java
-public class 
+
 ```
 
 ## 3. 삽입 정렬
