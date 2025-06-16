@@ -88,45 +88,54 @@
 
 ```java
 package Mentoring;
-import java.util.Scanner; //사용자에게 입력받기 위한 라이브러리
+import java.util.Scanner; // 사용자 입력을 받기 위한 라이브러리
 
 public class Coin{
 	public static void main(String[] args){
-	//coinValue 타입(int) : 동전 액면가를 내림차순으로 보존(탐욕기법 전제)
-		int coinValue = {500,100,50,10,5,1}; 
+		// coinValue 배열: 동전 액면가를 큰 금액부터 저장 (탐욕 알고리즘 적용을 위해)
+		int[] coinValue = {500, 100, 50, 10, 5, 1}; 
 		int i; // 동전 배열의 인덱스
-		int[] numCoin; //거스름돈에 포함될 각 동전 배열
-		int change; //입력받은 거스름돈
-		int count = 0; //총 동전의 수
+		int[] numCoin; // 각 동전별로 사용할 개수를 저장할 배열
+		int change; // 사용자가 입력한 거스름돈 액수
+		int count = 0; // 사용될 동전의 총 개수
 		
-		numCoin = new int[6]; //데이터 정의 및 초기화
+		numCoin = new int[6]; // 6개 동전 종류에 대한 배열 생성 및 초기화
 		
-		Scanner scan = new Scanner(System.in); //사용자에게 거스름돈 얼마인지 받을 준비
+		Scanner scan = new Scanner(System.in); // 사용자 입력을 받기 위한 Scanner 객체 생성
+		
+		// numCoin 배열을 모두 0으로 초기화
 		for(i = 0; i < numCoin.length; i++){
-			numCoin[i] = 0; //numCoin 배열의 i 번째 배열 선택
+			numCoin[i] = 0;
 		}
+		
 		System.out.println("거스름돈을 입력하세요(0~999) : ");
-		change = scan.nextInt();
+		change = scan.nextInt(); // 사용자로부터 거스름돈을 정수로 입력받음
 		System.out.println(change + "원의 거스름돈은 다음과 같습니다. ");
 		
-		i = 0;
+		i = 0; // 가장 큰 단위 동전부터 시작
 		
-		while(change > 0){
-			numCoin[i] = change / coinValue[i];
+		// *탐욕 알고리즘 핵심 부분*
+		while(change > 0){ 
+			// **탐욕적 선택: 현재 가능한 가장 큰 동전을 최대한 많이 사용**
+			numCoin[i] = change / coinValue[i]; // 현재 동전으로 줄 수 있는 최대 개수 계산
 			
-			count = count + numCoin[i];
+			count = count + numCoin[i]; // 전체 동전 개수에 누적 (최소 동전 개수 계산)
 			
-			change = change%coinValue(i);
+			// 남은 거스름돈 계산 (나머지 연산 사용)
+			change = change % coinValue[i]; // 문법 오류 수정: coinValue(i) -> coinValue[i]
 			
+			// 사용된 동전이 있으면 결과 출력
 			if(numCoin[i] > 0){
-				System.out.println(coinValue[i] + " 원짜리 동전 : " + numCoin[i] + "개");
+				System.out.println(coinValue[i] + "원짜리 동전 : " + numCoin[i] + "개");
 			}
-			i++;
+			i++; // 다음 동전 종류로 이동
 		}
-		System.out.println("\n 거스름돈에 포함된 동전들의 수 : " + count);
-		scan.close();
+		System.out.println("\n거스름돈에 포함된 동전들의 총 개수 : " + count);
+		scan.close(); // Scanner 자원 해제
 	}
 }
 ```
+
+
 
 
