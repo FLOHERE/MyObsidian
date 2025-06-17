@@ -158,7 +158,7 @@ public class Network {
 - Map : key-value 로 이루어진 값
 	- Map은 interface 이다
 	- `Map<key 자료형, value 자료형> map이름 = new HashMap<>();`
-- HashMap<>(); : Map을 실체화 해주는 클래스(객체를 만드는 구조)
+- `HashMap<>();` : Map을 실체화 해주는 클래스(객체를 만드는 구조)
 	- Map을 쓰기 위한 준비단계
 - 예시
 
@@ -167,3 +167,32 @@ Map<String, Integer> map = new HashMap<>();
 //문자열을 키로 하고, 정수를 값으로 가지는 Map을 만들건데, 실제 구현은 HashMap으로 하겠다.
 ```
 
+- `.put(k, v)` : Map에 데이터 넣기
+	- key : IP 주소(노드)
+	- value : Edge(노드들과의 거리 정보)
+- `.get(k)` : Map에서 데이터 꺼내기
+
+```java
+graph.put("300.200.1.1", Arrays.asList(new Edge("182.30.1.333", 1)));
+//노드 300.200.1.1에서 연결된 노드는 182.30.1.333이고,
+//거리는 1이다 => 이 정보를 graph라는 Map에 저장
+```
+
+- ArrayList
+	- 빈 리스트 만들고 값 넣기
+```java
+List<String> list = new ArrayList<>();
+list.add("사과");//나중에 값 추가
+
+List<String> list = Arrays.asList("사과"); //리스트 만들면서 바로 값 넣기도 가능
+```
+
+- 배열과 리스트의 차이점(참조)
+
+| 항목        | 배열 (`Array`)                | 리스트 (`List`)                              |
+| --------- | --------------------------- | ----------------------------------------- |
+| **크기**    | 고정됨 → 생성할 때 크기 지정 필요        | 가변 → 필요하면 나중에 값 추가 가능                     |
+| **선언 방식** | `int[] arr = new int[3];`   | `List<Integer> list = new ArrayList<>();` |
+| **값 추가**  | 위치 지정해서 값 대입 → `arr[0] = 1` | `.add()`로 값 추가 → `list.add(1)`            |
+| **초기화**   | 미리 크기를 정해두고 하나씩 대입          | 한꺼번에 넣거나 비워두고 나중에 추가                      |
+| **유연성**   | 제한적 (길이 바꾸기 어렵고, 타입 고정)     | 유연함 (길이 자동 증가, 타입 지정 가능)                  |
