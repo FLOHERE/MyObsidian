@@ -171,6 +171,18 @@ Map<String, Integer> map = new HashMap<>();
 //문자열을 키로 하고, 정수를 값으로 가지는 Map을 만들건데, 실제 구현은 HashMap으로 하겠다.
 ```
 
+```java
+// 함수 공식
+public static Map<키타입, 값타입> 함수이름(Map<키타입, List<클래스타입>> 매개변수명, 값타입 매개변수명)
+
+public static Map<String, Double> simpleDijkstra(Map<String, List<Edge>> graph, String start) 
+/*📌 외울 수 있는 공식을 말로 표현하면:
+🔹 Map<String, Double>을 리턴하고
+🔹 Map<String, List\<Edge>>와 String을 매개변수로 받는
+🔹 static 함수 구조다
+*/
+```
+
 - `.put(k, v)` : Map에 데이터 넣기
 	- key : IP 주소(노드)
 	- value : Edge(노드들과의 거리 정보)
