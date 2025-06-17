@@ -59,12 +59,12 @@ package Mentoring_05_22; // 해당 클래스가 포함된 패키지 이름 지�
 import java.util.*; // Java의 유틸리티 클래스들을 모두 import (예: Map, List, HashMap 등 사용 가능)
 
 public class Network {
-
+	
     // 그래프의 간선(Edge)을 표현하는 내부 클래스
     static class Edge {
         String target; // 연결된 대상 노드의 이름(IP 주소 형태로 표현됨)
         double weight; // 간선의 가중치 (예: 지연 시간 ms)
-
+		
         // 생성자: 간선 객체를 생성할 때 대상 노드와 가중치를 설정
         Edge(String target, double weight) {
             this.target = target;
@@ -196,3 +196,18 @@ List<String> list = Arrays.asList("사과"); //리스트 만들면서 바로 값
 | **값 추가**  | 위치 지정해서 값 대입 → `arr[0] = 1` | `.add()`로 값 추가 → `list.add(1)`            |
 | **초기화**   | 미리 크기를 정해두고 하나씩 대입          | 한꺼번에 넣거나 비워두고 나중에 추가                      |
 | **유연성**   | 제한적 (길이 바꾸기 어렵고, 타입 고정)     | 유연함 (길이 자동 증가, 타입 지정 가능)                  |
+
+- this 왜씀?
+	- **헷갈림을 방지하고 오버라이딩이나 변수 이름 중복 상황에서 정확히 내가 원하는 걸 가리키게 하려고** 
+
+```java
+class Student {
+    String name;
+		
+    Student(String name) {
+        // 이때 둘 다 name이니까 혼란 생김
+        this.name = name;  // this.name → 필드, name → 매개변수
+    }
+}
+```
+
