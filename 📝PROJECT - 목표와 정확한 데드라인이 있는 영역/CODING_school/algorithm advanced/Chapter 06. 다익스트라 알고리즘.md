@@ -63,7 +63,7 @@ public class Network {
     // 그래프의 간선(Edge)을 표현하는 내부 클래스
     static class Edge {
         String target; // 연결된 대상 노드의 이름(IP 주소 형태로 표현됨)
-        double weight; // 간선의 가중치 (예: 지연 시간 ms)
+        double weight; // 간선의 가중치 (지연 시간 ms)
 		
         // 생성자: 간선 객체를 생성할 때 대상 노드와 가중치를 설정
         Edge(String target, double weight) {
@@ -112,7 +112,7 @@ public class Network {
             // 현재 노드에 연결된 모든 인접 노드들에 대해 거리 계산
             for (Edge edge : graph.get(currentNode)) {
                 double newDist = distances.get(currentNode) + edge.weight; 
-                // (시작 노드 → 현재 노드) + (현재 노드 → 인접 노드 거리)
+                // (시작 노드 → 현재 노드 거리) + (현재 노드 → 인접 노드 거리) 간선의 지연시간 축적
                 
                 // 새로운 거리가 기존 거리보다 작으면 최단 거리로 갱신
                 if (newDist < distances.get(edge.target)) {
