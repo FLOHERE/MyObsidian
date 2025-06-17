@@ -146,7 +146,10 @@ public class Network {
         String start = "300.200.1.1"; // 출발지
         String end = "218.55.246.31"; // 도착지
 
-        // 최단 거리 계산 실행
+        // <최단 거리 계산 실행>
+        //거리 정보를 저장할 Map 객체를 호출하고,  이 객체는 키가 `String`(노드 이름), 
+        //값이 `Double`(최단 거리) 타입이다.  이 Map은 `simpleDijkstra()` 함수의 반환값이며,  
+        //해당 함수에는 **그래프 데이터(graph)**와 **시작 노드 주소(start)**가 인자로 전달된다.
         Map<String, Double> distances = simpleDijkstra(graph, start);
 
         // 결과 출력: 시작 노드부터 도착 노드까지의 최단 거리 출력
