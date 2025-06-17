@@ -97,6 +97,7 @@ public class Network {
             // 아직 방문하지 않은 노드 중에서 최단 거리인 노드를 찾음
             for (String node : graph.keySet()) {
                 if (!visited.get(node) && distances.get(node) < minDistance) {
+                //방문하지 않은 노드이고, 거리가 최소 거리보다 적으면?
                     minDistance = distances.get(node); // 최소 거리 갱신
                     currentNode = node; // 해당 노드를 현재 노드로 설정
                 }
@@ -111,7 +112,7 @@ public class Network {
             // 현재 노드에 연결된 모든 인접 노드들에 대해 거리 계산
             for (Edge edge : graph.get(currentNode)) {
                 double newDist = distances.get(currentNode) + edge.weight; 
-                // 시작 노드 → 현재 노드 + 현재 노드 → 인접 노드 거리
+                // (시작 노드 → 현재 노드) + (현재 노드 → 인접 노드 거리)
                 
                 // 새로운 거리가 기존 거리보다 작으면 최단 거리로 갱신
                 if (newDist < distances.get(edge.target)) {
@@ -208,6 +209,17 @@ class Student {
         // 이때 둘 다 name이니까 혼란 생김
         this.name = name;  // this.name → 필드, name → 매개변수
     }
+}
+```
+
+- keySet()이란?
+	- key 부분들만 모아서 배열처럼 반환하는것.
+	- `graph.keySey()` : 그래프에 있는 모든 노드의 이름(키)만 뽑은 세트
+		- `for-each` 구문으로 모든 노드를 하나씩 방문
+
+```java
+for(String node : graph.keySet()){
+	//node는 "A", "B", "C" 처럼 키 값이 하나씩 들어온다.
 }
 ```
 
