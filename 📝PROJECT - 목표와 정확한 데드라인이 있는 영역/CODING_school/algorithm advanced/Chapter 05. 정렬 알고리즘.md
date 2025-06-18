@@ -29,11 +29,11 @@
 5. (i = 4): 마지막 요소는 자동 정렬
 
 ```java
-for(int i = 0; i< n-1; i++){
+for(int i = 0; i< n-1; i++){ //n : 배열의 길이
 	int minIndex = i;
-	for(int j = i+1; j<n; j++){
-		if(arr[j] < arr[minIndex]){
-			minIndex = j;
+	for(int j = i+1; j<n; j++){ //배열길이 만큼 반복
+		if(arr[ j ] < arr[minIndex]){ //현재 배열의 주소 +1 에 있는 값이 현재 배열에 있는 수 보다 작으면
+			minIndex = j; //가장 작은 값은 그 다음에 있는 배열의 주소값이 된다.
 		}
 	}
 	swap(arr, i, minIndex); // 여기서 교환
