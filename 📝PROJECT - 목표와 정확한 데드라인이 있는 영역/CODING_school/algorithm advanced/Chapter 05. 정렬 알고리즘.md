@@ -29,11 +29,12 @@
 5. (i = 4): 마지막 요소는 자동 정렬
 
 ```java
-for(int i = 0; i< n-1; i++){ //n : 배열의 길이
-	int minIndex = i;
-	for(int j = i+1; j<n; j++){ //배열길이 만큼 반복
+for(int i = 0; i< n-1; i++){ //배열의 앞에서부터 n-1번째 요소까지 반복
+	int minIndex = i; //현재 위치를 최소값 인덱스로 설정
+		
+	for(int j = i+1; j<n; j++){ // i+1부터 배열 끝까지 반복
 		if(arr[ j ] < arr[minIndex]){ //현재 배열의 주소 +1 에 있는 값이 현재 배열에 있는 수 보다 작으면
-			minIndex = j; //가장 작은 값은 그 다음에 있는 배열의 주소값이 된다.
+			minIndex = j; // 최소값의 인덱스 갱신
 		}
 	}
 	swap(arr, i, minIndex); // 여기서 교환
@@ -57,10 +58,10 @@ public class arrSwap{
 					minIndex = j;
 				}
 			}
-			if(minIndex != i){
-				int temp = arr[i];
-				arr[i] = arr[minIndex];
-				arr[minIndex] = temp;
+			if(minIndex != i){ //최소값이 0이 아니면
+				int temp = arr[i]; //중간 변수 = 배열의 i번째 값
+				arr[i] = arr[minIndex]; // i번째 배열 = 최소값
+				arr[minIndex] = temp; // 최소값 = 중간값
 			}
 		}
 	}
