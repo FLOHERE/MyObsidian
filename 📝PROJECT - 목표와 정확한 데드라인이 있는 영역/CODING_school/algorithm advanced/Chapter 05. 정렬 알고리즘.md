@@ -58,8 +58,8 @@ public class arrSwap{
 					minIndex = j;
 				}
 			}
-			if(minIndex != i){ //최소값이 0이 아니면
-				int temp = arr[i]; //중간 변수 = 배열의 i번째 값
+			if(minIndex != i){ //최소값의 인덱스가 현재 인덱스와 다르면 = 교환이 필요하면
+				int temp = arr[i]; //현재 값을 임시 변수에 저장
 				arr[i] = arr[minIndex]; // i번째 배열 = 최소값
 				arr[minIndex] = temp; // 최소값 = 중간값
 			}
