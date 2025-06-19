@@ -48,7 +48,7 @@ for(int i = 0; i< n-1; i++){ //배열의 앞에서부터 n-1번째 요소까지 
 ```java
 package Mentoring;
 public class arrSwap{
-	public static void Swap(int[] arr){
+	public static void Swap(int[] arr){ //참조 주소를 받았기 때문에 리턴 필요 X
 		int n = arr.length;
 		for(int i = 0; i<n-1; i++){
 			int minIndex = i;
@@ -60,8 +60,8 @@ public class arrSwap{
 			}
 			if(minIndex != i){ //최소값의 인덱스가 현재 인덱스와 다르면 = 교환이 필요하면
 				int temp = arr[i]; //현재 값을 임시 변수에 저장
-				arr[i] = arr[minIndex]; // i번째 배열 = 최소값
-				arr[minIndex] = temp; // 최소값 = 중간값
+				arr[i] = arr[minIndex]; // 현재 인덱스 위치에 최솟값을 넣는다.
+				arr[minIndex] = temp; // 최소값 위치에 현재 값이 들어간다.
 			}
 		}
 	}
@@ -113,6 +113,12 @@ for( i = 1; i < n; i++){
 	- `(A[j] > insertElement)` : 현재 비교중인 `A[j]` 값이 삽입하려는 값 `insertElement` 보다 크다면 이 값을 오른쪽으로 밀어야 함.
 
 ![[Pasted image 20250613010839.png]]
+
+- 전체 코드
+
+```java
+
+```
 
 # 코드
 
