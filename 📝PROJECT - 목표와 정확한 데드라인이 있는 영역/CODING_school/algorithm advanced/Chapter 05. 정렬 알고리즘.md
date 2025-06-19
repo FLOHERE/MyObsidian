@@ -150,5 +150,86 @@ public class insertArr {
 >[!question] 각 학생의 키(cm)가 주어질때 선택 정렬 알고리즘을 이용하여 키를 오름차순으로 정렬하시오.(170, 155, 180, 165, 160)
 
 ```java
+//각 학생의 키(cm)가 주어질때 선택 정렬 알고리즘을 이용하여 키를 오름차순으로 정렬하시오.(170, 155, 180, 165, 160)
+package Mentoring;
+
+public class cm {
+
+    // 선택정렬 알고리즘 부분
+    public static void sort(int[] arr){
+        int n = arr.length;
+        for(int i = 0; i< n; i++) {
+            int minIndex = i;
+				
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] < arr[minIndex]) {
+                    minIndex = j;
+                }
+            }
+            Swap(arr, i, minIndex); //위 값들을 Swap 함수로 넘김
+        }
+    }
+
+    // 인자값 받아서 값 바꿈, 현재 인덱스에 더 작은 값을 넣고, 바꿀 인덱스에 원래 값(더 큰 값) 스위칭
+    public static void Swap(int[] arr,int i ,int j){
+        int temp1 = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp1;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {170, 155, 180, 165, 160};
+        sort(arr);
+			
+        for(int cm : arr){
+            System.out.print(cm + " , ");
+        }
+    }
+}
 
 ```
+
+- 삽입 정렬 버전
+
+```java
+package Mentoring;
+
+public class cm {
+
+    // 삽입정렬 알고리즘 부분
+    public static void sort(int[] arr){
+        int n = arr.length;
+		
+        for (int i = 1; i < n; i++) {
+            int insertElement = arr[i];   // 현재 삽입할 값
+            int j = i - 1;
+			
+            // 정렬된 구간에서 insertElement보다 큰 값을 오른쪽으로 이동
+            while (j >= 0 && arr[j] > insertElement) {
+                arr[j + 1] = arr[j];
+                j--;
+            }
+			
+            // 적절한 위치에 insertElement 삽입
+            arr[j + 1] = insertElement;
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {170, 155, 180, 165, 160};
+        sort(arr);
+			
+        for (int cm : arr) {
+            System.out.print(cm + " , ");
+        }
+    }
+}
+```
+
+|항목|선택 정렬|삽입 정렬|
+|---|---|---|
+|정렬 방식|가장 작은 값을 찾아서 앞으로 보냄|앞에서부터 차례대로 끼워 넣음|
+|최악 시간복잡도|O(n²)|O(n²)|
+|최선 시간복잡도|O(n²)|✅ O(n) (이미 정렬된 경우)|
+|안정 정렬|❌ (X)|✅ (O)|
+
