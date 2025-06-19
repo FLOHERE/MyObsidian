@@ -101,7 +101,7 @@ for( i = 1; i < n; i++){
 	j = i-1; //A[i]를 A[0...i-1]에 삽입할 위치 찾음
 	while(j >= 0 && A[ j ] > insertElement){ 
 		A[j+1] = A[j]; // A[ j ]를 오른쪽으로 한자리 이동
-		j = j-1;
+		j = j-1; //다시 왼쪽으로 인덱스 한칸 이동(j 가 -1이 될때까지 반복)
 	}
 	A[ j+1] = insertElement; // A[i]를 찾은 위치에 삽입
 }
