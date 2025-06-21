@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/12. 다중 분류 문제 해결하기.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/13. 모델 성능 검증하기.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12. 다중 분류 문제 해결하기"
+              "title": "13. 모델 성능 검증하기"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/9. 오차 역전파에서 딥러닝으로.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/13. 모델 성능 검증하기.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "9. 오차 역전파에서 딥러닝으로 의 개요"
+              "title": "13. 모델 성능 검증하기 의 개요"
             }
           }
         ],
@@ -183,6 +183,10 @@
   },
   "active": "d18fb178753530fd",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/12. 다중 분류 문제 해결하기.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/13. 모델 성능 검증하기.md",
+    "Attached_file/Pasted image 20250619181759.png",
+    "Attached_file/Pasted image 20250619180729.png",
     "Attached_file/Pasted image 20250619174738.png",
     "Attached_file/Pasted image 20250619174502.png",
     "Attached_file/Pasted image 20250619174459.png",
@@ -190,8 +194,6 @@
     "Attached_file/Pasted image 20250619174107.png",
     "Attached_file/Pasted image 20250619174043.png",
     "Attached_file/Pasted image 20250619172900.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/13. 모델 성능 검증하기.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/12. 다중 분류 문제 해결하기.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chpater 07. 그리디알고리즘(탐욕기법 알고리즘).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 06. 다익스트라 알고리즘.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 05. 정렬 알고리즘.md",
@@ -199,9 +201,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/11. 데이터 다루기.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/14. 모델 성능 향상시키기.md",
     "Attached_file/Pasted image 20250617233233.png",
-    "Attached_file/Pasted image 20250617233153.png",
-    "Attached_file/Pasted image 20250617170834.png",
-    "Attached_file/Pasted image 20250617170500.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/무제",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/9. 오차 역전파에서 딥러닝으로.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/8. 다층 퍼셉트론.md",
