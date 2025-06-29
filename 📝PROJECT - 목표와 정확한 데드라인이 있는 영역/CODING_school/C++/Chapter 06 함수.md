@@ -835,7 +835,7 @@ ceil(-2.89) = -2
 	a. pow(5.0, 3)과 pow(5,-3)
 	b. sqrt(44.56)
 	c. exp(-6.2)와 exp(44.26)
-	d. log(16.2)와 log10(14.24
+	d. log(16.2)와 log10(14.24)
 
 ```cpp
 #include <iostream>

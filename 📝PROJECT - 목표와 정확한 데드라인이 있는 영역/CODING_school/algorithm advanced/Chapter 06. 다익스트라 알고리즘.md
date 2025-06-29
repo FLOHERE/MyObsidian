@@ -229,7 +229,7 @@ class Student {
 
 - keySet()이란?
 	- key 부분들만 모아서 배열처럼 반환하는것.
-	- `graph.keySey()` : 그래프에 있는 모든 노드의 이름(키)만 뽑은 세트
+	- `graph.keySet()` : 그래프에 있는 모든 노드의 이름(키)만 뽑은 세트
 		- `for-each` 구문으로 모든 노드를 하나씩 방문
 
 ```java

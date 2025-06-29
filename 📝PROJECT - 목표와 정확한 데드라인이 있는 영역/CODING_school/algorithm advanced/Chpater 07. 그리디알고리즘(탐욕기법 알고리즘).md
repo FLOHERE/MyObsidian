@@ -117,16 +117,19 @@ public class Coin{
 		// *탐욕 알고리즘 핵심 부분*
 		while(change > 0){ 
 			// **탐욕적 선택: 현재 가능한 가장 큰 동전을 최대한 많이 사용**
-			numCoin[i] = change / coinValue[i]; // 현재 동전으로 줄 수 있는 최대 개수 계산
+			// 현재 동전으로 줄 수 있는 최대 개수 계산
+			numCoin[i] = change / coinValue[i]; 
 			
-			count = count + numCoin[i]; // 전체 동전 개수에 누적 (최소 동전 개수 계산)
+			// 전체 동전 개수에 누적 (최소 동전 개수 계산)
+			count = count + numCoin[i]; 
 			
 			// 남은 거스름돈 계산 (나머지 연산 사용)
-			change = change % coinValue[i]; // 문법 오류 수정: coinValue(i) -> coinValue[i]
+			change = change % coinValue[i];
 			
 			// 사용된 동전이 있으면 결과 출력
 			if(numCoin[i] > 0){
-				System.out.println(coinValue[i] + "원짜리 동전 : " + numCoin[i] + "개");
+				System.out.println(coinValue[i] + "원짜리 동전 : " 
+				+ numCoin[i] + "개");
 			}
 			i++; // 다음 동전 종류로 이동
 		}
