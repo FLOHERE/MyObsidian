@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "635c146d8cea6ec5",
+    "id": "b1761b344556ab60",
     "type": "split",
     "children": [
       {
-        "id": "5a438975718e39a0",
+        "id": "13a164cee434b033",
         "type": "tabs",
         "children": [
           {
-            "id": "d18fb178753530fd",
+            "id": "daa85037f4985c3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,15 +37,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "18e78549b2a6f049",
+    "id": "f94f0eb6c6509ccf",
     "type": "split",
     "children": [
       {
-        "id": "d9c4c93d7b0715b9",
+        "id": "033eb509006ac7ff",
         "type": "tabs",
         "children": [
           {
-            "id": "7163266c94d77d4e",
+            "id": "4c75d8d567d57832",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,12 +58,12 @@
             }
           },
           {
-            "id": "b44d9dacc40d1806",
+            "id": "fbe8945fc251437c",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "Chapter 3.",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "5b49eb51ca868502",
+            "id": "a506bf05c3245d1e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,23 +88,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 300
   },
   "right": {
-    "id": "2128afa0345ebc97",
+    "id": "ad649861813061f9",
     "type": "split",
     "children": [
       {
-        "id": "4e5d631a1692e1d5",
+        "id": "d476285b478985f3",
         "type": "tabs",
         "children": [
           {
-            "id": "c62bc7496ddf6aed",
+            "id": "ed84d34a53369495",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/1.어디에나 존재하는 SW.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 2 - 클라우드의 경제성 및 결제.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,25 +114,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "1.어디에나 존재하는 SW 의 백링크"
+              "title": "모듈 2 - 클라우드의 경제성 및 결제 의 백링크"
             }
           },
           {
-            "id": "73c765a1a167607e",
+            "id": "4eaa168288570091",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/2.딥러닝의 핵심 미리보기.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 2 - 클라우드의 경제성 및 결제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2.딥러닝의 핵심 미리보기 의 나가는 링크"
+              "title": "모듈 2 - 클라우드의 경제성 및 결제 의 나가는 링크"
             }
           },
           {
-            "id": "dd66b566fcf8c49c",
+            "id": "87366955fdfcb8cc",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -147,18 +147,18 @@
             }
           },
           {
-            "id": "7dc6305d5b0d6af6",
+            "id": "36b3f7b9e26372c3",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/13. 모델 성능 검증하기.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 2 - 클라우드의 경제성 및 결제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "13. 모델 성능 검증하기 의 개요"
+              "title": "모듈 2 - 클라우드의 경제성 및 결제 의 개요"
             }
           }
         ],
@@ -166,12 +166,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:새 베이스 생성하기": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -179,54 +177,12 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "markdown-importer:마크다운 형식 불러오기 열기": false,
+      "bases:새 베이스 생성하기": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d18fb178753530fd",
+  "active": "daa85037f4985c3e",
   "lastOpenFiles": [
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/1. 자료구조.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 2 - 클라우드의 경제성 및 결제.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 01. 알고리즘의 첫걸음.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/기말고사 뭐나올까.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/기말 최종 정리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/연습 문제 모음집(mid).md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 02. 알고리즘을 배우기 위한 준비.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/10. 딥러닝 모델 설계하기.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/13. 모델 성능 검증하기.md",
-    "Attached_file/Pasted image 20250622114739.png",
-    "Attached_file/Pasted image 20250622114326.png",
-    "Attached_file/Pasted image 20250622114305.png",
-    "Attached_file/Pasted image 20250622111221.png",
-    "Attached_file/Pasted image 20250622110535.png",
-    "Attached_file/Pasted image 20250622102357.png",
-    "Attached_file/Pasted image 20250622102055.png",
-    "Attached_file/Pasted image 20250621213535.png",
-    "Attached_file/Pasted image 20250621212831.png",
-    "Attached_file/Pasted image 20250621211734.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/11. 데이터 다루기.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/12. 다중 분류 문제 해결하기.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/6. 로지스틱 회귀 모델 ; 참 거짓 판단.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/5. 선형회귀 모델.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chpater 07. 그리디알고리즘(탐욕기법 알고리즘).md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 06. 다익스트라 알고리즘.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 05. 정렬 알고리즘.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/14. 모델 성능 향상시키기.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/무제",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/9. 오차 역전파에서 딥러닝으로.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/8. 다층 퍼셉트론.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/7. 퍼셉트론과 인공지능의 시작.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm advanced/Chapter 04. 그리디 알고리즘.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/변환 명세서.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/1.파이썬을 소개 합니다..md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/PYTHON/2023/6. 반복해 봅시다..md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 06 함수.md",
-    "canvas_file/프로토 타이핑 모델.canvas",
-    "canvas_file/폭포수 모델.canvas",
-    "canvas_file/소프트웨어 개발 과정.canvas",
-    "canvas_file/프로세스 상태.canvas",
-    "canvas_file/프로세스의 종류.canvas",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/NETWORK/TCP"
+    "Attached_file/Pasted image 20251019223800.png"
   ]
 }
