@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "b1761b344556ab60",
+    "id": "b3fd18b3ddbca583",
     "type": "split",
     "children": [
       {
-        "id": "13a164cee434b033",
+        "id": "441cc341154ea7f3",
         "type": "tabs",
         "children": [
           {
-            "id": "daa85037f4985c3e",
+            "id": "85884550535105ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,15 +37,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f94f0eb6c6509ccf",
+    "id": "cb7838d4d260bb40",
     "type": "split",
     "children": [
       {
-        "id": "033eb509006ac7ff",
+        "id": "a2445da345487cd4",
         "type": "tabs",
         "children": [
           {
-            "id": "4c75d8d567d57832",
+            "id": "2c8eefb542781f1b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "fbe8945fc251437c",
+            "id": "32fdb1f927a24079",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "a506bf05c3245d1e",
+            "id": "ad1faaf23b29c8bc",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,21 +91,21 @@
     "width": 300
   },
   "right": {
-    "id": "ad649861813061f9",
+    "id": "ff1650d5153c3c3f",
     "type": "split",
     "children": [
       {
-        "id": "d476285b478985f3",
+        "id": "d4a692bf08915cc6",
         "type": "tabs",
         "children": [
           {
-            "id": "ed84d34a53369495",
+            "id": "456906fd4fa23a8d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 2 - 클라우드의 경제성 및 결제.md",
-                "collapseAll": true,
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 3 - 스토리지 계층 추가.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -114,25 +114,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "모듈 2 - 클라우드의 경제성 및 결제 의 백링크"
+              "title": "모듈 3 - 스토리지 계층 추가 의 백링크"
             }
           },
           {
-            "id": "4eaa168288570091",
+            "id": "344fdd2413e7fb8f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 2 - 클라우드의 경제성 및 결제.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 3 - 스토리지 계층 추가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "모듈 2 - 클라우드의 경제성 및 결제 의 나가는 링크"
+              "title": "모듈 3 - 스토리지 계층 추가 의 나가는 링크"
             }
           },
           {
-            "id": "87366955fdfcb8cc",
+            "id": "d25761819c5ac9de",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -147,7 +147,7 @@
             }
           },
           {
-            "id": "36b3f7b9e26372c3",
+            "id": "92bed39a21607878",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -181,14 +181,6 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4c75d8d567d57832",
-  "lastOpenFiles": [
-    "Attached_file/Pasted image 20251020120749.png",
-    "Attached_file/Pasted image 20251020120211.png",
-    "Attached_file/Pasted image 20251020112033.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 2 - 클라우드의 경제성 및 결제.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 3 - 스토리지 계층 추가.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/변환 명세서.md",
-    "Attached_file/Pasted image 20251019223800.png"
-  ]
+  "active": "92bed39a21607878",
+  "lastOpenFiles": []
 }
