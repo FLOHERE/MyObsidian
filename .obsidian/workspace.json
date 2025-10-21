@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 4 - 컴퓨팅 계층 추가.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 8 - 사용자 및 애플리케이션 액세스 보안.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "모듈 4 - 컴퓨팅 계층 추가"
+              "title": "모듈 8 - 사용자 및 애플리케이션 액세스 보안"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 4 - 컴퓨팅 계층 추가.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 8 - 사용자 및 애플리케이션 액세스 보안.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "모듈 4 - 컴퓨팅 계층 추가 의 개요"
+              "title": "모듈 8 - 사용자 및 애플리케이션 액세스 보안 의 개요"
             }
           }
         ],
@@ -186,6 +186,7 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 7 - 네트워크 연결.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 6 - 네트워킹 환경 구축.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 5 - 데이터 베이스 계층 추가.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 8 - 사용자 및 애플리케이션 액세스 보안.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 4 - 컴퓨팅 계층 추가.md",
     "Attached_file/Pasted image 20251020232105.png"
   ]
