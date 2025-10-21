@@ -153,7 +153,7 @@
               "type": "outline",
               "state": {
                 "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 4 - 컴퓨팅 계층 추가.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -181,6 +181,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d570b5ffcf431fa2",
-  "lastOpenFiles": []
+  "active": "6a7d87e67e335b67",
+  "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 7 - 네트워크 연결.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 6 - 네트워킹 환경 구축.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 5 - 데이터 베이스 계층 추가.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 4 - 컴퓨팅 계층 추가.md",
+    "Attached_file/Pasted image 20251020232105.png"
+  ]
 }
