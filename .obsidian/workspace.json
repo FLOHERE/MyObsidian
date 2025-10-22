@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "601b2c587cb6e5bf",
+    "id": "cdcba1a3b9102cd3",
     "type": "split",
     "children": [
       {
-        "id": "6826c1ca048feaa5",
+        "id": "6cee45f498dfbed9",
         "type": "tabs",
         "children": [
           {
-            "id": "6a7d87e67e335b67",
+            "id": "4be71bcd032a4326",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 8 - 사용자 및 애플리케이션 액세스 보안.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/1. 임베디드 프로그래밍 개요.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "모듈 8 - 사용자 및 애플리케이션 액세스 보안"
+              "title": "1. 임베디드 프로그래밍 개요"
             }
           }
         ]
@@ -37,15 +37,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e460ab7f5afd6080",
+    "id": "b0796524e0fc810d",
     "type": "split",
     "children": [
       {
-        "id": "2a944db679bb71c3",
+        "id": "4c6edd21dafb1ac0",
         "type": "tabs",
         "children": [
           {
-            "id": "ae1ebb538f302381",
+            "id": "9372d09d5ace6a3b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "357d6250dec55662",
+            "id": "d5d413527f7ed6b4",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "86b9b4e9009d9977",
+            "id": "03f62f9812067060",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,20 +91,19 @@
     "width": 300
   },
   "right": {
-    "id": "de5d6a0d7b205853",
+    "id": "a4ba6bf758daa12c",
     "type": "split",
     "children": [
       {
-        "id": "94c25ec9791e0dd3",
+        "id": "7f57779d9194daa5",
         "type": "tabs",
         "children": [
           {
-            "id": "df064af3e9109e40",
+            "id": "e2026afcc5457299",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 4 - 컴퓨팅 계층 추가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,25 +113,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "모듈 4 - 컴퓨팅 계층 추가 의 백링크"
+              "title": "백링크"
             }
           },
           {
-            "id": "107feb15b9c0fcf7",
+            "id": "9429dc0c6a89fb82",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 4 - 컴퓨팅 계층 추가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "모듈 4 - 컴퓨팅 계층 추가 의 나가는 링크"
+              "title": "나가는 링크"
             }
           },
           {
-            "id": "64b941b284f9994e",
+            "id": "40810473139df238",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -147,26 +145,25 @@
             }
           },
           {
-            "id": "d570b5ffcf431fa2",
+            "id": "2985d3297944e534",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 8 - 사용자 및 애플리케이션 액세스 보안.md",
-                "followCursor": true,
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "모듈 8 - 사용자 및 애플리케이션 액세스 보안 의 개요"
+              "title": "개요"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,13 +178,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a7d87e67e335b67",
+  "active": "4be71bcd032a4326",
   "lastOpenFiles": [
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 7 - 네트워크 연결.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 6 - 네트워킹 환경 구축.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 5 - 데이터 베이스 계층 추가.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 8 - 사용자 및 애플리케이션 액세스 보안.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 4 - 컴퓨팅 계층 추가.md",
-    "Attached_file/Pasted image 20251020232105.png"
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/1. 임베디드 프로그래밍 개요.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded"
   ]
 }
