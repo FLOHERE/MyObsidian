@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/1. 임베디드 프로그래밍 개요.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/2. S32K312 평가보드.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. 임베디드 프로그래밍 개요"
+              "title": "2. S32K312 평가보드"
             }
           }
         ]
@@ -181,6 +181,13 @@
   "active": "4be71bcd032a4326",
   "lastOpenFiles": [
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/1. 임베디드 프로그래밍 개요.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/3. GPIO.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/2. S32K312 평가보드.md",
+    "Attached_file/Pasted image 20251023055225.png",
+    "Attached_file/Pasted image 20251023053705.png",
+    "Attached_file/Pasted image 20251023053538.png",
+    "Attached_file/Pasted image 20251023052108.png",
+    "Attached_file/Pasted image 20251023051649.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded"
   ]
 }
