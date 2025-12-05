@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"cssclasses\"]",
+                "query": "tag:#excalidraw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,12 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/문제 뭐나올까.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "문제 뭐나올까 의 개요"
             }
           },
           {
@@ -166,11 +167,23 @@
               "type": "all-properties",
               "state": {
                 "sortOrder": "frequency",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
               "title": "모든 속성"
+            }
+          },
+          {
+            "id": "68461946fd8f97fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/문제 뭐나올까.md"
+              },
+              "icon": "lucide-info",
+              "title": "문제 뭐나올까 의 파일 속성"
             }
           }
         ],
@@ -178,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 496.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,7 +207,7 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "4be71bcd032a4326",
+  "active": "676da065e5dbc1ce",
   "lastOpenFiles": [
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/러닝메이트.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
