@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/2. S32K312 평가보드.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/문제 뭐나올까.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2. S32K312 평가보드"
+              "title": "문제 뭐나올까"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"cssclasses\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/문제 뭐나올까.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "문제 뭐나올까 의 백링크"
             }
           },
           {
@@ -157,13 +158,27 @@
               "icon": "lucide-list",
               "title": "개요"
             }
+          },
+          {
+            "id": "676da065e5dbc1ce",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,14 +190,27 @@
       "command-palette:명령어 팔레트 열기": false,
       "markdown-importer:마크다운 형식 불러오기 열기": false,
       "bases:새 베이스 생성하기": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
   "active": "4be71bcd032a4326",
   "lastOpenFiles": [
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/1. 임베디드 프로그래밍 개요.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Android/러닝메이트.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/포인터.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/5주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/4주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/11주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub/Git ignore.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/Game/2024_11_03 Maple<0>.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/3. GPIO.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/9. 오차 역전파에서 딥러닝으로.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/4. 가장 훌륭한 예측선.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/5. 선형회귀 모델.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/11. 데이터 다루기.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/2. S32K312 평가보드.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/1. 임베디드 프로그래밍 개요.md",
     "Attached_file/Pasted image 20251023055225.png",
     "Attached_file/Pasted image 20251023053705.png",
     "Attached_file/Pasted image 20251023053538.png",
