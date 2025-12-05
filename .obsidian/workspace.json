@@ -204,8 +204,7 @@
       "command-palette:명령어 팔레트 열기": false,
       "markdown-importer:마크다운 형식 불러오기 열기": false,
       "bases:새 베이스 생성하기": false,
-      "obsidian-git:Open Git source control": false,
-      "digitalgarden:Digital Garden Publication Center": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "4be71bcd032a4326",
