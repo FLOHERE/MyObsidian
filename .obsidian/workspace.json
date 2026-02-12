@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사/필기/1과목 1장 소프트웨어 설계.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. algorithm"
+              "title": "1과목 1장 소프트웨어 설계"
             }
           }
         ]
@@ -54,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+              "title": "Files"
             }
           },
           {
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사/필기/1과목 1장 소프트웨어 설계.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "5. algorithm 의 개요"
+              "title": "Outline of 1과목 1장 소프트웨어 설계"
             }
           },
           {
@@ -171,7 +171,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "모든 속성"
+              "title": "All properties"
             }
           },
           {
@@ -187,28 +187,41 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 496.5,
-    "collapsed": true
+    "width": 311.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:빠른 전환기 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "markdown-importer:마크다운 형식 불러오기 열기": false,
-      "bases:새 베이스 생성하기": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "bases:Create new base": false
     }
   },
   "active": "4be71bcd032a4326",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/4학년 진학 시험 준비.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사/필기/1과목 1장 소프트웨어 설계.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사/실기",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사/필기",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/2주차 정리.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/REPORT/창업과 기업가 정신/2024_09_08 과제.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 8 - 사용자 및 애플리케이션 액세스 보안.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/3. 딥러닝을 위한 기초 수학.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/2.딥러닝의 핵심 미리보기.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/1. 나의 첫 딥러닝.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 4 - 컴퓨팅 계층 추가.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
     "test.md",
     "src/site/notes/test.md",
     "src/site/notes",
@@ -227,10 +240,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/3. GPIO.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/9. 오차 역전파에서 딥러닝으로.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/4. 가장 훌륭한 예측선.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/5. 선형회귀 모델.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/11. 데이터 다루기.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/2. S32K312 평가보드.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/1. 임베디드 프로그래밍 개요.md",
     "Attached_file/Pasted image 20251023055225.png",
     "Attached_file/Pasted image 20251023053705.png",
     "Attached_file/Pasted image 20251023053538.png",
