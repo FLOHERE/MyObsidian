@@ -11,10 +11,24 @@
             "id": "c21be5bd12354361",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템"
             }
           }
         ]
@@ -137,12 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템 의 개요"
             }
           },
           {
@@ -191,8 +206,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9372d09d5ace6a3b",
+  "active": "c21be5bd12354361",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/NVIDIA Jatson Board.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사/필기/1과목 1장 소프트웨어 설계.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/4학년 진학 시험 준비.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사/실기",
@@ -224,7 +242,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/ERP/Game/2024_11_03 Maple<0>.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded/3. GPIO.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/9. 오차 역전파에서 딥러닝으로.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/4. 가장 훌륭한 예측선.md",
     "Attached_file/Pasted image 20251023055225.png",
     "Attached_file/Pasted image 20251023053705.png",
     "Attached_file/Pasted image 20251023053538.png",
