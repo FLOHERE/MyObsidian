@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/NVIDIA Jetson Board.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템"
+              "title": "NVIDIA Jetson Board"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/NVIDIA Jetson Board.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템 의 개요"
+              "title": "NVIDIA Jetson Board 의 개요"
             }
           },
           {
@@ -210,8 +210,8 @@
   },
   "active": "c21be5bd12354361",
   "lastOpenFiles": [
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/NVIDIA Jetson Board.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/NVIDIA Jetson Board.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사/필기/1과목 1장 소프트웨어 설계.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/4학년 진학 시험 준비.md",
