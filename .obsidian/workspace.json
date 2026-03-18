@@ -11,10 +11,24 @@
             "id": "ee1893685201f712",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/아이디어 뱅크.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "아이디어 뱅크"
             }
           }
         ]
@@ -193,15 +207,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9372d09d5ace6a3b",
+  "active": "ee1893685201f712",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/아이디어 뱅크.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/NVIDIA Jetson Board.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub/Runningmate 2024_11_25 깃헙 심화_협업.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/GitHub/Git ignore.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/다형성(Polymorphism).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/Chapter 01 컴퓨터 프로그래밍 언어.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/C++/캡슐화(Encapsulation).md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/NVIDIA Jetson Board.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사/필기/1과목 1장 소프트웨어 설계.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/4학년 진학 시험 준비.md",
@@ -228,7 +243,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/6주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/OperatingSystem/포인터.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/5주차.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/4주차.md",
     "Attached_file/Pasted image 20251023055225.png",
     "Attached_file/Pasted image 20251023053705.png",
     "Attached_file/Pasted image 20251023053538.png",
