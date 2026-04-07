@@ -32,45 +32,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "47418a9730e7e88f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4985f1e0db45ed12",
-            "type": "leaf",
-            "state": {
-              "type": "translator-view",
-              "state": {
-                "language_from": "en",
-                "language_to": "ko",
-                "translation_service": "deepl",
-                "auto_translate": false,
-                "apply_glossary": false,
-                "view_mode": 0,
-                "filter_mode": 0,
-                "show_attribution": false,
-                "top_buttons": [
-                  "change-service",
-                  "automatic-translation",
-                  "change-layout",
-                  "apply-filter",
-                  "open-settings"
-                ],
-                "left_buttons": [
-                  "paste",
-                  "clear"
-                ],
-                "right_buttons": [
-                  "copy"
-                ]
-              },
-              "icon": "deepl",
-              "title": "DeepL"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -127,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a4ba6bf758daa12c",
