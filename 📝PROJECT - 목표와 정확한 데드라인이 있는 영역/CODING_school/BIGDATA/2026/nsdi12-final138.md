@@ -8,7 +8,8 @@ In-Memory Analytics Conviva Inc, a video distribu-tion company, used Spark to ac
 For example, one report ran as a series of Hive [1] queries that computed various statistics for a customer. 
 
 ```md
-인메모리 
+인메모리 분석 비디오 배포 회사인 Conviva Inc는 이전에 Hadoop에서 실행되던 여러 데이터 분석 보고서의 속도를 높이기 위해 Spark를 사용했습니다.
+예를 들어, 한 보고서는 고객에 대한 다양한 통계를 계산하는 일련의 Hive[1] 쿼리로 실행되었습니다.
 ```
 
 These queries all worked on the same subset of the data (recordsmatching a customer-provided filter), but performed ag-gregations (averages, percentiles, and COUNT DISTINCT) over different grouping fields, requiring separate MapRe-duce jobs. 
