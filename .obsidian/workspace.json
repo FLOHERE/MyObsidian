@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 포트폴리오-면접 취업 연계 시스템.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/2026/nsdi12-final138.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI 기반 포트폴리오-면접 취업 연계 시스템"
+              "title": "nsdi12-final138"
             }
           }
         ]
@@ -209,8 +209,11 @@
   },
   "active": "f9ed5c5e5f8b5ad8",
   "lastOpenFiles": [
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/NVIDIA Jetson Board.md",
+    "Attached_file/스크린샷 2026-04-07 오후 4.21.07.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 포트폴리오-면접 취업 연계 시스템.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/2026/nsdi12-final138.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/2026",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/NVIDIA Jetson Board.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/아이디어 뱅크.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/FrameWork/4주차.md",
@@ -241,8 +244,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/3. 딥러닝을 위한 기초 수학.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/2.딥러닝의 핵심 미리보기.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/1. 나의 첫 딥러닝.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 4 - 컴퓨팅 계층 추가.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/algorithm/5. algorithm.md",
     "src/site/notes",
     "src/site",
     "src",
@@ -250,7 +251,6 @@
     "Attached_file/Pasted image 20251023053705.png",
     "Attached_file/Pasted image 20251023053538.png",
     "Attached_file/Pasted image 20251023052108.png",
-    "Attached_file/Pasted image 20251023051649.png",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/Embedded"
+    "Attached_file/Pasted image 20251023051649.png"
   ]
 }
