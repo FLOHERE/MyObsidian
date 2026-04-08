@@ -5,7 +5,7 @@
 
 ## 6.5 User Applications Built with Spark
 In-Memory Analytics Conviva Inc, a video distribu-tion company, used Spark to accelerate a number of data analytics reports that previously ran over Hadoop. 
-For example, one report ran as a series of Hive [1] queries that computed various statistics for a customer. 
+For example, one report ran as a series of Hive [1] queries that computed various statistics for a customer.
 
 ```md
 인메모리 분석 비디오 배포 회사인 Conviva Inc는 이전에 Hadoop에서 실행되던 여러 데이터 분석 보고서의 속도를 높이기 위해 Spark를 사용했습니다.

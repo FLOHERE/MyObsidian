@@ -63,7 +63,9 @@
       "version": "1.0.0"
     },
     "deepl": {
-      "selected_languages": [],
+      "selected_languages": [
+        "ko"
+      ],
       "api_key": "c9ddbf27-a9dc-4ee7-8027-c27e9a975bb6:fx",
       "auto_translate": false,
       "auto_translate_interval": 500,
