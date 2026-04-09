@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cfdb63a609136484",
+        "id": "347a6e0aebf9b4d8",
         "type": "tabs",
         "children": [
           {
-            "id": "f9ed5c5e5f8b5ad8",
+            "id": "13d896ac0e4d9ab1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 포트폴리오-면접 취업 연계 시스템.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/FrameWork/6주차.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AI 기반 포트폴리오-면접 취업 연계 시스템"
+              "title": "6주차"
             }
           }
         ]
@@ -208,18 +208,19 @@
       "translate:Open translation view": false
     }
   },
-  "active": "f9ed5c5e5f8b5ad8",
+  "active": "13d896ac0e4d9ab1",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/FrameWork/4주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/FrameWork/6주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 포트폴리오-면접 취업 연계 시스템.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/소프트웨어 요구사항 정의서.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 포트폴리오-면접 취업 연계 시스템.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/아이디어 뱅크.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/NVIDIA Jetson Board.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/무제",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/2026/nsdi12-final138.md",
     "Attached_file/스크린샷 2026-04-07 오후 4.21.07.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/2026",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/FrameWork/4주차.md",
     "Attached_file/Pasted image 20260326163629.png",
     "Attached_file/스크린샷 2026-03-26 오후 4.35.06.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/FrameWork/취업 정보 사이트를 위한 명세서 작성하기.md",
@@ -246,7 +247,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AWS/모듈 8 - 사용자 및 애플리케이션 액세스 보안.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/3. 딥러닝을 위한 기초 수학.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/2.딥러닝의 핵심 미리보기.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/AI advanced/1. 나의 첫 딥러닝.md",
     "src/site/notes",
     "src/site",
     "Attached_file/Pasted image 20251023055225.png",
