@@ -11,7 +11,7 @@
 >
 >- [ ] 서버 포트 번호가 8080인가?
 >
->- [ ] 관리자 계정 하드코딩 또는 DB 설정 완료 (admin@example.com / 1234)
+>- [ ] 관리자 계정 하드코딩 또는 DB 설정 완료 
 >
 >- [ ] 세션(Session) 기반 인증 사용 (JWT 사용 불가)
 >
@@ -25,9 +25,9 @@
 >
 >- [ ] 프로토콜 및 포트: pop3, 110
 >
->- [ ] 서버 주소: mail.cakory.com
+>- [ ] 서버 주소: 
 >
->- [ ] 계정 정보: jobinfo / swjob1234!
+>- [ ] 계정 정보: 
 >
 >- [ ] 보안 설정 해제: ssl: disable, startttls: disable
 >
@@ -43,8 +43,8 @@
 - 8080
 
 # 2. 관리자 아이디/비번
-- 아이디: admin@example.com
-- 비번: 1234
+- 아이디: ppt 참조
+- 비번: ppt 참조
 
 # 3. 로그인 인증 방식
 - 세션(session) 방식을 사용해야 함.
@@ -57,11 +57,11 @@
 -  [https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=53510601&t_ref=jobcategory_recruit&t_ref_content=general#seq=0](https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=53510601&t_ref=jobcategory_recruit&t_ref_content=general#seq=0)
 
 # 6. 이메일 POP3 정보
-- 서버 주소: mail.cakory.com
- - 아이디: jobinfo
- - 비번: swjob1234!
+- 서버 주소: ppt 참조
+ - 아이디: ppt 참조
+ - 비번: ppt 참조
 
-- (주의!!) mail.cakory.com 에 대한 접근은 교내의 무선랜을 통해서만 가능합니다.
+- (주의!!) (ppt 참조) 에 대한 접근은 교내의 무선랜을 통해서만 가능합니다.
 	- 프로토콜: pop3
 	- 포트번호: 110
 	- ssl: disable
