@@ -16,7 +16,8 @@ These queries all worked on the same subset of the data (recordsmatching a custo
 By implementing the queries in Spark andloading the subset of data shared across them once into an RDD, the company was able to speed up the report by 40×. A report on 200 GB of compressed data that took 20 hours on a Hadoop cluster now runs in 30 minutes using only two Spark machines. Furthermore, the Spark program only required 96 GB of RAM, because it only stored the rows and columns matching the customer’s fil-ter in an RDD, not the whole decompressed file.
 
 ```md
-이러한 쿼리는 모두 동일한 데이터 하위 집합(고객이 제공한 필터와 일치하는 레코드)에 대해 작동했지만, 서로 다른 그룹화 필드에 대해 ag-gregation(평균, 백분위수 및 COUNT DISTINCT)을 수행했기 때문에 별도의 MapRe-duce 작업이 필요했습니다.
+이러한 쿼리는 모두 동일한 데이터 하위 집합(고객이 제공한 필터와 일치하는 레코드)에 대해 작동했지만, 서로 다른 그룹화 필드에 대해 ag-gregation(평균, 백분위수 및 COUNT DISTINCT)을 수행했기 때문에 
+별도의 MapReduce 작업이 필요했습니다.
 이 회사는 Spark에서 쿼리를 구현하고 쿼리 간에 공유된 데이터의 하위 집합을 RDD에 한 번 로드함으로써 보고서의 속도를 40배까지 높일 수 있었습니다. Hadoop 클러스터에서 20시간이 걸리던 200GB의 압축 데이터에 대한 보고서가 이제 단 두 대의 Spark 머신을 사용해 30분 만에 실행됩니다. 또한, 압축 해제된 파일 전체가 아니라 고객의 필터와 일치하는 행과 열만 RDD에 저장했기 때문에 Spark 프로그램에는 96GB의 RAM만 필요했습니다.
 ```
 
