@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/9주차.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DesignPattern/기말고사.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "9주차"
+              "title": "기말고사"
             }
           }
         ]
@@ -210,6 +210,9 @@
   },
   "active": "13d896ac0e4d9ab1",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/9주차.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DesignPattern/기말고사.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DesignPattern",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/10주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/11주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/8주차.md",
@@ -245,8 +248,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/의사결정 나무 분석.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/의사결정.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/신경망 분석.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/베이즈의 정리.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/단순 베이즈 분류(Naive Bayes Classifier).md",
     "📖RESOURCE - 자료나 관심있는 주제들/러닝메이트 자료",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사 실기 오답노트 및 정리",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/무제",
@@ -255,7 +256,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사/실기",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사/필기",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications"
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/qualifications/정보처리기사"
   ]
 }
