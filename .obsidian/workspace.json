@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/Last Presentation <DIDIM>.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/2026/nsdi12-final138.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,46 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Last Presentation <DIDIM>"
+              "title": "nsdi12-final138"
+            }
+          }
+        ]
+      },
+      {
+        "id": "32d4c2601f64d859",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d26b6f8cef76ab4",
+            "type": "leaf",
+            "state": {
+              "type": "translator-view",
+              "state": {
+                "language_from": "auto",
+                "language_to": "ko",
+                "translation_service": "deepl",
+                "auto_translate": false,
+                "apply_glossary": false,
+                "view_mode": 0,
+                "filter_mode": 0,
+                "show_attribution": false,
+                "top_buttons": [
+                  "change-service",
+                  "automatic-translation",
+                  "change-layout",
+                  "apply-filter",
+                  "open-settings"
+                ],
+                "left_buttons": [
+                  "paste",
+                  "clear"
+                ],
+                "right_buttons": [
+                  "copy"
+                ]
+              },
+              "icon": "deepl",
+              "title": "DeepL"
             }
           }
         ]
@@ -151,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/FrameWork/AI 프롬프트.md",
+                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/2026/nsdi12-final138.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI 프롬프트 의 개요"
+              "title": "nsdi12-final138 의 개요"
             }
           },
           {
@@ -208,8 +247,11 @@
       "translate:Open translation view": false
     }
   },
-  "active": "13d896ac0e4d9ab1",
+  "active": "2d26b6f8cef76ab4",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/회의록 26.05.12(화).md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/소프트웨어 요구사항 정의서.md",
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/Last Presentation <DIDIM>.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DesignPattern/기말고사.md",
     "Attached_file/스크린샷 2026-06-22 오전 5.00.56.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/9주차.md",
@@ -227,8 +269,6 @@
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/1주차.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/SOFTWARE/2025/나만의 명세서 만들기.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/변환 명세서.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/소프트웨어 요구사항 정의서.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/Last Presentation <DIDIM>.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 포트폴리오-면접 취업 연계 시스템 - Didim.md",
     "Attached_file/Capstone (1).png",
     "Attached_file/스크린샷 2026-06-10 오후 12.10.53.png",
@@ -240,7 +280,6 @@
     "Attached_file/스크린샷 2026-06-10 오후 12.00.27.png",
     "Attached_file/스크린샷 2026-06-10 오전 11.59.55.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/DIdim_Backend.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/회의록 26.05.12(화).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/빅데이터 -.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/AI 기반 스마트 설비 모니터링 & SAP ERP 자동 연동 시스템.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/3주차 정리.md",
