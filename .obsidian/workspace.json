@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/Last Presentation <DIDIM>.md",
+                "file": "📖RESOURCE - 자료나 관심있는 주제들/2026 자율주행 컨퍼런스 (AME).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Last Presentation <DIDIM>"
+              "title": "2026 자율주행 컨퍼런스 (AME)"
             }
           }
         ]
@@ -51,7 +51,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -210,10 +212,11 @@
   },
   "active": "13d896ac0e4d9ab1",
   "lastOpenFiles": [
+    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/Last Presentation <DIDIM>.md",
+    "📖RESOURCE - 자료나 관심있는 주제들/2026 자율주행 컨퍼런스 (AME).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/BIGDATA/2026/nsdi12-final138.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/회의록 26.05.12(화).md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/소프트웨어 요구사항 정의서.md",
-    "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/Capstone/Last Presentation <DIDIM>.md",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/DesignPattern/기말고사.md",
     "Attached_file/스크린샷 2026-06-22 오전 5.00.56.png",
     "📝PROJECT - 목표와 정확한 데드라인이 있는 영역/CODING_school/IOT/9주차.md",
